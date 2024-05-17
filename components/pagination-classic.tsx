@@ -1,23 +1,46 @@
-import { useAppProvider } from "@/app/app-provider"
+import { useAppProvider } from "@/app/app-provider";
 
 export default function PaginationClassic() {
-  const {drinks}=useAppProvider()
+  const { drinks } = useAppProvider();
 
   return (
     <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between my-5">
-      <nav className="mb-4 sm:mb-0 sm:order-1" role="navigation" aria-label="Navigation">
+      <nav
+        className="mb-4 sm:mb-0 sm:order-1"
+        role="navigation"
+        aria-label="Navigation"
+      >
         <ul className="flex justify-center">
           <li className="ml-3 first:ml-0">
-            <span className="btn bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-300 dark:text-slate-600">&lt;- Previous</span>
+            <span className="btn bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-300 dark:text-slate-600">
+              &lt;- Previous
+            </span>
           </li>
           <li className="ml-3 first:ml-0">
-            <a className="btn bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 hover:border-slate-300 dark:hover:border-slate-600 text-indigo-500" href="#0">Next -&gt;</a>
+            <a
+              className="btn bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 hover:border-slate-300 dark:hover:border-slate-600 text-indigo-500"
+              href="#0"
+            >
+              Next -&gt;
+            </a>
           </li>
         </ul>
       </nav>
       <div className="text-sm text-slate-500 dark:text-slate-400 text-center sm:text-left">
-        Showing <span className="font-medium text-slate-600 dark:text-slate-300">1</span> to <span className="font-medium text-slate-600 dark:text-slate-300">10</span> of <span className="font-medium text-slate-600 dark:text-slate-300">{drinks.length}</span> results
+        Showing{" "}
+        <span className="font-medium text-slate-600 dark:text-slate-300">
+          1
+        </span>{" "}
+        to{" "}
+        <span className="font-medium text-slate-600 dark:text-slate-300">
+          10
+        </span>{" "}
+        of{" "}
+        <span className="font-medium text-slate-600 dark:text-slate-300">
+          {drinks.length}
+        </span>{" "}
+        results
       </div>
     </div>
-  )
+  );
 }
