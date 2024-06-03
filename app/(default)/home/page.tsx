@@ -37,7 +37,7 @@ export default function Home() {
         <div className="border-t border-slate-200 dark:border-slate-700">
           <PaginationClassic />
           {drinks.map((drink) => (
-            <div key={drink.title}>
+            <div key={drink.title} className="py-2.5">
               <AccordionBasic title={drink.title}>
                 <p>{drink.title}</p>
                 <p>{drink.properties.abv}</p>

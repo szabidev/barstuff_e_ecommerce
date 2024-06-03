@@ -36,6 +36,7 @@ export interface Drink {
     abv: string;
   };
   description: string;
+  price: string;
 }
 
 const AppContext = createContext<ContextProps>({
