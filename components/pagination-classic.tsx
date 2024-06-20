@@ -1,7 +1,35 @@
-import { useAppProvider } from "@/app/app-provider";
+import { Drink } from "@/app/app-provider";
+import { useEffect, useState } from "react";
 
-export default function PaginationClassic() {
-  const { drinks } = useAppProvider();
+interface PaginationProps {
+  setCurrentPage: (page: number) => void;
+  currentPage: number;
+  totalItems: number;
+  itemsPerPage: number;
+}
+
+export default function PaginationClassic({
+  setCurrentPage,
+  currentPage,
+  totalItems,
+  itemsPerPage,
+}: PaginationProps) {
+  const totalPages = Math.ceil(totalItems / itemsPerPage);
+
+  const startIndex = (currentPage - 1) * itemsPerPage + 1;
+  const endIndex = Math.min(startIndex + itemsPerPage - 1, totalItems);
+
+  const nextPage = () => {
+    if (currentPage < totalPages) {
+      setCurrentPage(currentPage + 1);
+    }
+  };
+
+  const prevPage = () => {
+    if (currentPage > 1) {
+      setCurrentPage(currentPage - 1);
+    }
+  };
 
   return (
     <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between my-5">
@@ -12,32 +40,35 @@ export default function PaginationClassic() {
       >
         <ul className="flex justify-center">
           <li className="ml-3 first:ml-0">
-            <span className="btn bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-300 dark:text-slate-600">
+            <button
+              onClick={prevPage}
+              className="btn bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700  hover:border-slate-300 dark:hover:border-slate-600 text-indigo-500"
+            >
               &lt;- Previous
-            </span>
+            </button>
           </li>
           <li className="ml-3 first:ml-0">
-            <a
+            <button
+              onClick={nextPage}
               className="btn bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 hover:border-slate-300 dark:hover:border-slate-600 text-indigo-500"
-              href="#0"
             >
               Next -&gt;
-            </a>
+            </button>
           </li>
         </ul>
       </nav>
       <div className="text-sm text-slate-500 dark:text-slate-400 text-center sm:text-left">
         Showing{" "}
         <span className="font-medium text-slate-600 dark:text-slate-300">
-          1
+          {startIndex}
         </span>{" "}
         to{" "}
         <span className="font-medium text-slate-600 dark:text-slate-300">
-          10
+          {endIndex}
         </span>{" "}
         of{" "}
         <span className="font-medium text-slate-600 dark:text-slate-300">
-          {drinks.length}
+          {totalItems}
         </span>{" "}
         results
       </div>

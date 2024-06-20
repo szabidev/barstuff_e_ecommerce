@@ -26,17 +26,18 @@ interface ContextProps {
 }
 
 export interface Drink {
-  title: string;
+  name: string;
   image: string;
-  properties: {
-    country: string;
-    category: string;
-    tasting_notes?: string;
-    food_pairing?: string;
-    abv: string;
-  };
+  country: string;
+  category: string;
+  tasting_notes?: string;
+  food_pairing?: string;
+  abv: string;
   description: string;
   price: string;
+  other_ingredients: string[];
+  raw_material: string;
+  production_method: string;
 }
 
 const AppContext = createContext<ContextProps>({

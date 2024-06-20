@@ -66,7 +66,6 @@ export default function Sidebar() {
         leaveTo="opacity-0"
         aria-hidden="true"
       />
-
       {/* Sidebar */}
       <Transition
         show={sidebarOpen}
@@ -101,7 +100,6 @@ export default function Sidebar() {
           {/* Logo */}
           <Logo />
         </div>
-
         {/* Links */}
         <div className="space-y-8">
           {/* Pages group */}
@@ -114,7 +112,7 @@ export default function Sidebar() {
                 •••
               </span>
               <span className="lg:hidden lg:sidebar-expanded:block 2xl:block">
-                Pages
+                USERNAME
               </span>
             </h3>
             <ul className="mt-3">
@@ -144,7 +142,7 @@ export default function Sidebar() {
                       />
                     </svg>
                     <span className="text-sm font-medium ml-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                      Home
+                      Database
                     </span>
                   </div>
                 </SidebarLink>
@@ -182,7 +180,7 @@ export default function Sidebar() {
               </li>
               <li
                 className={`px-3 py-2 rounded-sm mb-0.5 last:mb-0 ${
-                  segments.includes("dashboard") && "bg-slate-900"
+                  segments.includes("bar-menu") && "bg-slate-900"
                 }`}
               >
                 <SidebarLink href="/bar-menu">
@@ -316,7 +314,7 @@ export default function Sidebar() {
                       </a>
                       <div className="lg:hidden lg:sidebar-expanded:block 2xl:block">
                         <ul className={`pl-9 mt-1 ${!open && "hidden"}`}>
-                          {/* // TODO fix routing */}
+                          // TODO fix routing
                           <li className="mb-1 last:mb-0">
                             <SidebarLink href="/home">
                               <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
@@ -701,165 +699,169 @@ export default function Sidebar() {
                 }}
               </SidebarLinkGroup>
               {/* Components */}
-              {/*<SidebarLinkGroup open={segments.includes('components-library')}>*/}
-              {/*    {(handleClick, open) => {*/}
-              {/*        return (<>*/}
-              {/*            <a*/}
-              {/*                href="#0"*/}
-              {/*                className={`block text-slate-200 truncate transition duration-150 ${segments.includes('components-library') ? 'hover:text-slate-200' : 'hover:text-white'}`}*/}
-              {/*                onClick={(e) => {*/}
-              {/*                    e.preventDefault()*/}
-              {/*                    expandOnly ? setSidebarExpanded(true) : handleClick()*/}
-              {/*                }}*/}
-              {/*            >*/}
-              {/*                <div className="flex items-center justify-between">*/}
-              {/*                    <div className="flex items-center">*/}
-              {/*                        <svg className="shrink-0 h-6 w-6" viewBox="0 0 24 24">*/}
-              {/*                            <circle*/}
-              {/*                                className={`fill-current ${segments.includes('components-library') ? 'text-indigo-500' : 'text-slate-600'}`}*/}
-              {/*                                cx="16"*/}
-              {/*                                cy="8"*/}
-              {/*                                r="8"*/}
-              {/*                            />*/}
-              {/*                            <circle*/}
-              {/*                                className={`fill-current ${segments.includes('components-library') ? 'text-indigo-300' : 'text-slate-400'}`}*/}
-              {/*                                cx="8"*/}
-              {/*                                cy="16"*/}
-              {/*                                r="8"*/}
-              {/*                            />*/}
-              {/*                        </svg>*/}
-              {/*                        <span*/}
-              {/*                            className="text-sm font-medium ml-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">*/}
-              {/*      Components*/}
-              {/*    </span>*/}
-              {/*                    </div>*/}
-              {/*                    /!* Icon *!/*/}
-              {/*                    <div className="flex shrink-0 ml-2">*/}
-              {/*                        <svg*/}
-              {/*                            className={`w-3 h-3 shrink-0 ml-1 fill-current text-slate-400 ${open && 'rotate-180'}`}*/}
-              {/*                            viewBox="0 0 12 12"*/}
-              {/*                        >*/}
-              {/*                            <path d="M5.9 11.4L.5 6l1.4-1.4 4 4 4-4L11.3 6z"/>*/}
-              {/*                        </svg>*/}
-              {/*                    </div>*/}
-              {/*                </div>*/}
-              {/*            </a>*/}
-              {/*            <div className="lg:hidden lg:sidebar-expanded:block 2xl:block">*/}
-              {/*                <ul className={`pl-9 mt-1 ${!open && 'hidden'}`}>*/}
-              {/*                    <li className="mb-1 last:mb-0">*/}
-              {/*                        <SidebarLink href="/components-library/button">*/}
-              {/*      <span*/}
-              {/*          className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">*/}
-              {/*        Button*/}
-              {/*      </span>*/}
-              {/*                        </SidebarLink>*/}
-              {/*                    </li>*/}
-              {/*                    <li className="mb-1 last:mb-0">*/}
-              {/*                        <SidebarLink href="/components-library/form">*/}
-              {/*      <span*/}
-              {/*          className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">*/}
-              {/*        Input Form*/}
-              {/*      </span>*/}
-              {/*                        </SidebarLink>*/}
-              {/*                    </li>*/}
-              {/*                    <li className="mb-1 last:mb-0">*/}
-              {/*                        <SidebarLink href="/components-library/dropdown">*/}
-              {/*      <span*/}
-              {/*          className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">*/}
-              {/*        Dropdown*/}
-              {/*      </span>*/}
-              {/*                        </SidebarLink>*/}
-              {/*                    </li>*/}
-              {/*                    <li className="mb-1 last:mb-0">*/}
-              {/*                        <SidebarLink href="/components-library/alert">*/}
-              {/*      <span*/}
-              {/*          className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">*/}
-              {/*        Alert & Banner*/}
-              {/*      </span>*/}
-              {/*                        </SidebarLink>*/}
-              {/*                    </li>*/}
-              {/*                    <li className="mb-1 last:mb-0">*/}
-              {/*                        <SidebarLink href="/components-library/modal">*/}
-              {/*      <span*/}
-              {/*          className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">*/}
-              {/*        Modal*/}
-              {/*      </span>*/}
-              {/*                        </SidebarLink>*/}
-              {/*                    </li>*/}
-              {/*                    <li className="mb-1 last:mb-0">*/}
-              {/*                        <SidebarLink href="/components-library/pagination">*/}
-              {/*      <span*/}
-              {/*          className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">*/}
-              {/*        Pagination*/}
-              {/*      </span>*/}
-              {/*                        </SidebarLink>*/}
-              {/*                    </li>*/}
-              {/*                    <li className="mb-1 last:mb-0">*/}
-              {/*                        <SidebarLink href="/components-library/tabs">*/}
-              {/*      <span*/}
-              {/*          className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">*/}
-              {/*        Tabs*/}
-              {/*      </span>*/}
-              {/*                        </SidebarLink>*/}
-              {/*                    </li>*/}
-              {/*                    <li className="mb-1 last:mb-0">*/}
-              {/*                        <SidebarLink href="/components-library/breadcrumb">*/}
-              {/*      <span*/}
-              {/*          className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">*/}
-              {/*        Breadcrumb*/}
-              {/*      </span>*/}
-              {/*                        </SidebarLink>*/}
-              {/*                    </li>*/}
-              {/*                    <li className="mb-1 last:mb-0">*/}
-              {/*                        <SidebarLink href="/components-library/badge">*/}
-              {/*      <span*/}
-              {/*          className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">*/}
-              {/*        Badge*/}
-              {/*      </span>*/}
-              {/*                        </SidebarLink>*/}
-              {/*                    </li>*/}
-              {/*                    <li className="mb-1 last:mb-0">*/}
-              {/*                        <SidebarLink href="/components-library/avatar">*/}
-              {/*      <span*/}
-              {/*          className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">*/}
-              {/*        Avatar*/}
-              {/*      </span>*/}
-              {/*                        </SidebarLink>*/}
-              {/*                    </li>*/}
-              {/*                    <li className="mb-1 last:mb-0">*/}
-              {/*                        <SidebarLink href="/components-library/tooltip">*/}
-              {/*      <span*/}
-              {/*          className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">*/}
-              {/*        Tooltip*/}
-              {/*      </span>*/}
-              {/*                        </SidebarLink>*/}
-              {/*                    </li>*/}
-              {/*                    <li className="mb-1 last:mb-0">*/}
-              {/*                        <SidebarLink href="/components-library/accordion">*/}
-              {/*      <span*/}
-              {/*          className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">*/}
-              {/*        Accordion*/}
-              {/*      </span>*/}
-              {/*                        </SidebarLink>*/}
-              {/*                    </li>*/}
-              {/*                    <li className="mb-1 last:mb-0">*/}
-              {/*                        <SidebarLink href="/components-library/icons">*/}
-              {/*      <span*/}
-              {/*          className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">*/}
-              {/*        Icons*/}
-              {/*      </span>*/}
-              {/*                        </SidebarLink>*/}
-              {/*                    </li>*/}
-              {/*                </ul>*/}
-              {/*            </div>*/}
-              {/*        </>)*/}
-              {/*    }}*/}
-              {/*</SidebarLinkGroup>*/}
+              <SidebarLinkGroup open={segments.includes("components-library")}>
+                {(handleClick, open) => {
+                  return (
+                    <>
+                      <a
+                        href="#0"
+                        className={`block text-slate-200 truncate transition duration-150 ${
+                          segments.includes("components-library")
+                            ? "hover:text-slate-200"
+                            : "hover:text-white"
+                        }`}
+                        onClick={(e) => {
+                          e.preventDefault();
+                          expandOnly ? setSidebarExpanded(true) : handleClick();
+                        }}
+                      >
+                        <div className="flex items-center justify-between">
+                          <div className="flex items-center">
+                            <svg
+                              className="shrink-0 h-6 w-6"
+                              viewBox="0 0 24 24"
+                            >
+                              <circle
+                                className={`fill-current ${
+                                  segments.includes("components-library")
+                                    ? "text-indigo-500"
+                                    : "text-slate-600"
+                                }`}
+                                cx="16"
+                                cy="8"
+                                r="8"
+                              />
+                              <circle
+                                className={`fill-current ${
+                                  segments.includes("components-library")
+                                    ? "text-indigo-300"
+                                    : "text-slate-400"
+                                }`}
+                                cx="8"
+                                cy="16"
+                                r="8"
+                              />
+                            </svg>
+                            <span className="text-sm font-medium ml-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                              Components
+                            </span>
+                          </div>
+                          {/* Icon  */}
+                          <div className="flex shrink-0 ml-2">
+                            <svg
+                              className={`w-3 h-3 shrink-0 ml-1 fill-current text-slate-400 ${
+                                open && "rotate-180"
+                              }`}
+                              viewBox="0 0 12 12"
+                            >
+                              <path d="M5.9 11.4L.5 6l1.4-1.4 4 4 4-4L11.3 6z" />
+                            </svg>
+                          </div>
+                        </div>
+                      </a>
+                      <div className="lg:hidden lg:sidebar-expanded:block 2xl:block">
+                        <ul className={`pl-9 mt-1 ${!open && "hidden"}`}>
+                          <li className="mb-1 last:mb-0">
+                            <SidebarLink href="/components-library/button">
+                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                                Button
+                              </span>
+                            </SidebarLink>
+                          </li>
+                          <li className="mb-1 last:mb-0">
+                            <SidebarLink href="/components-library/form">
+                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                                Input Form
+                              </span>
+                            </SidebarLink>
+                          </li>
+                          <li className="mb-1 last:mb-0">
+                            <SidebarLink href="/components-library/dropdown">
+                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                                Dropdown
+                              </span>
+                            </SidebarLink>
+                          </li>
+                          <li className="mb-1 last:mb-0">
+                            <SidebarLink href="/components-library/alert">
+                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                                Alert & Banner
+                              </span>
+                            </SidebarLink>
+                          </li>
+                          <li className="mb-1 last:mb-0">
+                            <SidebarLink href="/components-library/modal">
+                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                                Modal
+                              </span>
+                            </SidebarLink>
+                          </li>
+                          <li className="mb-1 last:mb-0">
+                            <SidebarLink href="/components-library/pagination">
+                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                                Pagination
+                              </span>
+                            </SidebarLink>
+                          </li>
+                          <li className="mb-1 last:mb-0">
+                            <SidebarLink href="/components-library/tabs">
+                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                                Tabs
+                              </span>
+                            </SidebarLink>
+                          </li>
+                          <li className="mb-1 last:mb-0">
+                            <SidebarLink href="/components-library/breadcrumb">
+                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                                Breadcrumb
+                              </span>
+                            </SidebarLink>
+                          </li>
+                          <li className="mb-1 last:mb-0">
+                            <SidebarLink href="/components-library/badge">
+                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                                Badge
+                              </span>
+                            </SidebarLink>
+                          </li>
+                          <li className="mb-1 last:mb-0">
+                            <SidebarLink href="/components-library/avatar">
+                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                                Avatar
+                              </span>
+                            </SidebarLink>
+                          </li>
+                          <li className="mb-1 last:mb-0">
+                            <SidebarLink href="/components-library/tooltip">
+                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                                Tooltip
+                              </span>
+                            </SidebarLink>
+                          </li>
+                          <li className="mb-1 last:mb-0">
+                            <SidebarLink href="/components-library/accordion">
+                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                                Accordion
+                              </span>
+                            </SidebarLink>
+                          </li>
+                          <li className="mb-1 last:mb-0">
+                            <SidebarLink href="/components-library/icons">
+                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                                Icons
+                              </span>
+                            </SidebarLink>
+                          </li>
+                        </ul>
+                      </div>
+                    </>
+                  );
+                }}
+              </SidebarLinkGroup>
             </ul>
           </div>
         </div>
-
-        {/* Expand / collapse button */}
+        {/* Expand / collapse button  */}
         <div className="pt-3 hidden lg:inline-flex 2xl:hidden justify-end mt-auto">
           <div className="px-3 py-2">
             <button onClick={() => setSidebarExpanded(!sidebarExpanded)}>
