@@ -2,9 +2,8 @@
 
 import { useState, useEffect } from "react";
 import { Drink, useAppProvider } from "@/app/app-provider";
-import Image from "next/image";
-import AccordionBasic from "@/components/accordion-basic";
-import PaginationClassic from "@/components/pagination-classic";
+import ProductCard from "@/app/components/product-card";
+import PaginationNumeric from "@/app/components/pagination";
 
 export default function Home() {
   const { drinks } = useAppProvider();
@@ -12,7 +11,7 @@ export default function Home() {
   const [filteredDrinks, setFilteredDrinks] = useState<Drink[]>([]);
   const [currentDrinks, setCurrentDrinks] = useState<Drink[]>([]);
 
-  const itemsPerPage = 10;
+  const itemsPerPage = 40;
   const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
@@ -63,42 +62,25 @@ export default function Home() {
         </div>
 
         <div className="border-t border-slate-200 dark:border-slate-700">
-          <PaginationClassic
+          <PaginationNumeric
             setCurrentPage={setCurrentPage}
             currentPage={currentPage}
             totalItems={filteredDrinks.length}
             itemsPerPage={itemsPerPage}
           />
           {currentDrinks.length > 0 ? (
-            currentDrinks.map((drink, index) => (
-              <div
-                key={drink.description.slice(0, 50) + index}
-                className="py-2.5"
-              >
-                <AccordionBasic title={drink.name}>
-                  <p>{drink.price}</p>
-                  <p>{drink.abv}</p>
-                  <p>{drink.country}</p>
-                  <p>{drink.category}</p>
-                  <p>{drink.description}</p>
-                  <p>{drink.tasting_notes}</p>
-                  <p>{drink.production_method}</p>
-                  <p>{drink.raw_material}</p>
-                  <p>{drink.food_pairing}</p>
-                  <p>{drink.other_ingredients.join(", ")}</p>
-                  <p>{drink.production_method}</p>
-                  <Image
-                    className="rounded-full"
-                    src={drink.image}
-                    width={28}
-                    height={28}
-                    alt={drink.name}
-                  />
-                </AccordionBasic>
-              </div>
-            ))
+            <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
+              {currentDrinks.map((drink, index) => (
+                <div
+                  key={drink.description.slice(0, 50) + index}
+                  className="py-2.5"
+                >
+                  <ProductCard drink={drink} />
+                </div>
+              ))}
+            </div>
           ) : (
-            <p>No results found</p>
+            <p>No drinks available</p>
           )}
         </div>
       </div>

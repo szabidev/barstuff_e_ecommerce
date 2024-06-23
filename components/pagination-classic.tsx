@@ -1,6 +1,3 @@
-import { Drink } from "@/app/app-provider";
-import { useEffect, useState } from "react";
-
 interface PaginationProps {
   setCurrentPage: (page: number) => void;
   currentPage: number;
