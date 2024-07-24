@@ -1,8 +1,6 @@
-export const metadata = {
-  title: "Dashboard - Mosaic",
-  description: "Page description",
-};
+"use client";
 
+import { Chart } from "react-google-charts";
 import WelcomeBanner from "./welcome-banner";
 import DashboardAvatars from "./dashboard-avatars";
 import FilterButton from "@/components/dropdown-filter";
@@ -19,8 +17,25 @@ import DashboardCard09 from "./dashboard-card-09";
 import DashboardCard10 from "./dashboard-card-10";
 import DashboardCard11 from "./dashboard-card-11";
 import ButtonLibrary from "../components-library/button/page";
+import { useAppProvider } from "@/app/app-provider";
+
+// TODO assign charts for data
+// Pie chart options -
+// Bar chart options - users progress (course completion progress, quiz )
+// TODO: Make quiz questions database/api
+// TODO: Implement Google maps API
 
 export default function Dashboard() {
+  const { allUsers, adminUser, barStaff } = useAppProvider();
+  console.log(allUsers, "user");
+  console.log(adminUser, "admin");
+  console.log(barStaff, "bar");
+
+  const chartOptions = {
+    is3D: true,
+    title: "Performance",
+  };
+
   return (
     <div className="px-4 sm:px-6 lg:px-8 py-8 w-full max-w-[96rem] mx-auto">
       <WelcomeBanner />
@@ -49,6 +64,18 @@ export default function Dashboard() {
 
       {/* Cards */}
       <div className="grid grid-cols-12 gap-6">
+        <Chart
+          chartType="PieChart"
+          data={[
+            ["Task", "Hours per Day"],
+            ["Age", 20],
+            ["Item", 5.5],
+            ["Show", 12],
+          ]}
+          width="100%"
+          height="400px"
+          options={chartOptions}
+        />
         {/* Line chart (Acme Plus) */}
         <DashboardCard01 />
         {/* Line chart (Acme Advanced) */}
@@ -60,17 +87,17 @@ export default function Dashboard() {
         {/* Line chart (Real Time Value) */}
         <DashboardCard05 />
         {/* Doughnut chart (Top Countries) */}
-        <DashboardCard06 />
+        {/* <DashboardCard06 /> */}
         {/* Table (Top Channels) */}
-        <DashboardCard07 />
+        {/* <DashboardCard07 /> */}
         {/* Line chart (Sales Over Time) */}
-        <DashboardCard08 />
+        {/* <DashboardCard08 /> */}
         {/* Stacked bar chart (Sales VS Refunds) */}
-        <DashboardCard09 />
+        {/* <DashboardCard09 /> */}
         {/* Card (Recent Activity) */}
-        <DashboardCard10 />
+        {/* <DashboardCard10 /> */}
         {/* Card (Income/Expenses) */}
-        <DashboardCard11 />
+        {/* <DashboardCard11 /> */}
       </div>
     </div>
   );

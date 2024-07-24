@@ -52,6 +52,26 @@ export default function Sidebar() {
     };
   }, [breakpoint]);
 
+  const dummyCourseHeaders = [
+    "History",
+    "Tools & Techniques",
+    "Fermentation",
+    "Distillation",
+    "Vodka",
+    "Gin",
+    "Brandy",
+    "Whiskey",
+    "Rum & Cachaca",
+    "Tequila & Mezcal",
+    "Liqueurs",
+    "Aperitifs & Bitters",
+    "Other Spirits",
+    "Beer",
+    "Wine",
+    "Ingredients",
+    "Classics Glossary",
+  ];
+
   return (
     <div className={`min-w-fit ${sidebarExpanded ? "sidebar-expanded" : ""}`}>
       {/* Sidebar backdrop (mobile only) */}
@@ -214,12 +234,12 @@ export default function Sidebar() {
                   segments.includes("settings") && "bg-slate-900"
                 }`}
               >
-                <SidebarLink href="/wine-map">
+                <SidebarLink href="/spirits-guide">
                   <div className="flex items-center">
                     <svg className="shrink-0 h-6 w-6" viewBox="0 0 24 24">
                       <path
                         className={`fill-current ${
-                          segments.includes("wine-map")
+                          segments.includes("spirits-guide")
                             ? "text-indigo-500"
                             : "text-slate-600"
                         }`}
@@ -227,7 +247,7 @@ export default function Sidebar() {
                       />
                       <path
                         className={`fill-current ${
-                          segments.includes("wine-map")
+                          segments.includes("spirits-guide")
                             ? "text-indigo-300"
                             : "text-slate-400"
                         }`}
@@ -235,7 +255,7 @@ export default function Sidebar() {
                       />
                     </svg>
                     <span className="text-sm font-medium ml-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                      Wine Map
+                      Spirits Guide
                     </span>
                   </div>
                 </SidebarLink>
@@ -314,7 +334,6 @@ export default function Sidebar() {
                       </a>
                       <div className="lg:hidden lg:sidebar-expanded:block 2xl:block">
                         <ul className={`pl-9 mt-1 ${!open && "hidden"}`}>
-                          {/* // TODO fix routing */}
                           <li className="mb-1 last:mb-0">
                             <SidebarLink href="/home">
                               <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">

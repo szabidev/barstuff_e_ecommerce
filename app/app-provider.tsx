@@ -8,7 +8,7 @@ import {
   useEffect,
   useState,
 } from "react";
-import { me } from "@/api/auth.api";
+import { getAllUsers, me } from "@/api/auth.api";
 import { removeKey } from "@/util/storage";
 import { useRouter } from "next/navigation";
 import { fetchDrinks } from "@/api/drinks";
@@ -17,9 +17,18 @@ import { fetchDrinks } from "@/api/drinks";
 interface ContextProps {
   sidebarOpen: boolean;
   setSidebarOpen: Dispatch<SetStateAction<boolean>>;
+
   user: any;
   clearUser: any;
   fetchUser: any;
+
+  allUsers: any;
+  setAllUsers: any;
+
+  adminUser: User;
+  setAdminUser: any;
+  barStaff: User[];
+  setBarStaff: any;
 
   // projects: any,
   drinks: Drink[];
@@ -40,12 +49,54 @@ export interface Drink {
   production_method: string;
 }
 
+export interface User {
+  admin_id: string | null;
+  email: string;
+  created_at: string;
+  updated_at: string;
+  id: string;
+  is_admin: boolean;
+  user_type: string;
+  name: string;
+  current_users_count: number | null;
+  total_users_count: number | null;
+  establishment: string;
+  establishment_type: string;
+  is_active: boolean;
+  position: string;
+  last_login_at: string;
+}
+
 const AppContext = createContext<ContextProps>({
   sidebarOpen: false,
   setSidebarOpen: (): boolean => false,
 
   user: null,
   clearUser: () => null,
+
+  allUsers: null,
+  setAllUsers: () => null,
+
+  adminUser: {
+    admin_id: null,
+    email: "",
+    created_at: "",
+    updated_at: "",
+    id: "",
+    is_admin: false,
+    user_type: "",
+    name: "",
+    current_users_count: null,
+    total_users_count: null,
+    establishment: "",
+    establishment_type: "",
+    is_active: false,
+    position: "",
+    last_login_at: "",
+  },
+  setAdminUser: () => null,
+  barStaff: [],
+  setBarStaff: () => null,
 
   fetchUser: null,
 
@@ -65,6 +116,25 @@ export default function AppProvider({
   const [user, setCurrentUser] = useState<any>(null);
   // const [projects, setProjects] = useState<any>([]);
   const [drinks, setDrinks] = useState<Drink[]>([]);
+  const [allUsers, setAllUsers] = useState<User[]>([]);
+  const [adminUser, setAdminUser] = useState<User>({
+    admin_id: null,
+    email: "",
+    created_at: "",
+    updated_at: "",
+    id: "",
+    is_admin: false,
+    user_type: "",
+    name: "",
+    current_users_count: null,
+    total_users_count: null,
+    establishment: "",
+    establishment_type: "",
+    is_active: false,
+    position: "",
+    last_login_at: "",
+  });
+  const [barStaff, setBarStaff] = useState<User[]>([]);
 
   const fetchUser = async () => {
     const response = await me();
@@ -89,6 +159,20 @@ export default function AppProvider({
     setIsLoading(false);
   };
 
+  const handleAllUsers = async () => {
+    const response = await getAllUsers();
+    const data = await response.json();
+    const admin = data.find(
+      (admin: User) => admin.user_type === "admin" && admin.is_admin
+    );
+    const notAdmin = data.filter(
+      (staff: User) => staff.user_type === "user" && !staff.is_admin
+    );
+    setAllUsers(data);
+    setAdminUser(admin);
+    setBarStaff(notAdmin);
+  };
+
   // const handleProjects = async () => {
   //     const data = await fetchProjects();
   //     setProjects(data);
@@ -106,8 +190,13 @@ export default function AppProvider({
   useEffect(() => {
     fetchUser();
     // handleProjects();
+    handleAllUsers();
     handleDrinks();
   }, []);
+
+  useEffect(() => {
+    // sortUsers();
+  }, [allUsers]);
 
   return (
     <AppContext.Provider
@@ -124,6 +213,12 @@ export default function AppProvider({
         // Customize...
         // projects
         drinks,
+        allUsers,
+        setAllUsers,
+        adminUser,
+        setAdminUser,
+        barStaff,
+        setBarStaff,
       }}
     >
       {children}
