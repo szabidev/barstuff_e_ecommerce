@@ -2,60 +2,57 @@
 
 import { useState } from "react";
 import { StaticImageData } from "next/image";
+import cocktailImage from "@/public/images/no-mage-placeholder.png";
 
 import Image from "next/image";
 
-interface RichItem {
-  id: number;
-  image: StaticImageData;
-  customer: string;
-  email: string;
-  location: string;
-  date: string;
-  amount: string;
-  descriptionTitle: string;
-  descriptionBody: string;
+export interface CocktailProps {
+  base_spirit: string;
+  cocktail_id: string;
+  cocktail_name: string;
+  description: string;
+  difficulty: string;
+  glassware: string;
+  ingredients: string[];
+  technique: string;
+  instructions?: any;
 }
 
-interface RichItemProps {
-  item: RichItem;
-}
-
-export default function AccordionTableRichItem({ item }: RichItemProps) {
+const Cocktail = ({ cocktail }: { cocktail: CocktailProps }) => {
   const [open, setOpen] = useState<boolean>(false);
-
+  console.log(cocktail, "coktail");
   return (
     <tbody className="text-sm">
       <tr>
         <td className="px-2 first:pl-5 last:pr-5 py-3 whitespace-nowrap">
           <div className="flex items-center text-slate-800">
-            <div className="w-10 h-10 shrink-0 flex items-center justify-center bg-slate-100 dark:bg-slate-700 rounded-full mr-2 sm:mr-3">
+            <div className="overflow-hidden w-[50px] h-[50px] shrink-0 flex justify-center bg-slate-100 dark:bg-slate-700 rounded-full mr-2 sm:mr-3">
               <Image
                 className="rounded-full ml-1"
-                src={item.image}
-                width={40}
-                height={40}
-                alt={item.customer}
+                src={cocktailImage}
+                width={50}
+                height={50}
+                alt={cocktail.cocktail_name}
               />
             </div>
             <div className="font-medium text-slate-800 dark:text-slate-100">
-              {item.customer}
+              {cocktail.cocktail_name}
             </div>
           </div>
         </td>
         <td className="px-2 first:pl-5 last:pr-5 py-3 whitespace-nowrap">
-          <div className="text-left">{item.email}</div>
+          <div className="text-left">Base: {cocktail.base_spirit}</div>
         </td>
         <td className="px-2 first:pl-5 last:pr-5 py-3 whitespace-nowrap">
-          <div className="text-left">{item.location}</div>
-        </td>
-        <td className="px-2 first:pl-5 last:pr-5 py-3 whitespace-nowrap">
-          <div className="text-left">{item.date}</div>
+          <div className="text-left">Glass: {cocktail.glassware}</div>
         </td>
         <td className="px-2 first:pl-5 last:pr-5 py-3 whitespace-nowrap">
           <div className="text-left text-emerald-500 font-medium">
-            {item.amount}
+            {cocktail?.instructions?.garnish || "N/A"}
           </div>
+        </td>
+        <td className="px-2 first:pl-5 last:pr-5 py-3 whitespace-nowrap">
+          <div className="text-left">Difficulty: {cocktail.difficulty}</div>
         </td>
         <td className="px-2 first:pl-5 last:pr-5 py-3 whitespace-nowrap w-px">
           <div className="flex items-center">
@@ -65,7 +62,7 @@ export default function AccordionTableRichItem({ item }: RichItemProps) {
               }`}
               aria-expanded={open}
               onClick={() => setOpen(!open)}
-              aria-controls={`description-${item.id}`}
+              aria-controls={`description-${cocktail.cocktail_id}`}
             >
               <span className="sr-only">Menu</span>
               <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32">
@@ -81,7 +78,7 @@ export default function AccordionTableRichItem({ item }: RichItemProps) {
       and it should match the number of columns in your table
       */}
       <tr
-        id={`description-${item.id}`}
+        id={`description-${cocktail.cocktail_id}`}
         role="region"
         className={`${!open && "hidden"}`}
       >
@@ -89,16 +86,27 @@ export default function AccordionTableRichItem({ item }: RichItemProps) {
           <div className="bg-slate-50 dark:bg-slate-900/30 dark:text-slate-400 p-3 -mt-3">
             <div className="text-sm mb-3">
               <div className="font-medium text-slate-800 dark:text-slate-100 mb-1">
-                {item.descriptionTitle}
+                {cocktail.description}
               </div>
-              <div>{item.descriptionBody}</div>
+              <div>
+                <h2 className="font-medium text-slate-800 dark:text-white ">
+                  Ingredients:
+                </h2>
+                <div className="pl-2">
+                  {cocktail.ingredients.map((ingredient: string) => (
+                    <p className="py-1">{ingredient}</p>
+                  ))}
+                </div>
+              </div>
             </div>
-            <button className="btn-xs bg-indigo-500 hover:bg-indigo-600 text-white">
+            {/* <button className="btn-xs bg-indigo-500 hover:bg-indigo-600 text-white">
               Approve
-            </button>
+            </button> */}
           </div>
         </td>
       </tr>
     </tbody>
   );
-}
+};
+
+export default Cocktail;

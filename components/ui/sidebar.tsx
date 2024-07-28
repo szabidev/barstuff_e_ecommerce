@@ -53,23 +53,23 @@ export default function Sidebar() {
   }, [breakpoint]);
 
   const dummyCourseHeaders = [
-    "History",
-    "Tools & Techniques",
-    "Fermentation",
-    "Distillation",
-    "Vodka",
-    "Gin",
-    "Brandy",
-    "Whiskey",
-    "Rum & Cachaca",
-    "Tequila & Mezcal",
-    "Liqueurs",
-    "Aperitifs & Bitters",
-    "Other Spirits",
-    "Beer",
-    "Wine",
-    "Ingredients",
-    "Classics Glossary",
+    { title: "History", link: "/my-course/history" },
+    { title: "Tools & Techniques", link: "/my-course/tools-techniques" },
+    { title: "Fermentation", link: "/my-course/fermentation" },
+    { title: "Distillation", link: "/my-course/distillation" },
+    { title: "Vodka", link: "/my-course/vodka" },
+    { title: "Gin", link: "/my-course/gin" },
+    { title: "Brandy", link: "/my-course/brandy" },
+    { title: "Whiskey", link: "/my-course/whiskey" },
+    { title: "Rum & Cachaca", link: "/my-course/rum-cachaca" },
+    { title: "Tequila & Mezcal", link: "/my-course/tequila-mezcal" },
+    { title: "Liqueurs", link: "/my-course/liqueurs" },
+    { title: "Aperitifs & Bitters", link: "/my-course/aperitifs-bitters" },
+    { title: "Other Spirits", link: "/my-course/other-spirits" },
+    { title: "Beer", link: "/my-course/beer" },
+    { title: "Wine", link: "/my-course/wine" },
+    { title: "Ingredients", link: "/my-course/ingredients" },
+    { title: "Cocktails Glossary", link: "/my-course/cocktails-glossary" },
   ];
 
   return (
@@ -315,6 +315,7 @@ export default function Sidebar() {
                                 d="M19.707 9.292a3.012 3.012 0 00-1.415 1.415L13.286 5.7c-.4.195-.84.298-1.286.3a3 3 0 113-3 2.969 2.969 0 01-.3 1.286l5.007 5.006z"
                               />
                             </svg>
+                            {/* TODO   Add my course page? Overall stats? */}
                             <span className="text-sm font-medium ml-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
                               My Course
                             </span>
@@ -334,125 +335,15 @@ export default function Sidebar() {
                       </a>
                       <div className="lg:hidden lg:sidebar-expanded:block 2xl:block">
                         <ul className={`pl-9 mt-1 ${!open && "hidden"}`}>
-                          <li className="mb-1 last:mb-0">
-                            <SidebarLink href="/home">
-                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                                History
-                              </span>
-                            </SidebarLink>
-                          </li>
-                          <li className="mb-1 last:mb-0">
-                            <SidebarLink href="/settings/notifications">
-                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                                Tools & Techniques
-                              </span>
-                            </SidebarLink>
-                          </li>
-                          <li className="mb-1 last:mb-0">
-                            <SidebarLink href="/settings/billing">
-                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                                Fermentation
-                              </span>
-                            </SidebarLink>
-                          </li>
-                          <li className="mb-1 last:mb-0">
-                            <SidebarLink href="/settings/billing">
-                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                                Distillation
-                              </span>
-                            </SidebarLink>
-                          </li>
-                          <li className="mb-1 last:mb-0">
-                            <SidebarLink href="/settings/billing">
-                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                                Vodka
-                              </span>
-                            </SidebarLink>
-                          </li>
-                          <li className="mb-1 last:mb-0">
-                            <SidebarLink href="/settings/billing">
-                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                                Gin
-                              </span>
-                            </SidebarLink>
-                          </li>
-                          <li className="mb-1 last:mb-0">
-                            <SidebarLink href="/settings/billing">
-                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                                Brandy
-                              </span>
-                            </SidebarLink>
-                          </li>
-                          <li className="mb-1 last:mb-0">
-                            <SidebarLink href="/settings/billing">
-                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                                Whiskey
-                              </span>
-                            </SidebarLink>
-                          </li>
-                          <li className="mb-1 last:mb-0">
-                            <SidebarLink href="/settings/billing">
-                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                                Rum & Cachaca
-                              </span>
-                            </SidebarLink>
-                          </li>
-                          <li className="mb-1 last:mb-0">
-                            <SidebarLink href="/settings/billing">
-                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                                Tequila & Mezcal
-                              </span>
-                            </SidebarLink>
-                          </li>
-                          <li className="mb-1 last:mb-0">
-                            <SidebarLink href="/settings/billing">
-                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                                Liqueurs
-                              </span>
-                            </SidebarLink>
-                          </li>
-                          <li className="mb-1 last:mb-0">
-                            <SidebarLink href="/settings/billing">
-                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                                Aperitifs & Bitters
-                              </span>
-                            </SidebarLink>
-                          </li>
-                          <li className="mb-1 last:mb-0">
-                            <SidebarLink href="/settings/billing">
-                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                                Other Spirits
-                              </span>
-                            </SidebarLink>
-                          </li>
-                          <li className="mb-1 last:mb-0">
-                            <SidebarLink href="/settings/billing">
-                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                                Beer
-                              </span>
-                            </SidebarLink>
-                          </li>
-                          <li className="mb-1 last:mb-0">
-                            <SidebarLink href="/settings/billing">
-                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                                Wine
-                              </span>
-                            </SidebarLink>
-                          </li>
-                          <li className="mb-1 last:mb-0">
-                            <SidebarLink href="/settings/billing">
-                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                                Ingredients
-                              </span>
-                            </SidebarLink>
-                          </li>
-                          <li className="mb-1 last:mb-0">
-                            <SidebarLink href="/settings/billing">
-                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                                Classics Glossary
-                              </span>
-                            </SidebarLink>
-                          </li>
+                          {dummyCourseHeaders.map((header) => (
+                            <li className="mb-1 last:mb-0" key={header.link}>
+                              <SidebarLink href={header.link}>
+                                <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                                  {header.title}
+                                </span>
+                              </SidebarLink>
+                            </li>
+                          ))}
                         </ul>
                       </div>
                     </>
