@@ -4,23 +4,35 @@ import { useState, useEffect } from "react";
 import { Drink, useAppProvider } from "@/app/app-provider";
 import ProductCard from "@/app/components/product-card";
 import PaginationNumeric from "@/app/components/pagination";
+import { fetchDrinks } from "@/api/drinks";
 
-export default function Home() {
-  const { drinks } = useAppProvider();
+function Home() {
+  const { drinks, setDrinks } = useAppProvider();
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredDrinks, setFilteredDrinks] = useState<Drink[]>([]);
   const [currentDrinks, setCurrentDrinks] = useState<Drink[]>([]);
-
   const itemsPerPage = 40;
   const [currentPage, setCurrentPage] = useState(1);
+  const [totalItems, setTotalItems] = useState(0); // New state for total items
+
+  const handleDrinks = async () => {
+    const data = await fetchDrinks(currentPage, itemsPerPage);
+    setDrinks(data.drinks);
+    setTotalItems(data.total); // Set the total items
+    console.log(data.total);
+  };
+
+  useEffect(() => {
+    handleDrinks();
+  }, [currentPage]);
 
   useEffect(() => {
     setFilteredDrinks(drinks);
   }, [drinks]);
 
-  useEffect(() => {
-    setCurrentPage(1);
-  }, [filteredDrinks]);
+  // useEffect(() => {
+  //   setCurrentPage(1);
+  // }, [filteredDrinks]);
 
   useEffect(() => {
     const startIndex = (currentPage - 1) * itemsPerPage;
@@ -38,9 +50,9 @@ export default function Home() {
       });
       setFilteredDrinks(filteredResults);
     }
-    setCurrentPage(1); // Reset to first page when search term changes
+    setCurrentPage(1);
   };
-
+  // TODO - fix pagination, page change list elements correctly
   return (
     <div className="relative bg-white dark:bg-slate-900 h-full">
       <div className="px-4 sm:px-6 lg:px-8 py-8 w-full max-w-[96rem] mx-auto">
@@ -60,12 +72,11 @@ export default function Home() {
             }}
           />
         </div>
-
         <div className="border-t border-slate-200 dark:border-slate-700">
           <PaginationNumeric
             setCurrentPage={setCurrentPage}
             currentPage={currentPage}
-            totalItems={filteredDrinks.length}
+            totalItems={totalItems} // Pass the total items state
             itemsPerPage={itemsPerPage}
           />
           {currentDrinks.length > 0 ? (
@@ -87,3 +98,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default Home;

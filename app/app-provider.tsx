@@ -32,6 +32,7 @@ interface ContextProps {
 
   // projects: any,
   drinks: Drink[];
+  setDrinks: any;
 }
 
 export interface Drink {
@@ -102,6 +103,7 @@ const AppContext = createContext<ContextProps>({
 
   // projects: [],
   drinks: [],
+  setDrinks: () => null,
 });
 
 export default function AppProvider({
@@ -178,10 +180,10 @@ export default function AppProvider({
   //     setProjects(data);
   // };
 
-  const handleDrinks = async () => {
-    const data = await fetchDrinks();
-    setDrinks(data);
-  };
+  // const handleDrinks = async () => {
+  //   const data = await fetchDrinks();
+  //   setDrinks(data);
+  // };
 
   const clearUser = () => {
     setCurrentUser(null);
@@ -191,7 +193,7 @@ export default function AppProvider({
     fetchUser();
     // handleProjects();
     handleAllUsers();
-    handleDrinks();
+    // handleDrinks();
   }, []);
 
   useEffect(() => {
@@ -213,6 +215,7 @@ export default function AppProvider({
         // Customize...
         // projects
         drinks,
+        setDrinks,
         allUsers,
         setAllUsers,
         adminUser,

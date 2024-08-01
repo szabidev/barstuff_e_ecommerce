@@ -10,14 +10,19 @@ const CocktailsGlossary = () => {
       <h1 className="text-2xl mb-6 md:text-3xl text-slate-800 dark:text-slate-100 font-bold">
         Cocktails ✨
       </h1>
+      <p>{cocktails.length}</p>
       <div className="border border-slate-200 dark:border-slate-700 rounded-sm">
-        {/* // TODO: Add pagination logic */}
+        {/* // TODO: Add pagination logic  */}
+        {/* // TODO: Add alphabetical pagination/filtration */}
+        {/* // TODO: Add filtration logic by - base spirit, difficulty, glassware, technique */}
         {/* <PaginationNumeric setCurrentPage={} currentPage={} totalItems={} itemsPerPage={}/> */}
         <div className="overflow-x-auto">
           <table className="table-auto w-full dark:bg-slate-800 dark:text-slate-300 divide-y divide-slate-200 dark:divide-slate-700">
-            {cocktails.map((cocktail) => (
-              <Cocktail cocktail={cocktail} key={cocktail.cocktail_id} />
-            ))}
+            <tbody className="text-sm">
+              {cocktails.map((cocktail) => (
+                <Cocktail cocktail={cocktail} key={cocktail.cocktail_id} />
+              ))}
+            </tbody>
           </table>
         </div>
       </div>

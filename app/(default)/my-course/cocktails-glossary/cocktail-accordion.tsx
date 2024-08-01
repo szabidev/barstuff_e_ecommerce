@@ -15,18 +15,22 @@ export interface CocktailProps {
   glassware: string;
   ingredients: string[];
   technique: string;
-  instructions?: any;
+  directions: {
+    instructions?: string;
+    garnish?: string;
+    more_about_this_drink?: string;
+  };
 }
 
 const Cocktail = ({ cocktail }: { cocktail: CocktailProps }) => {
   const [open, setOpen] = useState<boolean>(false);
   console.log(cocktail, "coktail");
   return (
-    <tbody className="text-sm">
+    <>
       <tr>
         <td className="px-2 first:pl-5 last:pr-5 py-3 whitespace-nowrap">
           <div className="flex items-center text-slate-800">
-            <div className="overflow-hidden w-[50px] h-[50px] shrink-0 flex justify-center bg-slate-100 dark:bg-slate-700 rounded-full mr-2 sm:mr-3">
+            <div className="w-[50px] h-[50px] shrink-0 flex justify-center bg-slate-100 dark:bg-slate-700 rounded-full mr-2 sm:mr-3">
               <Image
                 className="rounded-full ml-1"
                 src={cocktailImage}
@@ -47,9 +51,12 @@ const Cocktail = ({ cocktail }: { cocktail: CocktailProps }) => {
           <div className="text-left">Glass: {cocktail.glassware}</div>
         </td>
         <td className="px-2 first:pl-5 last:pr-5 py-3 whitespace-nowrap">
-          <div className="text-left text-emerald-500 font-medium">
-            {cocktail?.instructions?.garnish || "N/A"}
+          <div className="text-left text-emerald-500">
+            Garnish: {cocktail?.directions?.garnish || "N/A"}
           </div>
+        </td>
+        <td className="px-2 first:pl-5 last:pr-5 py-3 whitespace-nowrap">
+          <div className="text-left">Technique: {cocktail.technique}</div>
         </td>
         <td className="px-2 first:pl-5 last:pr-5 py-3 whitespace-nowrap">
           <div className="text-left">Difficulty: {cocktail.difficulty}</div>
@@ -82,7 +89,7 @@ const Cocktail = ({ cocktail }: { cocktail: CocktailProps }) => {
         role="region"
         className={`${!open && "hidden"}`}
       >
-        <td colSpan={10} className="px-2 first:pl-5 last:pr-5 py-3">
+        <td colSpan={7} className="px-2 first:pl-5 last:pr-5 py-3">
           <div className="bg-slate-50 dark:bg-slate-900/30 dark:text-slate-400 p-3 -mt-3">
             <div className="text-sm mb-3">
               <div className="font-medium text-slate-800 dark:text-slate-100 mb-1">
@@ -94,7 +101,9 @@ const Cocktail = ({ cocktail }: { cocktail: CocktailProps }) => {
                 </h2>
                 <div className="pl-2">
                   {cocktail.ingredients.map((ingredient: string) => (
-                    <p className="py-1">{ingredient}</p>
+                    <p className="py-1" key={ingredient + cocktail.cocktail_id}>
+                      {ingredient}
+                    </p>
                   ))}
                 </div>
               </div>
@@ -105,7 +114,7 @@ const Cocktail = ({ cocktail }: { cocktail: CocktailProps }) => {
           </div>
         </td>
       </tr>
-    </tbody>
+    </>
   );
 };
 

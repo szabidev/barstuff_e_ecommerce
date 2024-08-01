@@ -20,15 +20,14 @@ const ProductCard = ({ drink }: { drink: Drink }) => {
 
   return (
     <div>
-      <div>
+      <div className="relative w-full h-[300px]">
         <Image
-          sizes="max-height:300px"
           src={image}
-          layout="intrinsic"
-          width={300}
-          height={300}
+          fill
+          sizes="(max-width: 768px) 100vw, 300px"
           objectFit="contain"
           alt={name}
+          priority
         />
         {/* Close button */}
       </div>

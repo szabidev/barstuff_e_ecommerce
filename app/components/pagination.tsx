@@ -42,6 +42,7 @@ const PaginationNumeric: React.FC<PaginationNumericProps> = ({
 
   const changePage = (page: number) => {
     if (page >= 1 && page <= totalPages) {
+      console.log(`Changing to page: ${page}`);
       setCurrentPage(page);
     }
   };
