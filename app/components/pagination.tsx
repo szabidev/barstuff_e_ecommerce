@@ -52,6 +52,7 @@ const PaginationNumeric: React.FC<PaginationNumericProps> = ({
     { length: endPage - startPage + 1 },
     (_, idx) => startPage + idx
   );
+  console.log(pages, startPage, endPage);
 
   return (
     <div className="flex justify-center m-4 items-center">
@@ -91,9 +92,6 @@ const PaginationNumeric: React.FC<PaginationNumericProps> = ({
         </div>
       </nav>
       <div className="ml-10 text-sm text-slate-500 dark:text-slate-400 text-center sm:text-left">
-        {/* <span className="mr-10 font-medium text-slate-600 dark:text-slate-300">
-          {totalPages}
-        </span>{" "} */}
         <p className="text-emerald-500">
           Total Items:{" "}
           <span className="font-medium text-slate-600 dark:text-slate-300">

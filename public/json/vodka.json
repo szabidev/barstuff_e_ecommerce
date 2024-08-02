@@ -1,62 +1,62 @@
 {
-  "Vodka": {
-    "Introduction": {
-      "Title": "Introduction to Vodka",
-      "Description": "Vodka is a clear, distilled spirit that has gained global popularity for its purity and versatility. Originating from Eastern Europe, vodka is characterized by its neutral flavor, making it a versatile base for various cocktails. This section explores the rich history, diverse production methods, types, cultural impact, and notable brands of vodka."
+  "vodka": {
+    "introduction": {
+      "title": "Introduction to Vodka",
+      "description": "Vodka is a clear, distilled spirit that has gained global popularity for its purity and versatility. Originating from Eastern Europe, vodka is characterized by its neutral flavor, making it a versatile base for various cocktails. This section explores the rich history, diverse production methods, types, cultural impact, and notable brands of vodka."
     },
-    "History": {
-      "Title": "History of Vodka",
-      "Description": "Vodka’s history is deeply intertwined with the cultures of Eastern Europe, particularly Russia and Poland. The evolution of vodka involves early fermentation and distillation practices, which have significantly influenced its development over centuries.",
-      "Subsections": [
+    "history": {
+      "title": "History of Vodka",
+      "description": "Vodka’s history is deeply intertwined with the cultures of Eastern Europe, particularly Russia and Poland. The evolution of vodka involves early fermentation and distillation practices, which have significantly influenced its development over centuries.",
+      "subsections": [
         {
-          "Title": "Early Beginnings",
-          "Description": "The origins of vodka can be traced back to the 8th-9th centuries. Early vodka-like spirits were produced in Russia and Poland using primitive distillation techniques.",
-          "Key_Facts": [
+          "title": "Early Beginnings",
+          "description": "The origins of vodka can be traced back to the 8th-9th centuries. Early vodka-like spirits were produced in Russia and Poland using primitive distillation techniques.",
+          "key_facts": [
             {
-              "Region": "Russia",
-              "Date": "8th-9th Century",
-              "Description": "Early vodka in Russia was made from fermented grains. Vodka became deeply embedded in Russian culture by the 14th and 15th centuries.",
-              "Brands": [
+              "region": "Russia",
+              "date": "8th-9th Century",
+              "description": "Early vodka in Russia was made from fermented grains. Vodka became deeply embedded in Russian culture by the 14th and 15th centuries.",
+              "brands": [
                 {
-                  "Brand": "Russian Standard",
-                  "Description": "Founded in 1998, Russian Standard is a prominent Russian vodka brand known for its adherence to traditional vodka-making methods and its focus on high purity."
+                  "brand": "Russian Standard",
+                  "description": "Founded in 1998, Russian Standard is a prominent Russian vodka brand known for its adherence to traditional vodka-making methods and its focus on high purity."
                 }
               ]
             },
             {
-              "Region": "Poland",
-              "Date": "15th Century",
-              "Description": "Poland has a long history of vodka production, traditionally using rye or potatoes. Vodka became an integral part of Polish social and cultural life.",
-              "Brands": [
+              "region": "Poland",
+              "date": "15th Century",
+              "description": "Poland has a long history of vodka production, traditionally using rye or potatoes. Vodka became an integral part of Polish social and cultural life.",
+              "brands": [
                 {
-                  "Brand": "Belvedere",
-                  "Description": "Founded in 1993, Belvedere is a premium Polish vodka brand celebrated for its smoothness and high-quality ingredients."
+                  "brand": "Belvedere",
+                  "description": "Founded in 1993, Belvedere is a premium Polish vodka brand celebrated for its smoothness and high-quality ingredients."
                 }
               ]
             }
           ]
         },
         {
-          "Title": "Evolution of Distillation Techniques",
-          "Description": "Distillation technology evolved significantly, impacting vodka production. Key advancements include the development of column stills and advanced filtration techniques.",
-          "Key_Contributions": [
+          "title": "Evolution of Distillation Techniques",
+          "description": "Distillation technology evolved significantly, impacting vodka production. Key advancements include the development of column stills and advanced filtration techniques.",
+          "key_contributions": [
             {
-              "Contribution": "Column Still",
-              "Description": "The column still, introduced in the 19th century, allowed for continuous distillation, enhancing the purity and efficiency of vodka production.",
-              "Brands": [
+              "contribution": "Column Still",
+              "description": "The column still, introduced in the 19th century, allowed for continuous distillation, enhancing the purity and efficiency of vodka production.",
+              "brands": [
                 {
-                  "Brand": "Absolut",
-                  "Description": "Founded in 1879, Absolut Vodka uses a continuous distillation process to produce highly purified vodka."
+                  "brand": "Absolut",
+                  "description": "Founded in 1879, Absolut Vodka uses a continuous distillation process to produce highly purified vodka."
                 }
               ]
             },
             {
-              "Contribution": "Charcoal Filtration",
-              "Description": "Charcoal filtration removes impurities and refines vodka's flavor. This method has become a standard practice in modern vodka production.",
-              "Brands": [
+              "contribution": "Charcoal Filtration",
+              "description": "Charcoal filtration removes impurities and refines vodka's flavor. This method has become a standard practice in modern vodka production.",
+              "brands": [
                 {
-                  "Brand": "Grey Goose",
-                  "Description": "Launched in 1997, Grey Goose uses an advanced charcoal filtration process to ensure its vodka is exceptionally smooth and clean."
+                  "brand": "Grey Goose",
+                  "description": "Launched in 1997, Grey Goose uses an advanced charcoal filtration process to ensure its vodka is exceptionally smooth and clean."
                 }
               ]
             }
@@ -64,269 +64,269 @@
         }
       ]
     },
-    "Production": {
-      "Title": "Production of Vodka",
-      "Description": "Vodka production involves several critical steps: fermentation, distillation, and filtration. Each stage plays a vital role in determining the final quality and characteristics of the vodka.",
-      "Subsections": [
+    "production": {
+      "title": "Production of Vodka",
+      "description": "Vodka production involves several critical steps: fermentation, distillation, and filtration. Each stage plays a vital role in determining the final quality and characteristics of the vodka.",
+      "subsections": [
         {
-          "Title": "Raw Materials",
-          "Description": "Vodka can be made from a variety of raw materials, including grains, potatoes, and fruits. Each type of ingredient contributes to the vodka's flavor and texture.",
-          "Key_Materials": [
+          "title": "Raw Materials",
+          "description": "Vodka can be made from a variety of raw materials, including grains, potatoes, and fruits. Each type of ingredient contributes to the vodka's flavor and texture.",
+          "key_materials": [
             {
-              "Material": "Grains",
-              "Description": "Common grains used in vodka production include wheat, rye, and barley. Grain-based vodkas are known for their smooth, neutral taste.",
-              "Brands": [
+              "material": "Grains",
+              "description": "Common grains used in vodka production include wheat, rye, and barley. Grain-based vodkas are known for their smooth, neutral taste.",
+              "brands": [
                 {
-                  "Brand": "Smirnoff",
-                  "Description": "Established in 1864, Smirnoff is one of the most recognized grain-based vodkas, known for its clean and versatile flavor."
+                  "brand": "Smirnoff",
+                  "description": "Established in 1864, Smirnoff is one of the most recognized grain-based vodkas, known for its clean and versatile flavor."
                 }
               ]
             },
             {
-              "Material": "Potatoes",
-              "Description": "Potato-based vodkas offer a creamy texture and slightly earthy flavor. Potatoes are a traditional ingredient in vodka-making.",
-              "Brands": [
+              "material": "Potatoes",
+              "description": "Potato-based vodkas offer a creamy texture and slightly earthy flavor. Potatoes are a traditional ingredient in vodka-making.",
+              "brands": [
                 {
-                  "Brand": "Chopin",
-                  "Description": "Chopin Vodka, founded in 1993, is a distinguished Polish vodka made from potatoes, known for its rich and smooth flavor."
+                  "brand": "Chopin",
+                  "description": "Chopin Vodka, founded in 1993, is a distinguished Polish vodka made from potatoes, known for its rich and smooth flavor."
                 }
               ]
             },
             {
-              "Material": "Fruits",
-              "Description": "Fruits such as apples or grapes are used to create fruit-flavored vodkas, which offer unique and diverse flavor profiles.",
-              "Brands": [
+              "material": "Fruits",
+              "description": "Fruits such as apples or grapes are used to create fruit-flavored vodkas, which offer unique and diverse flavor profiles.",
+              "brands": [
                 {
-                  "Brand": "Ciroc",
-                  "Description": "Ciroc Vodka, launched in 2003, is made from grapes, providing a distinctive flavor and smoothness that sets it apart."
+                  "brand": "Ciroc",
+                  "description": "Ciroc Vodka, launched in 2003, is made from grapes, providing a distinctive flavor and smoothness that sets it apart."
                 }
               ]
             }
           ]
         },
         {
-          "Title": "Fermentation",
-          "Description": "Fermentation converts sugars in the raw materials into alcohol. This process is crucial for producing the base liquid for vodka distillation.",
-          "Key_Processes": [
+          "title": "Fermentation",
+          "description": "Fermentation converts sugars in the raw materials into alcohol. This process is crucial for producing the base liquid for vodka distillation.",
+          "key_processes": [
             {
-              "Process": "Mashing",
-              "Description": "The raw materials are mashed to release their sugars. This step is essential for creating a fermentable liquid."
+              "process": "Mashing",
+              "description": "The raw materials are mashed to release their sugars. This step is essential for creating a fermentable liquid."
             },
             {
-              "Process": "Fermentation",
-              "Description": "Yeast is added to the mashed liquid to ferment the sugars, producing alcohol and carbon dioxide. The resulting liquid, known as 'wash,' is then distilled."
+              "process": "Fermentation",
+              "description": "Yeast is added to the mashed liquid to ferment the sugars, producing alcohol and carbon dioxide. The resulting liquid, known as 'wash,' is then distilled."
             }
           ]
         },
         {
-          "Title": "Distillation",
-          "Description": "Distillation is the process of heating the fermented liquid to separate alcohol from other components. It increases the alcohol content and purifies the liquid.",
-          "Key_Processes": [
+          "title": "Distillation",
+          "description": "Distillation is the process of heating the fermented liquid to separate alcohol from other components. It increases the alcohol content and purifies the liquid.",
+          "key_processes": [
             {
-              "Process": "First Distillation",
-              "Description": "The initial distillation process separates alcohol from impurities, resulting in a higher alcohol content liquid."
+              "process": "First Distillation",
+              "description": "The initial distillation process separates alcohol from impurities, resulting in a higher alcohol content liquid."
             },
             {
-              "Process": "Rectification",
-              "Description": "Further distillation, often using column stills, refines the vodka to achieve high purity and consistency in alcohol content."
+              "process": "Rectification",
+              "description": "Further distillation, often using column stills, refines the vodka to achieve high purity and consistency in alcohol content."
             }
           ]
         },
         {
-          "Title": "Filtration",
-          "Description": "Filtration is used to remove impurities and enhance the smoothness of vodka. Various methods, such as charcoal and silver filtration, are employed.",
-          "Key_Methods": [
+          "title": "Filtration",
+          "description": "Filtration is used to remove impurities and enhance the smoothness of vodka. Various methods, such as charcoal and silver filtration, are employed.",
+          "key_methods": [
             {
-              "Method": "Charcoal Filtration",
-              "Description": "Charcoal filtering removes impurities and improves the vodka’s taste and smoothness. This method is widely used in modern vodka production.",
-              "Brands": [
+              "method": "Charcoal Filtration",
+              "description": "Charcoal filtering removes impurities and improves the vodka’s taste and smoothness. This method is widely used in modern vodka production.",
+              "brands": [
                 {
-                  "Brand": "Belvedere",
-                  "Description": "Belvedere Vodka uses a multi-stage charcoal filtration process to ensure its vodka is exceptionally smooth and pure."
+                  "brand": "Belvedere",
+                  "description": "Belvedere Vodka uses a multi-stage charcoal filtration process to ensure its vodka is exceptionally smooth and pure."
                 }
               ]
             },
             {
-              "Method": "Silver Filtration",
-              "Description": "Silver filtration involves passing vodka through silver filters to achieve additional purity and a refined taste."
+              "method": "Silver Filtration",
+              "description": "Silver filtration involves passing vodka through silver filters to achieve additional purity and a refined taste."
             }
           ]
         }
       ]
     },
-    "Types_of_Vodka": {
-      "Title": "Types of Vodka",
-      "Description": "Vodka can be categorized into different types based on production methods, ingredients, and flavor profiles. Each type offers unique characteristics and examples of notable brands.",
-      "Subsections": [
+    "types_of_vodka": {
+      "title": "Types of Vodka",
+      "description": "Vodka can be categorized into different types based on production methods, ingredients, and flavor profiles. Each type offers unique characteristics and examples of notable brands.",
+      "subsections": [
         {
-          "Title": "Neutral Vodka",
-          "Description": "Neutral vodka is characterized by its clean, smooth taste with minimal flavor or aroma. It is often used as a base for cocktails due to its versatility.",
-          "Key_Characteristics": [
+          "title": "Neutral Vodka",
+          "description": "Neutral vodka is characterized by its clean, smooth taste with minimal flavor or aroma. It is often used as a base for cocktails due to its versatility.",
+          "key_characteristics": [
             {
-              "Characteristic": "Purity",
-              "Description": "Neutral vodka is highly purified, with little to no flavor or aroma, making it ideal for mixing in cocktails."
+              "characteristic": "Purity",
+              "description": "Neutral vodka is highly purified, with little to no flavor or aroma, making it ideal for mixing in cocktails."
             },
             {
-              "Characteristic": "Versatility",
-              "Description": "Its neutral profile allows it to blend seamlessly into various cocktails and mixed drinks."
+              "characteristic": "Versatility",
+              "description": "Its neutral profile allows it to blend seamlessly into various cocktails and mixed drinks."
             }
           ],
-          "Brands": [
+          "brands": [
             {
-              "Brand": "Absolut",
-              "Description": "Founded in 1879, Absolut Vodka is known for its high purity and versatile use in cocktails. Its continuous distillation process ensures a clean, neutral spirit."
+              "brand": "Absolut",
+              "description": "Founded in 1879, Absolut Vodka is known for its high purity and versatile use in cocktails. Its continuous distillation process ensures a clean, neutral spirit."
             },
             {
-              "Brand": "Smirnoff",
-              "Description": "Smirnoff Vodka, established in 1864, is one of the world’s best-selling vodkas, recognized for its neutral flavor and adaptability in cocktails."
+              "brand": "Smirnoff",
+              "description": "Smirnoff Vodka, established in 1864, is one of the world’s best-selling vodkas, recognized for its neutral flavor and adaptability in cocktails."
             }
           ]
         },
         {
-          "Title": "Flavored Vodka",
-          "Description": "Flavored vodka is infused with various flavors such as fruits, spices, or herbs. It provides unique taste experiences and is popular in a wide range of cocktails.",
-          "Key_Flavors": [
+          "title": "Flavored Vodka",
+          "description": "Flavored vodka is infused with various flavors such as fruits, spices, or herbs. It provides unique taste experiences and is popular in a wide range of cocktails.",
+          "key_flavors": [
             {
-              "Flavor": "Citrus",
-              "Description": "Citrus-flavored vodkas, such as lemon or lime, offer a refreshing twist and are commonly used in summer cocktails.",
-              "Brands": [
+              "flavor": "Citrus",
+              "description": "Citrus-flavored vodkas, such as lemon or lime, offer a refreshing twist and are commonly used in summer cocktails.",
+              "brands": [
                 {
-                  "Brand": "Ketel One Citroen",
-                  "Description": "Ketel One Citroen features lemon and lime flavors, adding a citrusy twist to cocktails while maintaining high-quality vodka."
+                  "brand": "Ketel One Citroen",
+                  "description": "Ketel One Citroen features lemon and lime flavors, adding a citrusy twist to cocktails while maintaining high-quality vodka."
                 }
               ]
             },
             {
-              "Flavor": "Berry",
-              "Description": "Berry-flavored vodkas, including strawberry and raspberry, add fruity notes to cocktails and are popular for their vibrant taste.",
-              "Brands": [
+              "flavor": "Berry",
+              "description": "Berry-flavored vodkas, including strawberry and raspberry, add fruity notes to cocktails and are popular for their vibrant taste.",
+              "brands": [
                 {
-                  "Brand": "Smirnoff Berry",
-                  "Description": "Smirnoff Berry Vodka offers a blend of berry flavors, making it a popular choice for fruit-based cocktails."
+                  "brand": "Smirnoff Berry",
+                  "description": "Smirnoff Berry Vodka offers a blend of berry flavors, making it a popular choice for fruit-based cocktails."
                 }
               ]
             },
             {
-              "Flavor": "Spice",
-              "Description": "Spice-flavored vodkas incorporate spices such as cinnamon or pepper, adding a distinctive kick to drinks.",
-              "Brands": [
+              "flavor": "Spice",
+              "description": "Spice-flavored vodkas incorporate spices such as cinnamon or pepper, adding a distinctive kick to drinks.",
+              "brands": [
                 {
-                  "Brand": "Ciroc Apple",
-                  "Description": "Ciroc Apple Vodka blends the smoothness of Ciroc with the crisp, refreshing flavor of green apples, creating a unique and spicy profile."
+                  "brand": "Ciroc Apple",
+                  "description": "Ciroc Apple Vodka blends the smoothness of Ciroc with the crisp, refreshing flavor of green apples, creating a unique and spicy profile."
                 }
               ]
             }
           ]
         },
         {
-          "Title": "Craft Vodka",
-          "Description": "Craft vodka is produced by small, independent distilleries that emphasize artisanal methods and high-quality ingredients. These vodkas often have unique flavors and characteristics.",
-          "Key_Characteristics": [
+          "title": "Craft Vodka",
+          "description": "Craft vodka is produced by small, independent distilleries that emphasize artisanal methods and high-quality ingredients. These vodkas often have unique flavors and characteristics.",
+          "key_characteristics": [
             {
-              "Characteristic": "Artisanal Production",
-              "Description": "Craft vodka is made with a focus on small-batch production and artisanal techniques, resulting in distinctive flavors and qualities."
+              "characteristic": "Artisanal Production",
+              "description": "Craft vodka is made with a focus on small-batch production and artisanal techniques, resulting in distinctive flavors and qualities."
             },
             {
-              "Characteristic": "Unique Ingredients",
-              "Description": "Craft vodkas often use unconventional ingredients or production methods, offering a unique taste experience."
+              "characteristic": "Unique Ingredients",
+              "description": "Craft vodkas often use unconventional ingredients or production methods, offering a unique taste experience."
             }
           ],
-          "Brands": [
+          "brands": [
             {
-              "Brand": "Tito’s Handmade Vodka",
-              "Description": "Tito’s Handmade Vodka, founded in 1997, is known for its artisanal production methods and use of high-quality ingredients. It has gained popularity for its smooth, handcrafted character."
+              "brand": "Tito’s Handmade Vodka",
+              "description": "Tito’s Handmade Vodka, founded in 1997, is known for its artisanal production methods and use of high-quality ingredients. It has gained popularity for its smooth, handcrafted character."
             },
             {
-              "Brand": "Koval",
-              "Description": "Koval Vodka, established in 2008, is a craft vodka made from organic grains, known for its distinctive taste and commitment to artisanal production."
+              "brand": "Koval",
+              "description": "Koval Vodka, established in 2008, is a craft vodka made from organic grains, known for its distinctive taste and commitment to artisanal production."
             }
           ]
         }
       ]
     },
-    "Cultural_Significance": {
-      "Title": "Cultural Significance of Vodka",
-      "Description": "Vodka holds a prominent place in the cultures of Eastern Europe and has influenced global drinking habits. Its role in social rituals, ceremonies, and popular culture reflects its historical importance and contemporary relevance.",
-      "Subsections": [
+    "cultural_significance": {
+      "title": "Cultural Significance of Vodka",
+      "description": "Vodka holds a prominent place in the cultures of Eastern Europe and has influenced global drinking habits. Its role in social rituals, ceremonies, and popular culture reflects its historical importance and contemporary relevance.",
+      "subsections": [
         {
-          "Title": "Eastern European Traditions",
-          "Description": "Vodka is deeply embedded in the cultural practices of Russia, Poland, and other Eastern European countries. It is often associated with social gatherings, toasts, and rituals.",
-          "Key_Practices": [
+          "title": "Eastern European Traditions",
+          "description": "Vodka is deeply embedded in the cultural practices of Russia, Poland, and other Eastern European countries. It is often associated with social gatherings, toasts, and rituals.",
+          "key_practices": [
             {
-              "Practice": "Russian Toasts",
-              "Description": "In Russia, vodka is traditionally used in toasts and celebratory rituals. It is a central element in social gatherings and formal events."
+              "practice": "Russian Toasts",
+              "description": "In Russia, vodka is traditionally used in toasts and celebratory rituals. It is a central element in social gatherings and formal events."
             },
             {
-              "Practice": "Polish Vodka Culture",
-              "Description": "In Poland, vodka is integral to national celebrations and traditional feasts. It is often enjoyed during special occasions and cultural festivals."
+              "practice": "Polish Vodka Culture",
+              "description": "In Poland, vodka is integral to national celebrations and traditional feasts. It is often enjoyed during special occasions and cultural festivals."
             }
           ]
         },
         {
-          "Title": "Global Influence",
-          "Description": "Vodka’s global popularity has influenced drinking culture worldwide. It is featured in numerous cocktails and has become a staple in bars and homes around the world.",
-          "Key_Examples": [
+          "title": "Global Influence",
+          "description": "Vodka’s global popularity has influenced drinking culture worldwide. It is featured in numerous cocktails and has become a staple in bars and homes around the world.",
+          "key_examples": [
             {
-              "Example": "Cocktails",
-              "Description": "Vodka is a key ingredient in many classic and contemporary cocktails, including the Bloody Mary, Moscow Mule, and Cosmopolitan."
+              "example": "Cocktails",
+              "description": "Vodka is a key ingredient in many classic and contemporary cocktails, including the Bloody Mary, Moscow Mule, and Cosmopolitan."
             },
             {
-              "Example": "Bar Culture",
-              "Description": "Vodka’s versatility and neutral flavor have made it a popular choice in bars and restaurants, contributing to its widespread appeal."
+              "example": "Bar Culture",
+              "description": "Vodka’s versatility and neutral flavor have made it a popular choice in bars and restaurants, contributing to its widespread appeal."
             }
           ]
         }
       ]
     },
-    "Modern_Vodka_Industry": {
-      "Title": "Modern Vodka Industry",
-      "Description": "The vodka industry today is characterized by a diverse range of brands and production techniques. Innovations in flavoring, marketing, and global distribution reflect the evolving trends in vodka consumption.",
-      "Subsections": [
+    "modern_vodka_industry": {
+      "title": "Modern Vodka Industry",
+      "description": "The vodka industry today is characterized by a diverse range of brands and production techniques. Innovations in flavoring, marketing, and global distribution reflect the evolving trends in vodka consumption.",
+      "subsections": [
         {
-          "Title": "Market Trends",
-          "Description": "Current trends in the vodka industry include a rise in flavored vodkas, craft vodka production, and premium branding. These trends highlight the industry’s adaptability and innovation.",
-          "Key_Trends": [
+          "title": "Market Trends",
+          "description": "Current trends in the vodka industry include a rise in flavored vodkas, craft vodka production, and premium branding. These trends highlight the industry’s adaptability and innovation.",
+          "key_trends": [
             {
-              "Trend": "Flavored Vodkas",
-              "Description": "Flavored vodkas have gained popularity, offering consumers a variety of taste experiences. Brands are constantly introducing new and exotic flavors."
+              "trend": "Flavored Vodkas",
+              "description": "Flavored vodkas have gained popularity, offering consumers a variety of taste experiences. Brands are constantly introducing new and exotic flavors."
             },
             {
-              "Trend": "Craft Vodka",
-              "Description": "Craft vodka production emphasizes artisanal methods and high-quality ingredients. Small distilleries are making a significant impact on the market with unique products."
+              "trend": "Craft Vodka",
+              "description": "Craft vodka production emphasizes artisanal methods and high-quality ingredients. Small distilleries are making a significant impact on the market with unique products."
             },
             {
-              "Trend": "Premium Brands",
-              "Description": "There is a growing demand for premium vodka brands, which are marketed for their superior quality and exclusive production methods."
+              "trend": "Premium Brands",
+              "description": "There is a growing demand for premium vodka brands, which are marketed for their superior quality and exclusive production methods."
             }
           ]
         },
         {
-          "Title": "Notable Brands",
-          "Description": "Several vodka brands have distinguished themselves in the market through quality, innovation, and unique offerings. These brands represent the diverse landscape of the modern vodka industry.",
-          "Brands": [
+          "title": "Notable Brands",
+          "description": "Several vodka brands have distinguished themselves in the market through quality, innovation, and unique offerings. These brands represent the diverse landscape of the modern vodka industry.",
+          "brands": [
             {
-              "Brand": "Absolut",
-              "Description": "Founded in 1879, Absolut Vodka is known for its high purity and wide range of flavored vodkas. Its iconic bottle and global presence make it a leading brand in the vodka market."
+              "brand": "Absolut",
+              "description": "Founded in 1879, Absolut Vodka is known for its high purity and wide range of flavored vodkas. Its iconic bottle and global presence make it a leading brand in the vodka market."
             },
             {
-              "Brand": "Grey Goose",
-              "Description": "Grey Goose, established in 1997, is a premium vodka brand celebrated for its smooth taste and advanced filtration process. It is positioned as a luxury vodka in the market."
+              "brand": "Grey Goose",
+              "description": "Grey Goose, established in 1997, is a premium vodka brand celebrated for its smooth taste and advanced filtration process. It is positioned as a luxury vodka in the market."
             },
             {
-              "Brand": "Belvedere",
-              "Description": "Belvedere Vodka, founded in 1993, is renowned for its artisanal production and use of high-quality ingredients. It is a symbol of Polish vodka excellence."
+              "brand": "Belvedere",
+              "description": "Belvedere Vodka, founded in 1993, is renowned for its artisanal production and use of high-quality ingredients. It is a symbol of Polish vodka excellence."
             },
             {
-              "Brand": "Tito’s Handmade Vodka",
-              "Description": "Tito’s Handmade Vodka, launched in 1997, is known for its craft production and smooth character. It has gained a loyal following for its quality and artisanal approach."
+              "brand": "Tito’s Handmade Vodka",
+              "description": "Tito’s Handmade Vodka, launched in 1997, is known for its craft production and smooth character. It has gained a loyal following for its quality and artisanal approach."
             },
             {
-              "Brand": "Ciroc",
-              "Description": "Ciroc Vodka, introduced in 2003, is made from grapes and is known for its distinctive flavor profile. It caters to a premium market with its smooth and innovative offerings."
+              "brand": "Ciroc",
+              "description": "Ciroc Vodka, introduced in 2003, is made from grapes and is known for its distinctive flavor profile. It caters to a premium market with its smooth and innovative offerings."
             },
             {
-              "Brand": "Koval",
-              "Description": "Koval Vodka, established in 2008, emphasizes organic ingredients and small-batch production. It is celebrated for its unique taste and commitment to artisanal methods."
+              "brand": "Koval",
+              "description": "Koval Vodka, established in 2008, emphasizes organic ingredients and small-batch production. It is celebrated for its unique taste and commitment to artisanal methods."
             }
           ]
         }

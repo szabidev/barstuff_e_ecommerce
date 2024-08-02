@@ -1,448 +1,98 @@
 {
-  "Whisk(e)y": {
-    "Overview": {
-      "Title": "Overview of Whisk(e)y",
-      "Description": "Whisk(e)y is a distilled alcoholic beverage made from fermented grain mash. Its production and styles vary significantly across different regions, reflecting a rich heritage and diverse traditions.",
-      "Subsections": [
+  "whisk(e)y": {
+    "overview": {
+      "title": "Overview of Whisk(e)y",
+      "description": "Whisk(e)y is a distilled alcoholic beverage made from fermented grain mash. Its production and styles vary significantly across different regions, reflecting a rich heritage and diverse traditions.",
+      "subsections": [
         {
-          "Title": "What is Whisk(e)y?",
-          "Description": "Whisk(e)y is a spirit distilled from fermented grain mash, which can include barley, corn, rye, and wheat. The production process involves mashing, fermenting, distilling, and aging the spirit in wooden barrels.",
-          "Key_Facts": [
+          "title": "What is Whisk(e)y?",
+          "description": "Whisk(e)y is a spirit distilled from fermented grain mash, which can include barley, corn, rye, and wheat. The production process involves mashing, fermenting, distilling, and aging the spirit in wooden barrels.",
+          "key_facts": [
             {
-              "Fact": "Ingredients",
-              "Description": "The primary ingredients in whisk(e)y are grains, water, and yeast. The type of grain used can affect the flavor profile of the final product."
+              "fact": "Ingredients",
+              "description": "The primary ingredients in whisk(e)y are grains, water, and yeast. The type of grain used can affect the flavor profile of the final product."
             },
             {
-              "Fact": "Distillation",
-              "Description": "Whisk(e)y is typically distilled in pot stills or column stills, depending on the type and region."
+              "fact": "Distillation",
+              "description": "Whisk(e)y is typically distilled in pot stills or column stills, depending on the type and region."
             },
             {
-              "Fact": "Aging",
-              "Description": "Whisk(e)y is aged in wooden barrels, which contribute to its flavor and character. The length of aging and the type of wood used can vary."
+              "fact": "Aging",
+              "description": "Whisk(e)y is aged in wooden barrels, which contribute to its flavor and character. The length of aging and the type of wood used can vary."
             }
           ]
         },
         {
-          "Title": "Types of Whisk(e)y",
-          "Description": "There are several types of whisk(e)y, each with distinct characteristics based on its region of origin and production methods.",
-          "Subsections": [
+          "title": "Types of Whisk(e)y",
+          "description": "There are several types of whisk(e)y, each with distinct characteristics based on its region of origin and production methods.",
+          "subsections": [
             {
-              "Title": "Scotch Whisky",
-              "Description": "Scotch whisky is made in Scotland and is known for its diverse styles, including single malt, blended malt, and blended Scotch whiskies.",
-              "Key_Facts": [
+              "title": "Scotch Whisky",
+              "description": "Scotch whisky is made in Scotland and is known for its diverse styles, including single malt, blended malt, and blended Scotch whiskies.",
+              "key_facts": [
                 {
-                  "Fact": "Region",
-                  "Description": "Scotch whisky must be distilled and aged in Scotland for at least three years."
+                  "fact": "Region",
+                  "description": "Scotch whisky must be distilled and aged in Scotland for at least three years."
                 },
                 {
-                  "Fact": "Types",
-                  "Description": "Includes single malt, single grain, blended malt, blended grain, and blended Scotch whisky."
+                  "fact": "Types",
+                  "description": "Includes single malt, single grain, blended malt, blended grain, and blended Scotch whisky."
                 }
               ]
             },
             {
-              "Title": "Irish Whiskey",
-              "Description": "Irish whiskey is produced in Ireland and is known for its smooth, approachable flavor. It can be single malt, single pot still, single grain, or blended whiskey.",
-              "Key_Facts": [
+              "title": "Irish Whiskey",
+              "description": "Irish whiskey is produced in Ireland and is known for its smooth, approachable flavor. It can be single malt, single pot still, single grain, or blended whiskey.",
+              "key_facts": [
                 {
-                  "Fact": "Region",
-                  "Description": "Irish whiskey must be distilled and aged in Ireland for at least three years."
+                  "fact": "Region",
+                  "description": "Irish whiskey must be distilled and aged in Ireland for at least three years."
                 },
                 {
-                  "Fact": "Types",
-                  "Description": "Includes single malt, single pot still, single grain, and blended Irish whiskey."
+                  "fact": "Types",
+                  "description": "Includes single malt, single pot still, single grain, and blended Irish whiskey."
                 }
               ]
             },
             {
-              "Title": "American Whiskey",
-              "Description": "American whiskey includes several types, such as Bourbon, Rye whiskey, Tennessee whiskey, and Corn whiskey, each with its own production regulations and flavor profiles.",
-              "Key_Facts": [
+              "title": "American Whiskey",
+              "description": "American whiskey includes several types, such as Bourbon, Rye whiskey, Tennessee whiskey, and Corn whiskey, each with its own production regulations and flavor profiles.",
+              "key_facts": [
                 {
-                  "Fact": "Region",
-                  "Description": "American whiskey must be produced in the United States, with specific regulations for each type."
+                  "fact": "Region",
+                  "description": "American whiskey must be produced in the United States, with specific regulations for each type."
                 },
                 {
-                  "Fact": "Types",
-                  "Description": "Includes Bourbon, Rye whiskey, Tennessee whiskey, and Corn whiskey."
+                  "fact": "Types",
+                  "description": "Includes Bourbon, Rye whiskey, Tennessee whiskey, and Corn whiskey."
                 }
               ]
             },
             {
-              "Title": "Canadian Whisky",
-              "Description": "Canadian whisky is known for its smoothness and versatility. It is typically a blend of grain whiskies and can include a significant proportion of corn whisky.",
-              "Key_Facts": [
+              "title": "Canadian Whisky",
+              "description": "Canadian whisky is known for its smoothness and versatility. It is typically a blend of grain whiskies and can include a significant proportion of corn whisky.",
+              "key_facts": [
                 {
-                  "Fact": "Region",
-                  "Description": "Canadian whisky must be distilled and aged in Canada for at least three years."
+                  "fact": "Region",
+                  "description": "Canadian whisky must be distilled and aged in Canada for at least three years."
                 },
                 {
-                  "Fact": "Types",
-                  "Description": "Primarily blended whiskies, with some single malts and rye whiskies available."
+                  "fact": "Types",
+                  "description": "Primarily blended whiskies, with some single malts and rye whiskies available."
                 }
               ]
             },
             {
-              "Title": "Japanese Whisky",
-              "Description": "Japanese whisky is influenced by Scotch whisky traditions but often incorporates local ingredients and techniques. It has gained a reputation for its quality and precision.",
-              "Key_Facts": [
+              "title": "Japanese Whisky",
+              "description": "Japanese whisky is influenced by Scotch whisky traditions but often incorporates local ingredients and techniques. It has gained a reputation for its quality and precision.",
+              "key_facts": [
                 {
-                  "Fact": "Region",
-                  "Description": "Japanese whisky must be produced in Japan, with some adherence to Scotch whisky production methods."
+                  "fact": "Region",
+                  "description": "Japanese whisky must be produced in Japan, with some adherence to Scotch whisky production methods."
                 },
                 {
-                  "Fact": "Types",
-                  "Description": "Includes single malt, blended, and grain whiskies."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "History": {
-      "Title": "History of Whisk(e)y",
-      "Description": "The history of whisk(e)y spans thousands of years and includes contributions from various cultures and regions. Its development is closely tied to the evolution of distillation techniques.",
-      "Subsections": [
-        {
-          "Title": "Early Beginnings",
-          "Description": "The earliest forms of whisky were produced using basic distillation techniques that date back to ancient civilizations.",
-          "Key_Facts": [
-            {
-              "Date": "Ancient Civilizations",
-              "Description": "Distillation techniques were used by ancient Mesopotamians, Egyptians, and Greeks, though not specifically for whisky."
-            },
-            {
-              "Date": "Middle Ages",
-              "Description": "Distillation knowledge spread to Europe, with early forms of distilled spirits appearing in the 8th to 12th centuries."
-            }
-          ]
-        },
-        {
-          "Title": "Development in Scotland and Ireland",
-          "Description": "The production of whisky as we know it today began to take shape in Scotland and Ireland during the medieval period.",
-          "Key_Facts": [
-            {
-              "Date": "15th Century",
-              "Description": "The first recorded mention of whisky in Scotland was in the 15th century, with whisky production becoming an established industry."
-            },
-            {
-              "Date": "17th Century",
-              "Description": "The Irish whiskey industry began to develop, with early references to the spirit appearing in historical records."
-            }
-          ]
-        },
-        {
-          "Title": "Expansion and Innovation",
-          "Description": "The whisky industry expanded globally, with significant innovations in production techniques and styles emerging over the centuries.",
-          "Key_Facts": [
-            {
-              "Date": "18th Century",
-              "Description": "The invention of the continuous still revolutionized whisky production, leading to increased efficiency and consistency."
-            },
-            {
-              "Date": "19th Century",
-              "Description": "Whisky production spread to other regions, including the United States and Canada, with new styles and brands emerging."
-            }
-          ]
-        },
-        {
-          "Title": "Modern Era",
-          "Description": "In the modern era, whisky has continued to evolve, with a focus on premium products, global markets, and sustainable practices.",
-          "Key_Facts": [
-            {
-              "Date": "20th Century",
-              "Description": "The whisky industry saw significant growth and diversification, with many new brands and styles entering the market."
-            },
-            {
-              "Date": "21st Century",
-              "Description": "Whisky remains a popular and diverse spirit, with ongoing innovation and a focus on premium and craft products."
-            }
-          ]
-        }
-      ]
-    },
-    "Production_Methods": {
-      "Title": "Production Methods for Whisk(e)y",
-      "Description": "The production of whisk(e)y involves several key steps, including mashing, fermenting, distilling, and aging. Each step influences the final flavor and character of the spirit.",
-      "Subsections": [
-        {
-          "Title": "Ingredients",
-          "Description": "The main ingredients in whisk(e)y are grains, water, and yeast. The type of grain used can significantly affect the flavor profile of the final product.",
-          "Key_Ingredients": [
-            {
-              "Ingredient": "Barley",
-              "Description": "Used primarily in Scotch whisky and some other whisk(e)ys, barley contributes to a rich, malty flavor."
-            },
-            {
-              "Ingredient": "Corn",
-              "Description": "Commonly used in American whiskey, especially Bourbon, corn imparts a sweet, smooth flavor."
-            },
-            {
-              "Ingredient": "Rye",
-              "Description": "Used in Rye whiskey, rye adds a spicy, robust flavor to the spirit."
-            },
-            {
-              "Ingredient": "Wheat",
-              "Description": "Wheat is used in some whisk(e)ys to add a softer, sweeter note."
-            }
-          ]
-        },
-        {
-          "Title": "Mashing",
-          "Description": "Mashing involves grinding the grains into a coarse powder and mixing it with hot water to convert the starches into fermentable sugars.",
-          "Key_Steps": [
-            {
-              "Step": "Grinding",
-              "Description": "The grains are ground into a coarse powder called grist."
-            },
-            {
-              "Step": "Mixing",
-              "Description": "The grist is mixed with hot water to create a mash, which is then allowed to ferment."
-            }
-          ]
-        },
-        {
-          "Title": "Fermentation",
-          "Description": "During fermentation, yeast is added to the mash to convert the sugars into alcohol and produce a liquid known as wash or beer.",
-          "Key_Steps": [
-            {
-              "Step": "Yeast Addition",
-              "Description": "Yeast is added to the mash, where it ferments the sugars into alcohol and carbon dioxide."
-            },
-            {
-              "Step": "Fermentation",
-              "Description": "The fermentation process typically lasts several days and results in a wash with an alcohol content of around 6-8%."
-            }
-          ]
-        },
-        {
-          "Title": "Distillation",
-          "Description": "Distillation is the process of heating the wash to separate the alcohol from the water and other components, concentrating the alcohol and creating the spirit.",
-          "Key_Steps": [
-            {
-              "Step": "Pot Still Distillation",
-              "Description": "Used in traditional whisk(e)y production, pot still distillation involves heating the wash in a copper pot still to separate the alcohol."
-            },
-            {
-              "Step": "Column Still Distillation",
-              "Description": "Column still distillation, or continuous distillation, is a more efficient process used in modern whisky production."
-            }
-          ]
-        },
-        {
-          "Title": "Aging",
-          "Description": "Aging involves storing the distilled spirit in wooden barrels, where it develops its flavor and character over time. The type of barrel and length of aging can greatly influence the final product.",
-          "Key_Steps": [
-            {
-              "Step": "Barrel Selection",
-              "Description": "The type of wood and previous use of the barrel (e.g., bourbon barrels, sherry casks) affect the flavor profile of the whisky."
-            },
-            {
-              "Step": "Aging Duration",
-              "Description": "Whisk(e)y is aged for varying lengths of time, with longer aging often resulting in more complex flavors."
-            }
-          ]
-        }
-      ]
-    },
-    "Types_of_Whisk(e)y": {
-      "Title": "Types of Whisk(e)y",
-      "Description": "Whisk(e)y is classified into various types based on its ingredients, production methods, and regional characteristics.",
-      "Subsections": [
-        {
-          "Title": "Scotch Whisky",
-          "Description": "Scotch whisky is produced in Scotland and is renowned for its diverse styles, including single malt, blended malt, and blended Scotch whisky.",
-          "Subsections": [
-            {
-              "Title": "Single Malt Scotch",
-              "Description": "Single malt Scotch whisky is made from malted barley and distilled at a single distillery.",
-              "Brands": [
-                {
-                  "Brand": "Glenfiddich",
-                  "Description": "Glenfiddich is one of the most famous single malt Scotch whiskies, known for its rich, fruity flavors."
-                },
-                {
-                  "Brand": "Macallan",
-                  "Description": "Macallan is renowned for its sherry cask-aged single malts, offering complex and rich flavors."
-                },
-                {
-                  "Brand": "Lagavulin",
-                  "Description": "Lagavulin is known for its peaty, smoky flavors, characteristic of Islay single malts."
-                }
-              ]
-            },
-            {
-              "Title": "Blended Scotch",
-              "Description": "Blended Scotch whisky combines single malts and grain whiskies from different distilleries.",
-              "Brands": [
-                {
-                  "Brand": "Johnnie Walker",
-                  "Description": "Johnnie Walker is one of the most well-known blended Scotch whiskies, offering a range of expressions from Red Label to Blue Label."
-                },
-                {
-                  "Brand": "Chivas Regal",
-                  "Description": "Chivas Regal is known for its smooth and rich blend, offering a luxurious whisky experience."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "Title": "Irish Whiskey",
-          "Description": "Irish whiskey is produced in Ireland and is known for its smooth, approachable flavor, with varieties including single malt, single pot still, and blended whiskey.",
-          "Subsections": [
-            {
-              "Title": "Single Malt Irish Whiskey",
-              "Description": "Single malt Irish whiskey is made from malted barley and distilled at a single distillery.",
-              "Brands": [
-                {
-                  "Brand": "Redbreast",
-                  "Description": "Redbreast is a highly regarded single malt Irish whiskey known for its rich, full-bodied flavors."
-                },
-                {
-                  "Brand": "Bushmills",
-                  "Description": "Bushmills offers a range of single malts with smooth, slightly sweet characteristics."
-                }
-              ]
-            },
-            {
-              "Title": "Single Pot Still Irish Whiskey",
-              "Description": "Single pot still Irish whiskey is made from a mix of malted and unmalted barley, distilled in a pot still.",
-              "Brands": [
-                {
-                  "Brand": "Green Spot",
-                  "Description": "Green Spot is known for its smooth, spicy profile and complex flavors."
-                },
-                {
-                  "Brand": "Redbreast",
-                  "Description": "Redbreast is also noted for its single pot still expressions, offering a rich, layered flavor."
-                }
-              ]
-            },
-            {
-              "Title": "Blended Irish Whiskey",
-              "Description": "Blended Irish whiskey combines malt and grain whiskies from different distilleries.",
-              "Brands": [
-                {
-                  "Brand": "Jameson",
-                  "Description": "Jameson is one of the most famous blended Irish whiskies, known for its smooth and versatile profile."
-                },
-                {
-                  "Brand": "Tullamore D.E.W.",
-                  "Description": "Tullamore D.E.W. is celebrated for its triple-distilled smoothness and rich flavor."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "Title": "American Whiskey",
-          "Description": "American whiskey includes several types such as Bourbon, Rye whiskey, Tennessee whiskey, and Corn whiskey, each with unique characteristics and production methods.",
-          "Subsections": [
-            {
-              "Title": "Bourbon",
-              "Description": "Bourbon is a type of American whiskey made primarily from corn and aged in new charred oak barrels.",
-              "Brands": [
-                {
-                  "Brand": "Buffalo Trace",
-                  "Description": "Buffalo Trace is known for its rich, complex bourbon with notes of vanilla and caramel."
-                },
-                {
-                  "Brand": "Maker's Mark",
-                  "Description": "Maker's Mark is recognized for its smooth, sweet bourbon with a distinctive red wax seal."
-                }
-              ]
-            },
-            {
-              "Title": "Rye Whiskey",
-              "Description": "Rye whiskey is made primarily from rye grain and is known for its spicy, robust flavor.",
-              "Brands": [
-                {
-                  "Brand": "Rittenhouse Rye",
-                  "Description": "Rittenhouse Rye is a popular choice for its bold, spicy flavor and versatility in cocktails."
-                },
-                {
-                  "Brand": "Bulleit Rye",
-                  "Description": "Bulleit Rye offers a smooth, spicy profile with a hint of vanilla and caramel."
-                }
-              ]
-            },
-            {
-              "Title": "Tennessee Whiskey",
-              "Description": "Tennessee whiskey is similar to Bourbon but undergoes an additional charcoal filtering process known as the Lincoln County Process.",
-              "Brands": [
-                {
-                  "Brand": "Jack Daniel's",
-                  "Description": "Jack Daniel's is one of the most famous Tennessee whiskeys, known for its smooth, mellow character."
-                },
-                {
-                  "Brand": "George Dickel",
-                  "Description": "George Dickel is known for its refined, balanced flavor and traditional production methods."
-                }
-              ]
-            },
-            {
-              "Title": "Corn Whiskey",
-              "Description": "Corn whiskey is made primarily from corn and is typically unaged or aged in used barrels, resulting in a lighter flavor.",
-              "Brands": [
-                {
-                  "Brand": "Mellow Corn",
-                  "Description": "Mellow Corn is known for its smooth, sweet corn-forward flavor and is often enjoyed neat or in cocktails."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "Title": "Canadian Whisky",
-          "Description": "Canadian whisky is often a blend of grain whiskies and can include a significant proportion of corn whisky. It is known for its smoothness and versatility.",
-          "Subsections": [
-            {
-              "Title": "Blended Canadian Whisky",
-              "Description": "Blended Canadian whisky combines various grain whiskies to create a smooth, versatile spirit.",
-              "Brands": [
-                {
-                  "Brand": "Crown Royal",
-                  "Description": "Crown Royal is a well-known blended Canadian whisky, recognized for its smooth, refined flavor."
-                },
-                {
-                  "Brand": "Forty Creek",
-                  "Description": "Forty Creek offers a range of Canadian whiskies with rich, complex flavors."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "Title": "Japanese Whisky",
-          "Description": "Japanese whisky is influenced by Scotch whisky traditions but often incorporates local ingredients and techniques. It has gained a reputation for its quality and precision.",
-          "Subsections": [
-            {
-              "Title": "Single Malt Japanese Whisky",
-              "Description": "Single malt Japanese whisky is made from malted barley and distilled at a single distillery, often showcasing a delicate, refined flavor.",
-              "Brands": [
-                {
-                  "Brand": "Yamazaki",
-                  "Description": "Yamazaki is known for its elegant, complex single malts with a range of fruity and spicy notes."
-                },
-                {
-                  "Brand": "Hakushu",
-                  "Description": "Hakushu offers a fresh, herbal profile with hints of fruit and smoke."
-                }
-              ]
-            },
-            {
-              "Title": "Blended Japanese Whisky",
-              "Description": "Blended Japanese whisky combines malt and grain whiskies, often resulting in a harmonious, well-balanced spirit.",
-              "Brands": [
-                {
-                  "Brand": "Nikka From The Barrel",
-                  "Description": "Nikka From The Barrel is known for its bold, complex flavors and high proof."
-                },
-                {
-                  "Brand": "Suntory Hibiki",
-                  "Description": "Hibiki is renowned for its smooth, sophisticated blend with rich, harmonious flavors."
+                  "fact": "Types",
+                  "description": "Includes single malt, blended, and grain whiskies."
                 }
               ]
             }
@@ -450,103 +100,453 @@
         }
       ]
     },
-    "Notable_Brands": {
-      "Title": "Notable Whisk(e)y Brands",
-      "Description": "Several whisk(e)y brands are renowned for their quality, heritage, and innovation. These brands represent the diverse landscape of the global whisk(e)y market.",
-      "Brands": [
+    "history": {
+      "title": "History of Whisk(e)y",
+      "description": "The history of whisk(e)y spans thousands of years and includes contributions from various cultures and regions. Its development is closely tied to the evolution of distillation techniques.",
+      "subsections": [
         {
-          "Brand": "Glenfiddich",
-          "Description": "Glenfiddich is a leading single malt Scotch whisky brand known for its wide range of age statements and flavor profiles."
+          "title": "Early Beginnings",
+          "description": "The earliest forms of whisky were produced using basic distillation techniques that date back to ancient civilizations.",
+          "key_facts": [
+            {
+              "date": "Ancient Civilizations",
+              "description": "Distillation techniques were used by ancient Mesopotamians, Egyptians, and Greeks, though not specifically for whisky."
+            },
+            {
+              "date": "Middle Ages",
+              "description": "Distillation knowledge spread to Europe, with early forms of distilled spirits appearing in the 8th to 12th centuries."
+            }
+          ]
         },
         {
-          "Brand": "Jameson",
-          "Description": "Jameson is one of the most famous Irish whiskies, celebrated for its smooth, versatile character."
+          "title": "Development in Scotland and Ireland",
+          "description": "The production of whisky as we know it today began to take shape in Scotland and Ireland during the medieval period.",
+          "key_facts": [
+            {
+              "date": "15th Century",
+              "description": "The first recorded mention of whisky in Scotland was in the 15th century, with whisky production becoming an established industry."
+            },
+            {
+              "date": "17th Century",
+              "description": "The Irish whiskey industry began to develop, with early references to the spirit appearing in historical records."
+            }
+          ]
         },
         {
-          "Brand": "Jack Daniel's",
-          "Description": "Jack Daniel's is a well-known Tennessee whiskey, renowned for its smooth, mellow flavor and iconic branding."
+          "title": "Expansion and Innovation",
+          "description": "The whisky industry expanded globally, with significant innovations in production techniques and styles emerging over the centuries.",
+          "key_facts": [
+            {
+              "date": "18th Century",
+              "description": "The invention of the continuous still revolutionized whisky production, leading to increased efficiency and consistency."
+            },
+            {
+              "date": "19th Century",
+              "description": "Whisky production spread to other regions, including the United States and Canada, with new styles and brands emerging."
+            }
+          ]
         },
         {
-          "Brand": "Yamazaki",
-          "Description": "Yamazaki is a prestigious Japanese whisky brand known for its elegant, complex single malts."
-        },
-        {
-          "Brand": "Crown Royal",
-          "Description": "Crown Royal is a leading Canadian whisky brand, recognized for its smooth, refined blends."
+          "title": "Modern Era",
+          "description": "In the modern era, whisky has continued to evolve, with a focus on premium products, global markets, and sustainable practices.",
+          "key_facts": [
+            {
+              "date": "20th Century",
+              "description": "The whisky industry saw significant growth and diversification, with many new brands and styles entering the market."
+            },
+            {
+              "date": "21st Century",
+              "description": "Whisky remains a popular and diverse spirit, with ongoing innovation and a focus on premium and craft products."
+            }
+          ]
         }
       ]
     },
-    "Cultural_Significance": {
-      "Title": "Cultural Significance of Whisk(e)y",
-      "Description": "Whisk(e)y holds a significant place in global culture, often associated with tradition, celebration, and craftsmanship. Its versatility and rich heritage make it a prominent choice for many occasions.",
-      "Subsections": [
+    "production_methods": {
+      "title": "Production Methods for Whisk(e)y",
+      "description": "The production of whisk(e)y involves several key steps, including mashing, fermenting, distilling, and aging. Each step influences the final flavor and character of the spirit.",
+      "subsections": [
         {
-          "Title": "Whisk(e)y in Society",
-          "Description": "Whisk(e)y is enjoyed across the world, symbolizing celebration, tradition, and craftsmanship.",
-          "Examples": [
+          "title": "Ingredients",
+          "description": "The main ingredients in whisk(e)y are grains, water, and yeast. The type of grain used can significantly affect the flavor profile of the final product.",
+          "key_ingredients": [
             {
-              "Example": "Celebrations",
-              "Description": "Whisk(e)y is often enjoyed at special events, such as weddings, anniversaries, and holidays."
+              "ingredient": "Barley",
+              "description": "Used primarily in Scotch whisky and some other whisk(e)ys, barley contributes to a rich, malty flavor."
             },
             {
-              "Example": "Social Gatherings",
-              "Description": "Whisk(e)y is a popular choice for social gatherings, offering a wide range of styles to suit different tastes."
+              "ingredient": "Corn",
+              "description": "Commonly used in American whiskey, especially Bourbon, corn imparts a sweet, smooth flavor."
+            },
+            {
+              "ingredient": "Rye",
+              "description": "Used in Rye whiskey, rye adds a spicy, robust flavor to the spirit."
+            },
+            {
+              "ingredient": "Wheat",
+              "description": "Wheat is used in some whisk(e)ys to add a softer, sweeter note."
             }
           ]
         },
         {
-          "Title": "Whisk(e)y Cocktails",
-          "Description": "Whisk(e)y is a versatile ingredient in cocktails, adding depth and character to a variety of drinks.",
-          "Key_Cocktails": [
+          "title": "Mashing",
+          "description": "Mashing involves grinding the grains into a coarse powder and mixing it with hot water to convert the starches into fermentable sugars.",
+          "key_steps": [
             {
-              "Cocktail": "Old Fashioned",
-              "Description": "A classic cocktail made with whisky, sugar, bitters, and a twist of citrus peel."
+              "step": "Grinding",
+              "description": "The grains are ground into a coarse powder called grist."
             },
             {
-              "Cocktail": "Manhattan",
-              "Description": "A sophisticated cocktail made with whisky, sweet vermouth, and bitters, typically garnished with a cherry."
+              "step": "Mixing",
+              "description": "The grist is mixed with hot water to create a mash, which is then allowed to ferment."
+            }
+          ]
+        },
+        {
+          "title": "Fermentation",
+          "description": "During fermentation, yeast is added to the mash to convert the sugars into alcohol and produce a liquid known as wash or beer.",
+          "key_steps": [
+            {
+              "step": "Yeast Addition",
+              "description": "Yeast is added to the mash, where it ferments the sugars into alcohol and carbon dioxide."
             },
             {
-              "Cocktail": "Whiskey Sour",
-              "Description": "A refreshing cocktail made with whisky, lemon juice, and simple syrup, shaken and served over ice."
+              "step": "Fermentation",
+              "description": "The fermentation process typically lasts several days and results in a wash with an alcohol content of around 6-8%."
+            }
+          ]
+        },
+        {
+          "title": "Distillation",
+          "description": "Distillation is the process of heating the wash to separate the alcohol from the water and other components, concentrating the alcohol and creating the spirit.",
+          "key_steps": [
+            {
+              "step": "Pot Still Distillation",
+              "description": "Used in traditional whisk(e)y production, pot still distillation involves heating the wash in a copper pot still to separate the alcohol."
+            },
+            {
+              "step": "Column Still Distillation",
+              "description": "Column still distillation, or continuous distillation, is a more efficient process used in modern whisky production."
+            }
+          ]
+        },
+        {
+          "title": "Aging",
+          "description": "Aging involves storing the distilled spirit in wooden barrels, where it develops its flavor and character over time. The type of barrel and length of aging can greatly influence the final product.",
+          "key_steps": [
+            {
+              "step": "Barrel Selection",
+              "description": "The type of wood and previous use of the barrel (e.g., bourbon barrels, sherry casks) affect the flavor profile of the whisky."
+            },
+            {
+              "step": "Aging Duration",
+              "description": "Whisk(e)y is aged for varying lengths of time, with longer aging often resulting in more complex flavors."
             }
           ]
         }
       ]
     },
-    "Modern_Whisk(e)y_Industry": {
-      "Title": "Modern Whisk(e)y Industry",
-      "Description": "The modern whisk(e)y industry is characterized by a blend of tradition and innovation, with producers focusing on quality, diversity, and global markets.",
-      "Subsections": [
+    "types_of_whisk(e)y": {
+      "title": "Types of Whisk(e)y",
+      "description": "Whisk(e)y is classified into various types based on its ingredients, production methods, and regional characteristics.",
+      "subsections": [
         {
-          "Title": "Market Trends",
-          "Description": "Current trends in the whisk(e)y industry include a focus on premium products, craft whiskies, and global expansion.",
-          "Key_Trends": [
+          "title": "Scotch Whisky",
+          "description": "Scotch whisky is produced in Scotland and is renowned for its diverse styles, including single malt, blended malt, and blended Scotch whisky.",
+          "subsections": [
             {
-              "Trend": "Premium Whisk(e)y",
-              "Description": "There is a growing demand for premium and craft whisk(e)ys, with a focus on quality, rarity, and unique flavor profiles."
+              "title": "Single Malt Scotch",
+              "description": "Single malt Scotch whisky is made from malted barley and distilled at a single distillery.",
+              "brands": [
+                {
+                  "brand": "Glenfiddich",
+                  "description": "Glenfiddich is one of the most famous single malt Scotch whiskies, known for its rich, fruity flavors."
+                },
+                {
+                  "brand": "Macallan",
+                  "description": "Macallan is renowned for its sherry cask-aged single malts, offering complex and rich flavors."
+                },
+                {
+                  "brand": "Lagavulin",
+                  "description": "Lagavulin is known for its peaty, smoky flavors, characteristic of Islay single malts."
+                }
+              ]
             },
             {
-              "Trend": "Craft Whisk(e)y",
-              "Description": "Craft distilleries are gaining popularity, offering unique, small-batch whisk(e)ys with distinctive characteristics."
-            },
-            {
-              "Trend": "Global Expansion",
-              "Description": "Whisk(e)y is increasingly recognized and enjoyed worldwide, with growing exports and international markets."
+              "title": "Blended Scotch",
+              "description": "Blended Scotch whisky combines single malts and grain whiskies from different distilleries.",
+              "brands": [
+                {
+                  "brand": "Johnnie Walker",
+                  "description": "Johnnie Walker is one of the most well-known blended Scotch whiskies, offering a range of expressions from Red Label to Blue Label."
+                },
+                {
+                  "brand": "Chivas Regal",
+                  "description": "Chivas Regal is known for its smooth and rich blend, offering a luxurious whisky experience."
+                }
+              ]
             }
           ]
         },
         {
-          "Title": "Notable Innovations",
-          "Description": "Recent innovations in the whisk(e)y industry include new production techniques, experimental aging processes, and creative blends.",
-          "Key_Innovations": [
+          "title": "Irish Whiskey",
+          "description": "Irish whiskey is produced in Ireland and is known for its smooth, approachable flavor, with varieties including single malt, single pot still, and blended whiskey.",
+          "subsections": [
             {
-              "Innovation": "Experimental Aging",
-              "Description": "Some producers are experimenting with different types of barrels and aging conditions to create unique flavor profiles."
+              "title": "Single Malt Irish Whiskey",
+              "description": "Single malt Irish whiskey is made from malted barley and distilled at a single distillery.",
+              "brands": [
+                {
+                  "brand": "Redbreast",
+                  "description": "Redbreast is a highly regarded single malt Irish whiskey known for its rich, full-bodied flavors."
+                },
+                {
+                  "brand": "Bushmills",
+                  "description": "Bushmills offers a range of single malts with smooth, slightly sweet characteristics."
+                }
+              ]
             },
             {
-              "Innovation": "Blending Techniques",
-              "Description": "New blending techniques are being developed to create more complex and nuanced whisk(e)y expressions."
+              "title": "Single Pot Still Irish Whiskey",
+              "description": "Single pot still Irish whiskey is made from a mix of malted and unmalted barley, distilled in a pot still.",
+              "brands": [
+                {
+                  "brand": "Green Spot",
+                  "description": "Green Spot is known for its smooth, spicy profile and complex flavors."
+                },
+                {
+                  "brand": "Redbreast",
+                  "description": "Redbreast is also noted for its single pot still expressions, offering a rich, layered flavor."
+                }
+              ]
+            },
+            {
+              "title": "Blended Irish Whiskey",
+              "description": "Blended Irish whiskey combines malt and grain whiskies from different distilleries.",
+              "brands": [
+                {
+                  "brand": "Jameson",
+                  "description": "Jameson is one of the most famous blended Irish whiskies, known for its smooth and versatile profile."
+                },
+                {
+                  "brand": "Tullamore D.E.W.",
+                  "description": "Tullamore D.E.W. is celebrated for its triple-distilled smoothness and rich flavor."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "American Whiskey",
+          "description": "American whiskey includes several types such as Bourbon, Rye whiskey, Tennessee whiskey, and Corn whiskey, each with unique characteristics and production methods.",
+          "subsections": [
+            {
+              "title": "Bourbon",
+              "description": "Bourbon is a type of American whiskey made primarily from corn and aged in new charred oak barrels.",
+              "brands": [
+                {
+                  "brand": "Buffalo Trace",
+                  "description": "Buffalo Trace is known for its rich, complex bourbon with notes of vanilla and caramel."
+                },
+                {
+                  "brand": "Maker's Mark",
+                  "description": "Maker's Mark is recognized for its smooth, sweet bourbon with a distinctive red wax seal."
+                }
+              ]
+            },
+            {
+              "title": "Rye Whiskey",
+              "description": "Rye whiskey is made primarily from rye grain and is known for its spicy, robust flavor.",
+              "brands": [
+                {
+                  "brand": "Rittenhouse Rye",
+                  "description": "Rittenhouse Rye is a popular choice for its bold, spicy flavor and versatility in cocktails."
+                },
+                {
+                  "brand": "Bulleit Rye",
+                  "description": "Bulleit Rye offers a smooth, spicy profile with a hint of vanilla and caramel."
+                }
+              ]
+            },
+            {
+              "title": "Tennessee Whiskey",
+              "description": "Tennessee whiskey is similar to Bourbon but undergoes an additional charcoal filtering process known as the Lincoln County Process.",
+              "brands": [
+                {
+                  "brand": "Jack Daniel's",
+                  "description": "Jack Daniel's is one of the most famous Tennessee whiskeys, known for its smooth, mellow character."
+                },
+                {
+                  "brand": "George Dickel",
+                  "description": "George Dickel is known for its refined, balanced flavor and traditional production methods."
+                }
+              ]
+            },
+            {
+              "title": "Corn Whiskey",
+              "description": "Corn whiskey is made primarily from corn and is typically unaged or aged in used barrels, resulting in a lighter flavor.",
+              "brands": [
+                {
+                  "brand": "Mellow Corn",
+                  "description": "Mellow Corn is known for its smooth, sweet corn-forward flavor and is often enjoyed neat or in cocktails."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Canadian Whisky",
+          "description": "Canadian whisky is often a blend of grain whiskies and can include a significant proportion of corn whisky. It is known for its smoothness and versatility.",
+          "subsections": [
+            {
+              "title": "Blended Canadian Whisky",
+              "description": "Blended Canadian whisky combines various grain whiskies to create a smooth, versatile spirit.",
+              "brands": [
+                {
+                  "brand": "Crown Royal",
+                  "description": "Crown Royal is a well-known blended Canadian whisky, recognized for its smooth, refined flavor."
+                },
+                {
+                  "brand": "Forty Creek",
+                  "description": "Forty Creek offers a range of Canadian whiskies with rich, complex flavors."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Japanese Whisky",
+          "description": "Japanese whisky is influenced by Scotch whisky traditions but often incorporates local ingredients and techniques. It has gained a reputation for its quality and precision.",
+          "subsections": [
+            {
+              "title": "Single Malt Japanese Whisky",
+              "description": "Single malt Japanese whisky is made from malted barley and distilled at a single distillery, often showcasing a delicate, refined flavor.",
+              "brands": [
+                {
+                  "brand": "Yamazaki",
+                  "description": "Yamazaki is known for its elegant, complex single malts with a range of fruity and spicy notes."
+                },
+                {
+                  "brand": "Hakushu",
+                  "description": "Hakushu offers a fresh, herbal profile with hints of fruit and smoke."
+                }
+              ]
+            },
+            {
+              "title": "Blended Japanese Whisky",
+              "description": "Blended Japanese whisky combines malt and grain whiskies, often resulting in a harmonious, well-balanced spirit.",
+              "brands": [
+                {
+                  "brand": "Nikka From The Barrel",
+                  "description": "Nikka From The Barrel is known for its bold, complex flavors and high proof."
+                },
+                {
+                  "brand": "Suntory Hibiki",
+                  "description": "Hibiki is renowned for its smooth, sophisticated blend with rich, harmonious flavors."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "notable_brands": {
+      "title": "Notable Whisk(e)y Brands",
+      "description": "Several whisk(e)y brands are renowned for their quality, heritage, and innovation. These brands represent the diverse landscape of the global whisk(e)y market.",
+      "brands": [
+        {
+          "brand": "Glenfiddich",
+          "description": "Glenfiddich is a leading single malt Scotch whisky brand known for its wide range of age statements and flavor profiles."
+        },
+        {
+          "brand": "Jameson",
+          "description": "Jameson is one of the most famous Irish whiskies, celebrated for its smooth, versatile character."
+        },
+        {
+          "brand": "Jack Daniel's",
+          "description": "Jack Daniel's is a well-known Tennessee whiskey, renowned for its smooth, mellow flavor and iconic branding."
+        },
+        {
+          "brand": "Yamazaki",
+          "description": "Yamazaki is a prestigious Japanese whisky brand known for its elegant, complex single malts."
+        },
+        {
+          "brand": "Crown Royal",
+          "description": "Crown Royal is a leading Canadian whisky brand, recognized for its smooth, refined blends."
+        }
+      ]
+    },
+    "cultural_significance": {
+      "title": "Cultural Significance of Whisk(e)y",
+      "description": "Whisk(e)y holds a significant place in global culture, often associated with tradition, celebration, and craftsmanship. Its versatility and rich heritage make it a prominent choice for many occasions.",
+      "subsections": [
+        {
+          "title": "Whisk(e)y in Society",
+          "description": "Whisk(e)y is enjoyed across the world, symbolizing celebration, tradition, and craftsmanship.",
+          "examples": [
+            {
+              "example": "Celebrations",
+              "description": "Whisk(e)y is often enjoyed at special events, such as weddings, anniversaries, and holidays."
+            },
+            {
+              "example": "Social Gatherings",
+              "description": "Whisk(e)y is a popular choice for social gatherings, offering a wide range of styles to suit different tastes."
+            }
+          ]
+        },
+        {
+          "title": "Whisk(e)y Cocktails",
+          "description": "Whisk(e)y is a versatile ingredient in cocktails, adding depth and character to a variety of drinks.",
+          "key_cocktails": [
+            {
+              "cocktail": "Old Fashioned",
+              "description": "A classic cocktail made with whisky, sugar, bitters, and a twist of citrus peel."
+            },
+            {
+              "cocktail": "Manhattan",
+              "description": "A sophisticated cocktail made with whisky, sweet vermouth, and bitters, typically garnished with a cherry."
+            },
+            {
+              "cocktail": "Whiskey Sour",
+              "description": "A refreshing cocktail made with whisky, lemon juice, and simple syrup, shaken and served over ice."
+            }
+          ]
+        }
+      ]
+    },
+    "modern_whisk(e)y_industry": {
+      "title": "Modern Whisk(e)y Industry",
+      "description": "The modern whisk(e)y industry is characterized by a blend of tradition and innovation, with producers focusing on quality, diversity, and global markets.",
+      "subsections": [
+        {
+          "title": "Market Trends",
+          "description": "Current trends in the whisk(e)y industry include a focus on premium products, craft whiskies, and global expansion.",
+          "key_trends": [
+            {
+              "trend": "Premium Whisk(e)y",
+              "description": "There is a growing demand for premium and craft whisk(e)ys, with a focus on quality, rarity, and unique flavor profiles."
+            },
+            {
+              "trend": "Craft Whisk(e)y",
+              "description": "Craft distilleries are gaining popularity, offering unique, small-batch whisk(e)ys with distinctive characteristics."
+            },
+            {
+              "trend": "Global Expansion",
+              "description": "Whisk(e)y is increasingly recognized and enjoyed worldwide, with growing exports and international markets."
+            }
+          ]
+        },
+        {
+          "title": "Notable Innovations",
+          "description": "Recent innovations in the whisk(e)y industry include new production techniques, experimental aging processes, and creative blends.",
+          "key_innovations": [
+            {
+              "innovation": "Experimental Aging",
+              "description": "Some producers are experimenting with different types of barrels and aging conditions to create unique flavor profiles."
+            },
+            {
+              "innovation": "Blending Techniques",
+              "description": "New blending techniques are being developed to create more complex and nuanced whisk(e)y expressions."
             }
           ]
         }

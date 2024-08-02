@@ -1,152 +1,152 @@
 {
-  "Ingredients": {
-    "Title": "Ingredients",
-    "Description": "This section provides detailed information about various non-alcoholic ingredients used in the bar and bartending industry. It includes juices, fruits, herbs, vegetables, dairy products, sodas, ice, and garnishes, detailing their uses, origins, and specific characteristics.",
-    "Subsections": [
+  "ingredients": {
+    "title": "Ingredients",
+    "description": "This section provides detailed information about various non-alcoholic ingredients used in the bar and bartending industry. It includes juices, fruits, herbs, vegetables, dairy products, sodas, ice, and garnishes, detailing their uses, origins, and specific characteristics.",
+    "subsections": [
       {
-        "Title": "Juices",
-        "Description": "Juices are fundamental ingredients in cocktails and other beverages, providing flavor, sweetness, and acidity. This section covers various types of juices, their best uses, and tips for freshness.",
-        "Types": [
+        "title": "Juices",
+        "description": "Juices are fundamental ingredients in cocktails and other beverages, providing flavor, sweetness, and acidity. This section covers various types of juices, their best uses, and tips for freshness.",
+        "types": [
           {
-            "Name": "Citrus Juices",
-            "Description": "Citrus juices are commonly used in cocktails for their bright, tangy flavors and acidity. They are essential in many classic cocktails and are often used fresh for the best flavor.",
-            "Examples": [
+            "name": "Citrus Juices",
+            "description": "Citrus juices are commonly used in cocktails for their bright, tangy flavors and acidity. They are essential in many classic cocktails and are often used fresh for the best flavor.",
+            "examples": [
               {
-                "Name": "Lemon Juice",
-                "Origin": "Lemon trees are believed to have originated in Asia, particularly India and China.",
-                "Sugar_Content": "1-2% (very low)",
-                "pH": "2.0-3.0 (highly acidic)",
-                "Uses": [
+                "name": "Lemon Juice",
+                "origin": "Lemon trees are believed to have originated in Asia, particularly India and China.",
+                "sugar_content": "1-2% (very low)",
+                "ph": "2.0-3.0 (highly acidic)",
+                "uses": [
                   "Classic cocktails such as the Whiskey Sour and Tom Collins.",
                   "As a souring agent in culinary dishes.",
                   "To balance sweetness in various drinks."
                 ],
-                "Best_Used_Fresh": "For optimal flavor and acidity, use freshly squeezed lemon juice rather than bottled."
+                "best_used_fresh": "For optimal flavor and acidity, use freshly squeezed lemon juice rather than bottled."
               },
               {
-                "Name": "Lime Juice",
-                "Origin": "Limes are believed to have originated in Southeast Asia.",
-                "Sugar_Content": "1-2% (very low)",
-                "pH": "2.0-2.5 (highly acidic)",
-                "Uses": [
+                "name": "Lime Juice",
+                "origin": "Limes are believed to have originated in Southeast Asia.",
+                "sugar_content": "1-2% (very low)",
+                "ph": "2.0-2.5 (highly acidic)",
+                "uses": [
                   "Key ingredient in cocktails like the Margarita and Daiquiri.",
                   "As a tangy addition to salsas and marinades.",
                   "To add acidity and brightness to mixed drinks."
                 ],
-                "Best_Used_Fresh": "Freshly squeezed lime juice provides the best flavor and acidity."
+                "best_used_fresh": "Freshly squeezed lime juice provides the best flavor and acidity."
               },
               {
-                "Name": "Orange Juice",
-                "Origin": "Oranges are thought to have originated in Southeast Asia.",
-                "Sugar_Content": "8-10%",
-                "pH": "3.0-4.0 (moderately acidic)",
-                "Uses": [
+                "name": "Orange Juice",
+                "origin": "Oranges are thought to have originated in Southeast Asia.",
+                "sugar_content": "8-10%",
+                "ph": "3.0-4.0 (moderately acidic)",
+                "uses": [
                   "Popular in cocktails like the Mimosa and Screwdriver.",
                   "As a base for tropical drinks and smoothies.",
                   "To add sweetness and citrus flavor to various beverages."
                 ],
-                "Best_Used_Fresh": "Freshly squeezed orange juice is preferred for its vibrant flavor and reduced oxidation."
+                "best_used_fresh": "Freshly squeezed orange juice is preferred for its vibrant flavor and reduced oxidation."
               }
             ]
           },
           {
-            "Name": "Berry Juices",
-            "Description": "Berry juices are used for their rich flavors and colors, adding complexity and visual appeal to cocktails.",
-            "Examples": [
+            "name": "Berry Juices",
+            "description": "Berry juices are used for their rich flavors and colors, adding complexity and visual appeal to cocktails.",
+            "examples": [
               {
-                "Name": "Cranberry Juice",
-                "Origin": "Cranberries are native to North America.",
-                "Sugar_Content": "10-12%",
-                "pH": "2.3-2.5 (highly acidic)",
-                "Uses": [
+                "name": "Cranberry Juice",
+                "origin": "Cranberries are native to North America.",
+                "sugar_content": "10-12%",
+                "ph": "2.3-2.5 (highly acidic)",
+                "uses": [
                   "Essential in cocktails like the Cosmopolitan and Sea Breeze.",
                   "As a tart ingredient in culinary dishes and sauces.",
                   "To add a vibrant red color and tangy flavor to drinks."
                 ],
-                "Best_Used_Fresh": "Fresh cranberry juice is often preferred for its sharp flavor and health benefits."
+                "best_used_fresh": "Fresh cranberry juice is often preferred for its sharp flavor and health benefits."
               },
               {
-                "Name": "Raspberry Juice",
-                "Origin": "Raspberries are native to Europe and North America.",
-                "Sugar_Content": "4-5%",
-                "pH": "3.0-3.5 (moderately acidic)",
-                "Uses": [
+                "name": "Raspberry Juice",
+                "origin": "Raspberries are native to Europe and North America.",
+                "sugar_content": "4-5%",
+                "ph": "3.0-3.5 (moderately acidic)",
+                "uses": [
                   "Used in cocktails like the Raspberry Mojito and Raspberry Martini.",
                   "As a sweet and tart ingredient in desserts and sauces.",
                   "To add a rich, fruity flavor to beverages."
                 ],
-                "Best_Used_Fresh": "Fresh raspberry juice provides a more intense flavor and color."
+                "best_used_fresh": "Fresh raspberry juice provides a more intense flavor and color."
               }
             ]
           },
           {
-            "Name": "Vegetable Juices",
-            "Description": "Vegetable juices are used for their unique flavors and health benefits, often used in savory cocktails and mocktails.",
-            "Examples": [
+            "name": "Vegetable Juices",
+            "description": "Vegetable juices are used for their unique flavors and health benefits, often used in savory cocktails and mocktails.",
+            "examples": [
               {
-                "Name": "Tomato Juice",
-                "Origin": "Tomatoes are native to western South America.",
-                "Sugar_Content": "3-4%",
-                "pH": "4.3-4.9 (mildly acidic)",
-                "Uses": [
+                "name": "Tomato Juice",
+                "origin": "Tomatoes are native to western South America.",
+                "sugar_content": "3-4%",
+                "ph": "4.3-4.9 (mildly acidic)",
+                "uses": [
                   "Key ingredient in cocktails like the Bloody Mary.",
                   "As a base for savory drinks and soups.",
                   "To add depth and umami to mixed drinks."
                 ],
-                "Best_Used_Fresh": "Freshly made tomato juice is preferred for its vibrant flavor and nutritional benefits."
+                "best_used_fresh": "Freshly made tomato juice is preferred for its vibrant flavor and nutritional benefits."
               },
               {
-                "Name": "Carrot Juice",
-                "Origin": "Carrots are believed to have originated in Persia (modern-day Iran and Afghanistan).",
-                "Sugar_Content": "4-6%",
-                "pH": "4.9-5.3 (mildly acidic)",
-                "Uses": [
+                "name": "Carrot Juice",
+                "origin": "Carrots are believed to have originated in Persia (modern-day Iran and Afghanistan).",
+                "sugar_content": "4-6%",
+                "ph": "4.9-5.3 (mildly acidic)",
+                "uses": [
                   "Used in cocktails like the Carrot Margarita.",
                   "As a sweet and earthy addition to smoothies and juices.",
                   "To add a natural sweetness and rich color to drinks."
                 ],
-                "Best_Used_Fresh": "Fresh carrot juice provides the most flavor and nutrients."
+                "best_used_fresh": "Fresh carrot juice provides the most flavor and nutrients."
               }
             ]
           }
         ]
       },
       {
-        "Title": "Fruits",
-        "Description": "Fruits are a versatile ingredient in cocktails, providing sweetness, acidity, and flavor. This section covers various fruits used in beverages, including their origins, sugar content, and usage.",
-        "Types": [
+        "title": "Fruits",
+        "description": "Fruits are a versatile ingredient in cocktails, providing sweetness, acidity, and flavor. This section covers various fruits used in beverages, including their origins, sugar content, and usage.",
+        "types": [
           {
-            "Name": "Citrus Fruits",
-            "Description": "Citrus fruits are widely used for their tangy flavor and high acidity. They are essential in many cocktails and often used fresh.",
-            "Examples": [
+            "name": "Citrus Fruits",
+            "description": "Citrus fruits are widely used for their tangy flavor and high acidity. They are essential in many cocktails and often used fresh.",
+            "examples": [
               {
-                "Name": "Lemon",
-                "Origin": "Lemons are believed to have originated in Asia, particularly India and China.",
-                "Sugar_Content": "1-2%",
-                "pH": "2.0-3.0",
-                "Uses": [
+                "name": "Lemon",
+                "origin": "Lemons are believed to have originated in Asia, particularly India and China.",
+                "sugar_content": "1-2%",
+                "ph": "2.0-3.0",
+                "uses": [
                   "Used in cocktails like the Lemon Drop Martini and Lemonade.",
                   "As a garnish and flavor enhancer in a variety of drinks.",
                   "In culinary applications for its acidic flavor."
                 ]
               },
               {
-                "Name": "Lime",
-                "Origin": "Limes are believed to have originated in Southeast Asia.",
-                "Sugar_Content": "1-2%",
-                "pH": "2.0-2.5",
-                "Uses": [
+                "name": "Lime",
+                "origin": "Limes are believed to have originated in Southeast Asia.",
+                "sugar_content": "1-2%",
+                "ph": "2.0-2.5",
+                "uses": [
                   "Essential in cocktails like the Margarita and Mojito.",
                   "To add a tangy flavor to a variety of beverages and dishes.",
                   "As a garnish and in flavored syrups."
                 ]
               },
               {
-                "Name": "Orange",
-                "Origin": "Oranges are thought to have originated in Southeast Asia.",
-                "Sugar_Content": "8-10%",
-                "pH": "3.0-4.0",
-                "Uses": [
+                "name": "Orange",
+                "origin": "Oranges are thought to have originated in Southeast Asia.",
+                "sugar_content": "8-10%",
+                "ph": "3.0-4.0",
+                "uses": [
                   "Used in cocktails like the Screwdriver and Mimosa.",
                   "In juices, smoothies, and as a garnish.",
                   "In various culinary dishes and sauces."
@@ -155,26 +155,26 @@
             ]
           },
           {
-            "Name": "Berries",
-            "Description": "Berries are used for their vibrant colors and rich flavors, adding both sweetness and tartness to cocktails.",
-            "Examples": [
+            "name": "Berries",
+            "description": "Berries are used for their vibrant colors and rich flavors, adding both sweetness and tartness to cocktails.",
+            "examples": [
               {
-                "Name": "Strawberry",
-                "Origin": "Strawberries are native to Europe and North America.",
-                "Sugar_Content": "4-5%",
-                "pH": "3.0-3.5",
-                "Uses": [
+                "name": "Strawberry",
+                "origin": "Strawberries are native to Europe and North America.",
+                "sugar_content": "4-5%",
+                "ph": "3.0-3.5",
+                "uses": [
                   "In cocktails like the Strawberry Daiquiri and Strawberry Mojito.",
                   "As a garnish and in syrups.",
                   "In desserts and fruit salads."
                 ]
               },
               {
-                "Name": "Raspberry",
-                "Origin": "Raspberries are native to Europe and North America.",
-                "Sugar_Content": "4-5%",
-                "pH": "3.0-3.5",
-                "Uses": [
+                "name": "Raspberry",
+                "origin": "Raspberries are native to Europe and North America.",
+                "sugar_content": "4-5%",
+                "ph": "3.0-3.5",
+                "uses": [
                   "Used in cocktails like the Raspberry Martini and Raspberry Mojito.",
                   "In syrups, sauces, and desserts.",
                   "As a garnish and in mixed drinks."
@@ -183,26 +183,26 @@
             ]
           },
           {
-            "Name": "Tropical Fruits",
-            "Description": "Tropical fruits bring exotic flavors and sweetness to cocktails, often used in both fresh and juiced forms.",
-            "Examples": [
+            "name": "Tropical Fruits",
+            "description": "Tropical fruits bring exotic flavors and sweetness to cocktails, often used in both fresh and juiced forms.",
+            "examples": [
               {
-                "Name": "Pineapple",
-                "Origin": "Pineapples are native to South America, particularly Brazil and Paraguay.",
-                "Sugar_Content": "10-15%",
-                "pH": "3.0-4.0",
-                "Uses": [
+                "name": "Pineapple",
+                "origin": "Pineapples are native to South America, particularly Brazil and Paraguay.",
+                "sugar_content": "10-15%",
+                "ph": "3.0-4.0",
+                "uses": [
                   "In cocktails like the Piña Colada and Mai Tai.",
                   "As a fresh fruit in tropical drinks and garnishes.",
                   "In syrups and fruit salads."
                 ]
               },
               {
-                "Name": "Mango",
-                "Origin": "Mangoes are believed to have originated in South Asia.",
-                "Sugar_Content": "14-20%",
-                "pH": "3.4-4.8",
-                "Uses": [
+                "name": "Mango",
+                "origin": "Mangoes are believed to have originated in South Asia.",
+                "sugar_content": "14-20%",
+                "ph": "3.4-4.8",
+                "uses": [
                   "In cocktails like the Mango Margarita and Mango Daiquiri.",
                   "As a fresh fruit in smoothies and fruit salads.",
                   "In syrups and flavored spirits."
@@ -213,26 +213,26 @@
         ]
       },
       {
-        "Title": "Herbs",
-        "Description": "Herbs add fresh and aromatic flavors to cocktails and other beverages. They are used for their distinctive tastes and often as garnishes.",
-        "Types": [
+        "title": "Herbs",
+        "description": "Herbs add fresh and aromatic flavors to cocktails and other beverages. They are used for their distinctive tastes and often as garnishes.",
+        "types": [
           {
-            "Name": "Mint",
-            "Description": "Mint is widely used for its refreshing flavor and aromatic qualities, commonly found in many classic cocktails.",
-            "Examples": [
+            "name": "Mint",
+            "description": "Mint is widely used for its refreshing flavor and aromatic qualities, commonly found in many classic cocktails.",
+            "examples": [
               {
-                "Name": "Spearmint",
-                "Origin": "Spearmint is native to Europe and Asia.",
-                "Uses": [
+                "name": "Spearmint",
+                "origin": "Spearmint is native to Europe and Asia.",
+                "uses": [
                   "In cocktails like the Mojito and Mint Julep.",
                   "As a garnish and in fresh syrups.",
                   "In culinary dishes for added freshness."
                 ]
               },
               {
-                "Name": "Peppermint",
-                "Origin": "Peppermint is native to Europe and the Middle East.",
-                "Uses": [
+                "name": "Peppermint",
+                "origin": "Peppermint is native to Europe and the Middle East.",
+                "uses": [
                   "In cocktails like the Peppermint Martini and Mint Mojito.",
                   "As a garnish and in liqueurs.",
                   "In culinary applications for a strong mint flavor."
@@ -241,13 +241,13 @@
             ]
           },
           {
-            "Name": "Basil",
-            "Description": "Basil provides a sweet and slightly spicy flavor, often used in cocktails for its unique taste.",
-            "Examples": [
+            "name": "Basil",
+            "description": "Basil provides a sweet and slightly spicy flavor, often used in cocktails for its unique taste.",
+            "examples": [
               {
-                "Name": "Sweet Basil",
-                "Origin": "Sweet Basil is native to India and other parts of Asia.",
-                "Uses": [
+                "name": "Sweet Basil",
+                "origin": "Sweet Basil is native to India and other parts of Asia.",
+                "uses": [
                   "In cocktails like the Basil Smash and in flavored syrups.",
                   "As a garnish in fresh cocktails and dishes.",
                   "In culinary applications for its aromatic flavor."
@@ -256,13 +256,13 @@
             ]
           },
           {
-            "Name": "Rosemary",
-            "Description": "Rosemary adds a pine-like flavor and aromatic quality to cocktails, often used in both fresh and infused forms.",
-            "Examples": [
+            "name": "Rosemary",
+            "description": "Rosemary adds a pine-like flavor and aromatic quality to cocktails, often used in both fresh and infused forms.",
+            "examples": [
               {
-                "Name": "Rosemary",
-                "Origin": "Rosemary is native to the Mediterranean region.",
-                "Uses": [
+                "name": "Rosemary",
+                "origin": "Rosemary is native to the Mediterranean region.",
+                "uses": [
                   "In cocktails like the Rosemary Gin Fizz and Rosemary Mule.",
                   "As a garnish and in infused syrups.",
                   "In culinary applications for its aromatic qualities."
@@ -273,17 +273,17 @@
         ]
       },
       {
-        "Title": "Vegetables",
-        "Description": "Vegetables are used in cocktails and beverages for their unique flavors and health benefits. They are often juiced or used fresh.",
-        "Types": [
+        "title": "Vegetables",
+        "description": "Vegetables are used in cocktails and beverages for their unique flavors and health benefits. They are often juiced or used fresh.",
+        "types": [
           {
-            "Name": "Cucumbers",
-            "Description": "Cucumbers provide a crisp, refreshing flavor and are commonly used in both cocktails and mocktails.",
-            "Examples": [
+            "name": "Cucumbers",
+            "description": "Cucumbers provide a crisp, refreshing flavor and are commonly used in both cocktails and mocktails.",
+            "examples": [
               {
-                "Name": "Cucumber",
-                "Origin": "Cucumbers are believed to have originated in India.",
-                "Uses": [
+                "name": "Cucumber",
+                "origin": "Cucumbers are believed to have originated in India.",
+                "uses": [
                   "In cocktails like the Cucumber Cooler and Cucumber Gin Fizz.",
                   "As a garnish and in infused waters.",
                   "In culinary applications for its refreshing taste."
@@ -292,13 +292,13 @@
             ]
           },
           {
-            "Name": "Celery",
-            "Description": "Celery adds a crisp, mildly peppery flavor to cocktails and is often used as a garnish or juice.",
-            "Examples": [
+            "name": "Celery",
+            "description": "Celery adds a crisp, mildly peppery flavor to cocktails and is often used as a garnish or juice.",
+            "examples": [
               {
-                "Name": "Celery",
-                "Origin": "Celery is believed to have originated in the Mediterranean region.",
-                "Uses": [
+                "name": "Celery",
+                "origin": "Celery is believed to have originated in the Mediterranean region.",
+                "uses": [
                   "In cocktails like the Bloody Mary and Celery Gimlet.",
                   "As a garnish and in savory drinks.",
                   "In culinary dishes for its crunchy texture."
@@ -309,26 +309,26 @@
         ]
       },
       {
-        "Title": "Dairy",
-        "Description": "Dairy products are used in cocktails and other beverages for their creamy texture and rich flavor. They are often used in both traditional and innovative drinks.",
-        "Types": [
+        "title": "Dairy",
+        "description": "Dairy products are used in cocktails and other beverages for their creamy texture and rich flavor. They are often used in both traditional and innovative drinks.",
+        "types": [
           {
-            "Name": "Milk",
-            "Description": "Milk is used in a variety of cocktails for its creamy texture and neutral flavor.",
-            "Examples": [
+            "name": "Milk",
+            "description": "Milk is used in a variety of cocktails for its creamy texture and neutral flavor.",
+            "examples": [
               {
-                "Name": "Whole Milk",
-                "Origin": "Whole milk is derived from cows and has been consumed globally.",
-                "Uses": [
+                "name": "Whole Milk",
+                "origin": "Whole milk is derived from cows and has been consumed globally.",
+                "uses": [
                   "In cocktails like the White Russian and Creamsicle Martini.",
                   "As a base for creamy beverages and milkshakes.",
                   "In culinary applications for its rich texture."
                 ]
               },
               {
-                "Name": "Almond Milk",
-                "Origin": "Almond milk is made from almonds and is a popular dairy alternative.",
-                "Uses": [
+                "name": "Almond Milk",
+                "origin": "Almond milk is made from almonds and is a popular dairy alternative.",
+                "uses": [
                   "In cocktails like the Almond Joy Martini and in dairy-free drinks.",
                   "As a substitute for dairy milk in various beverages and recipes.",
                   "In smoothies and desserts for a nutty flavor."
@@ -337,13 +337,13 @@
             ]
           },
           {
-            "Name": "Cream",
-            "Description": "Cream adds a rich, smooth texture to cocktails, often used in both sweet and savory drinks.",
-            "Examples": [
+            "name": "Cream",
+            "description": "Cream adds a rich, smooth texture to cocktails, often used in both sweet and savory drinks.",
+            "examples": [
               {
-                "Name": "Heavy Cream",
-                "Origin": "Heavy cream is derived from the fatty part of milk.",
-                "Uses": [
+                "name": "Heavy Cream",
+                "origin": "Heavy cream is derived from the fatty part of milk.",
+                "uses": [
                   "In cocktails like the Brandy Alexander and Irish Coffee.",
                   "As a base for creamy liqueurs and desserts.",
                   "In culinary applications for its richness and texture."
@@ -354,17 +354,17 @@
         ]
       },
       {
-        "Title": "Sodas",
-        "Description": "Sodas are carbonated beverages that add fizz and flavor to cocktails. They are often used as mixers or enjoyed on their own.",
-        "Types": [
+        "title": "Sodas",
+        "description": "Sodas are carbonated beverages that add fizz and flavor to cocktails. They are often used as mixers or enjoyed on their own.",
+        "types": [
           {
-            "Name": "Club Soda",
-            "Description": "Club soda is carbonated water with added minerals, used as a mixer in cocktails for its neutral flavor and effervescence.",
-            "Examples": [
+            "name": "Club Soda",
+            "description": "Club soda is carbonated water with added minerals, used as a mixer in cocktails for its neutral flavor and effervescence.",
+            "examples": [
               {
-                "Name": "Schweppes Club Soda",
-                "Origin": "A well-known brand of club soda, originating in the UK.",
-                "Uses": [
+                "name": "Schweppes Club Soda",
+                "origin": "A well-known brand of club soda, originating in the UK.",
+                "uses": [
                   "In cocktails like the Tom Collins and Gin and Tonic.",
                   "As a mixer for various drinks and to add effervescence."
                 ]
@@ -372,13 +372,13 @@
             ]
           },
           {
-            "Name": "Tonic Water",
-            "Description": "Tonic water is carbonated water with added quinine and sweeteners, providing a distinctive bitter flavor.",
-            "Examples": [
+            "name": "Tonic Water",
+            "description": "Tonic water is carbonated water with added quinine and sweeteners, providing a distinctive bitter flavor.",
+            "examples": [
               {
-                "Name": "Fever-Tree Tonic Water",
-                "Origin": "A premium tonic water brand known for its high-quality ingredients.",
-                "Uses": [
+                "name": "Fever-Tree Tonic Water",
+                "origin": "A premium tonic water brand known for its high-quality ingredients.",
+                "uses": [
                   "In cocktails like the Gin and Tonic.",
                   "As a mixer to add a bitter flavor to drinks."
                 ]
@@ -386,13 +386,13 @@
             ]
           },
           {
-            "Name": "Ginger Ale",
-            "Description": "Ginger ale is a carbonated soft drink flavored with ginger, providing a spicy and sweet flavor.",
-            "Examples": [
+            "name": "Ginger Ale",
+            "description": "Ginger ale is a carbonated soft drink flavored with ginger, providing a spicy and sweet flavor.",
+            "examples": [
               {
-                "Name": "Canada Dry Ginger Ale",
-                "Origin": "A popular brand of ginger ale originating in Canada.",
-                "Uses": [
+                "name": "Canada Dry Ginger Ale",
+                "origin": "A popular brand of ginger ale originating in Canada.",
+                "uses": [
                   "In cocktails like the Moscow Mule and Dark 'n' Stormy.",
                   "As a mixer and a refreshing beverage on its own."
                 ]
@@ -402,16 +402,16 @@
         ]
       },
       {
-        "Title": "Ice",
-        "Description": "Ice is used to chill and dilute cocktails, affecting both the temperature and texture of drinks.",
-        "Types": [
+        "title": "Ice",
+        "description": "Ice is used to chill and dilute cocktails, affecting both the temperature and texture of drinks.",
+        "types": [
           {
-            "Name": "Cubed Ice",
-            "Description": "Cubed ice is the most common form of ice used in cocktails, providing a consistent cooling effect.",
-            "Examples": [
+            "name": "Cubed Ice",
+            "description": "Cubed ice is the most common form of ice used in cocktails, providing a consistent cooling effect.",
+            "examples": [
               {
-                "Name": "Standard Ice Cubes",
-                "Uses": [
+                "name": "Standard Ice Cubes",
+                "uses": [
                   "In a wide range of cocktails to chill and dilute the drink.",
                   "As a base for ice buckets and coolers."
                 ]
@@ -419,12 +419,12 @@
             ]
           },
           {
-            "Name": "Crushed Ice",
-            "Description": "Crushed ice is used for its ability to chill drinks quickly and its texture, which can be ideal for certain cocktails.",
-            "Examples": [
+            "name": "Crushed Ice",
+            "description": "Crushed ice is used for its ability to chill drinks quickly and its texture, which can be ideal for certain cocktails.",
+            "examples": [
               {
-                "Name": "Crushed Ice",
-                "Uses": [
+                "name": "Crushed Ice",
+                "uses": [
                   "In cocktails like the Mint Julep and Mai Tai.",
                   "For slushy or frozen drinks."
                 ]
@@ -434,23 +434,23 @@
         ]
       },
       {
-        "Title": "Garnishes",
-        "Description": "Garnishes are decorative elements used to enhance the presentation and flavor of cocktails. They can include fruits, herbs, and other items.",
-        "Types": [
+        "title": "Garnishes",
+        "description": "Garnishes are decorative elements used to enhance the presentation and flavor of cocktails. They can include fruits, herbs, and other items.",
+        "types": [
           {
-            "Name": "Citrus Peels",
-            "Description": "Citrus peels are often used as a garnish for their aromatic qualities and visual appeal.",
-            "Examples": [
+            "name": "Citrus Peels",
+            "description": "Citrus peels are often used as a garnish for their aromatic qualities and visual appeal.",
+            "examples": [
               {
-                "Name": "Lemon Peel",
-                "Uses": [
+                "name": "Lemon Peel",
+                "uses": [
                   "In cocktails like the Martini and Old Fashioned.",
                   "To add a fresh citrus aroma and a hint of flavor."
                 ]
               },
               {
-                "Name": "Orange Peel",
-                "Uses": [
+                "name": "Orange Peel",
+                "uses": [
                   "In cocktails like the Negroni and Manhattan.",
                   "To provide a fragrant citrus aroma and a touch of bitterness."
                 ]
@@ -458,19 +458,19 @@
             ]
           },
           {
-            "Name": "Herb Sprigs",
-            "Description": "Herb sprigs add a fresh, aromatic touch to cocktails, enhancing both appearance and flavor.",
-            "Examples": [
+            "name": "Herb Sprigs",
+            "description": "Herb sprigs add a fresh, aromatic touch to cocktails, enhancing both appearance and flavor.",
+            "examples": [
               {
-                "Name": "Mint Sprig",
-                "Uses": [
+                "name": "Mint Sprig",
+                "uses": [
                   "In cocktails like the Mojito and Mint Julep.",
                   "As a garnish to add freshness and visual appeal."
                 ]
               },
               {
-                "Name": "Rosemary Sprig",
-                "Uses": [
+                "name": "Rosemary Sprig",
+                "uses": [
                   "In cocktails like the Rosemary Mule and Gin Fizz.",
                   "To add a pine-like aroma and a decorative element."
                 ]
@@ -478,19 +478,19 @@
             ]
           },
           {
-            "Name": "Edible Flowers",
-            "Description": "Edible flowers are used for their vibrant colors and delicate flavors, adding a decorative touch to cocktails.",
-            "Examples": [
+            "name": "Edible Flowers",
+            "description": "Edible flowers are used for their vibrant colors and delicate flavors, adding a decorative touch to cocktails.",
+            "examples": [
               {
-                "Name": "Violets",
-                "Uses": [
+                "name": "Violets",
+                "uses": [
                   "In cocktails like the Violet Martini.",
                   "To add a pop of color and a subtle floral note."
                 ]
               },
               {
-                "Name": "Elderflowers",
-                "Uses": [
+                "name": "Elderflowers",
+                "uses": [
                   "In cocktails like the Elderflower Collins.",
                   "For their delicate floral aroma and flavor."
                 ]

@@ -1,590 +1,590 @@
 {
-  "Brandy": {
-    "History": {
-      "Title": "History of Brandy",
-      "Description": "Brandy, a spirit distilled from wine or fermented fruit juice, has a rich history that spans several centuries and continents. It is known for its diverse styles and significant cultural impact.",
-      "Subsections": [
+  "brandy": {
+    "history": {
+      "title": "History of Brandy",
+      "description": "Brandy, a spirit distilled from wine or fermented fruit juice, has a rich history that spans several centuries and continents. It is known for its diverse styles and significant cultural impact.",
+      "subsections": [
         {
-          "Title": "Early Origins",
-          "Description": "The origins of brandy can be traced back to the development of distillation techniques in ancient civilizations.",
-          "Key_Facts": [
+          "title": "Early Origins",
+          "description": "The origins of brandy can be traced back to the development of distillation techniques in ancient civilizations.",
+          "key_facts": [
             {
-              "Date": "Ancient Times",
-              "Description": "The basic principles of distillation were practiced by ancient civilizations such as the Greeks and Romans, but it wasn't until the Middle Ages that distillation for alcohol became more refined."
+              "date": "Ancient Times",
+              "description": "The basic principles of distillation were practiced by ancient civilizations such as the Greeks and Romans, but it wasn't until the Middle Ages that distillation for alcohol became more refined."
             },
             {
-              "Date": "Middle Ages",
-              "Description": "During the Middle Ages, alchemists in the Arab world and Europe perfected distillation techniques, leading to the production of distilled spirits, including early forms of brandy."
+              "date": "Middle Ages",
+              "description": "During the Middle Ages, alchemists in the Arab world and Europe perfected distillation techniques, leading to the production of distilled spirits, including early forms of brandy."
             }
           ]
         },
         {
-          "Title": "Spread Across Europe",
-          "Description": "Brandy production spread across Europe, particularly flourishing in regions known for their winemaking.",
-          "Key_Facts": [
+          "title": "Spread Across Europe",
+          "description": "Brandy production spread across Europe, particularly flourishing in regions known for their winemaking.",
+          "key_facts": [
             {
-              "Date": "16th Century",
-              "Description": "Brandy production became more widespread in Europe, particularly in France, Spain, and Portugal, where winemaking was already well-established."
+              "date": "16th Century",
+              "description": "Brandy production became more widespread in Europe, particularly in France, Spain, and Portugal, where winemaking was already well-established."
             },
             {
-              "Date": "17th Century",
-              "Description": "The export of brandy, especially from France and Spain, increased significantly, establishing it as a popular spirit across Europe and the world."
+              "date": "17th Century",
+              "description": "The export of brandy, especially from France and Spain, increased significantly, establishing it as a popular spirit across Europe and the world."
             }
           ]
         },
         {
-          "Title": "Modern Era",
-          "Description": "In the modern era, brandy production has evolved with advancements in technology and the development of specific regional styles.",
-          "Key_Facts": [
+          "title": "Modern Era",
+          "description": "In the modern era, brandy production has evolved with advancements in technology and the development of specific regional styles.",
+          "key_facts": [
             {
-              "Date": "19th Century",
-              "Description": "The invention of continuous stills and improvements in aging techniques contributed to the refinement and diversification of brandy."
+              "date": "19th Century",
+              "description": "The invention of continuous stills and improvements in aging techniques contributed to the refinement and diversification of brandy."
             },
             {
-              "Date": "20th Century",
-              "Description": "Brandy continued to grow in popularity, with new styles and brands emerging globally, from Europe to the Americas and Asia."
+              "date": "20th Century",
+              "description": "Brandy continued to grow in popularity, with new styles and brands emerging globally, from Europe to the Americas and Asia."
             }
           ]
         }
       ]
     },
-    "Production": {
-      "Title": "Production of Brandy",
-      "Description": "Brandy is made by distilling wine or fermented fruit juice, followed by aging in wooden barrels. The production methods can vary significantly based on the type and origin of the brandy.",
-      "Subsections": [
+    "production": {
+      "title": "Production of Brandy",
+      "description": "Brandy is made by distilling wine or fermented fruit juice, followed by aging in wooden barrels. The production methods can vary significantly based on the type and origin of the brandy.",
+      "subsections": [
         {
-          "Title": "Ingredients",
-          "Description": "The primary ingredients in brandy are grapes or other fruits, which are fermented to produce the base wine or fruit juice.",
-          "Key_Ingredients": [
+          "title": "Ingredients",
+          "description": "The primary ingredients in brandy are grapes or other fruits, which are fermented to produce the base wine or fruit juice.",
+          "key_ingredients": [
             {
-              "Ingredient": "Grapes",
-              "Description": "Most brandies are made from grapes, with the quality of the grapes significantly influencing the final product."
+              "ingredient": "Grapes",
+              "description": "Most brandies are made from grapes, with the quality of the grapes significantly influencing the final product."
             },
             {
-              "Ingredient": "Other Fruits",
-              "Description": "Some brandies, such as apple brandy (Calvados) and pear brandy, are made from other fruits."
+              "ingredient": "Other Fruits",
+              "description": "Some brandies, such as apple brandy (Calvados) and pear brandy, are made from other fruits."
             }
           ]
         },
         {
-          "Title": "Fermentation",
-          "Description": "The fruit is fermented to convert the sugars into alcohol, creating a base wine or fruit juice that will be distilled.",
-          "Key_Facts": [
+          "title": "Fermentation",
+          "description": "The fruit is fermented to convert the sugars into alcohol, creating a base wine or fruit juice that will be distilled.",
+          "key_facts": [
             {
-              "Fact": "Base Wine",
-              "Description": "For grape brandy, the fermentation process produces a base wine with relatively low alcohol content."
+              "fact": "Base Wine",
+              "description": "For grape brandy, the fermentation process produces a base wine with relatively low alcohol content."
             },
             {
-              "Fact": "Fruit Fermentation",
-              "Description": "For fruit brandies, the fermentation process involves crushing the fruit and fermenting the juice or mash."
+              "fact": "Fruit Fermentation",
+              "description": "For fruit brandies, the fermentation process involves crushing the fruit and fermenting the juice or mash."
             }
           ]
         },
         {
-          "Title": "Distillation",
-          "Description": "The fermented base is distilled to increase the alcohol content and concentrate the flavors. This is typically done using pot stills or column stills.",
-          "Key_Facts": [
+          "title": "Distillation",
+          "description": "The fermented base is distilled to increase the alcohol content and concentrate the flavors. This is typically done using pot stills or column stills.",
+          "key_facts": [
             {
-              "Fact": "Pot Stills",
-              "Description": "Pot stills are commonly used for distilling high-quality brandies, as they allow for greater control over the distillation process."
+              "fact": "Pot Stills",
+              "description": "Pot stills are commonly used for distilling high-quality brandies, as they allow for greater control over the distillation process."
             },
             {
-              "Fact": "Column Stills",
-              "Description": "Column stills can be used for higher volume production and can produce a more neutral spirit."
+              "fact": "Column Stills",
+              "description": "Column stills can be used for higher volume production and can produce a more neutral spirit."
             }
           ]
         },
         {
-          "Title": "Aging",
-          "Description": "Brandy is typically aged in wooden barrels, which impart additional flavors and complexity to the spirit.",
-          "Aging_Categories": [
+          "title": "Aging",
+          "description": "Brandy is typically aged in wooden barrels, which impart additional flavors and complexity to the spirit.",
+          "aging_categories": [
             {
-              "Category": "Young Brandy",
-              "Description": "Young brandy is aged for a relatively short period, typically 2-3 years, resulting in a lighter, fruitier flavor."
+              "category": "Young Brandy",
+              "description": "Young brandy is aged for a relatively short period, typically 2-3 years, resulting in a lighter, fruitier flavor."
             },
             {
-              "Category": "Aged Brandy",
-              "Description": "Aged brandy is matured for longer periods, often 5-20 years or more, developing deeper, more complex flavors."
+              "category": "Aged Brandy",
+              "description": "Aged brandy is matured for longer periods, often 5-20 years or more, developing deeper, more complex flavors."
             }
           ]
         }
       ]
     },
-    "Types_of_Brandy": {
-      "Title": "Types of Brandy",
-      "Description": "Brandy comes in various styles and types, each with its unique characteristics and production methods. Some of the most well-known types include Cognac, Armagnac, and fruit brandies.",
-      "Subsections": [
+    "types_of_brandy": {
+      "title": "Types of Brandy",
+      "description": "Brandy comes in various styles and types, each with its unique characteristics and production methods. Some of the most well-known types include Cognac, Armagnac, and fruit brandies.",
+      "subsections": [
         {
-          "Title": "Cognac",
-          "Description": "Cognac is a type of brandy produced in the Cognac region of France, known for its strict production regulations and high quality.",
-          "Key_Characteristics": [
+          "title": "Cognac",
+          "description": "Cognac is a type of brandy produced in the Cognac region of France, known for its strict production regulations and high quality.",
+          "key_characteristics": [
             {
-              "Characteristic": "Region",
-              "Description": "Cognac must be produced in the Cognac region of France, using specific grape varieties."
+              "characteristic": "Region",
+              "description": "Cognac must be produced in the Cognac region of France, using specific grape varieties."
             },
             {
-              "Characteristic": "Double Distillation",
-              "Description": "Cognac is distilled twice in copper pot stills and aged in French oak barrels."
+              "characteristic": "Double Distillation",
+              "description": "Cognac is distilled twice in copper pot stills and aged in French oak barrels."
             }
           ],
-          "Brands": [
+          "brands": [
             {
-              "Brand": "Hennessy",
-              "Description": "Hennessy is one of the most famous Cognac brands, known for its range of high-quality Cognacs."
+              "brand": "Hennessy",
+              "description": "Hennessy is one of the most famous Cognac brands, known for its range of high-quality Cognacs."
             },
             {
-              "Brand": "Rémy Martin",
-              "Description": "Rémy Martin is renowned for its premium Cognacs, particularly those made from grapes from the Grande Champagne region."
+              "brand": "Rémy Martin",
+              "description": "Rémy Martin is renowned for its premium Cognacs, particularly those made from grapes from the Grande Champagne region."
             },
             {
-              "Brand": "Courvoisier",
-              "Description": "Courvoisier is a historic Cognac brand known for its rich, smooth flavors."
+              "brand": "Courvoisier",
+              "description": "Courvoisier is a historic Cognac brand known for its rich, smooth flavors."
             },
             {
-              "Brand": "Martell",
-              "Description": "Martell is one of the oldest Cognac houses, offering a variety of exceptional Cognacs."
+              "brand": "Martell",
+              "description": "Martell is one of the oldest Cognac houses, offering a variety of exceptional Cognacs."
             }
           ]
         },
         {
-          "Title": "Armagnac",
-          "Description": "Armagnac is a type of brandy produced in the Armagnac region of France, known for its single distillation process and rich, complex flavors.",
-          "Key_Characteristics": [
+          "title": "Armagnac",
+          "description": "Armagnac is a type of brandy produced in the Armagnac region of France, known for its single distillation process and rich, complex flavors.",
+          "key_characteristics": [
             {
-              "Characteristic": "Region",
-              "Description": "Armagnac must be produced in the Armagnac region of France, using specific grape varieties."
+              "characteristic": "Region",
+              "description": "Armagnac must be produced in the Armagnac region of France, using specific grape varieties."
             },
             {
-              "Characteristic": "Single Distillation",
-              "Description": "Armagnac is distilled once in a continuous column still, resulting in a fuller-bodied spirit."
+              "characteristic": "Single Distillation",
+              "description": "Armagnac is distilled once in a continuous column still, resulting in a fuller-bodied spirit."
             }
           ],
-          "Brands": [
+          "brands": [
             {
-              "Brand": "Delord",
-              "Description": "Delord is a well-respected Armagnac producer known for its traditional methods and high-quality spirits."
+              "brand": "Delord",
+              "description": "Delord is a well-respected Armagnac producer known for its traditional methods and high-quality spirits."
             },
             {
-              "Brand": "Larressingle",
-              "Description": "Larressingle offers a range of premium Armagnacs, celebrated for their depth and complexity."
+              "brand": "Larressingle",
+              "description": "Larressingle offers a range of premium Armagnacs, celebrated for their depth and complexity."
             },
             {
-              "Brand": "Château de Laubade",
-              "Description": "Château de Laubade is a renowned Armagnac house, known for its estate-grown and distilled Armagnacs."
+              "brand": "Château de Laubade",
+              "description": "Château de Laubade is a renowned Armagnac house, known for its estate-grown and distilled Armagnacs."
             }
           ]
         },
         {
-          "Title": "Fruit Brandy",
-          "Description": "Fruit brandies are distilled from fermented fruit other than grapes, such as apples, pears, and cherries.",
-          "Key_Characteristics": [
+          "title": "Fruit Brandy",
+          "description": "Fruit brandies are distilled from fermented fruit other than grapes, such as apples, pears, and cherries.",
+          "key_characteristics": [
             {
-              "Characteristic": "Fruit-Based",
-              "Description": "Fruit brandies are made from various fruits, each imparting unique flavors to the spirit."
+              "characteristic": "Fruit-Based",
+              "description": "Fruit brandies are made from various fruits, each imparting unique flavors to the spirit."
             },
             {
-              "Characteristic": "Clear or Aged",
-              "Description": "Fruit brandies can be either clear (unaged) or aged in wooden barrels for added complexity."
+              "characteristic": "Clear or Aged",
+              "description": "Fruit brandies can be either clear (unaged) or aged in wooden barrels for added complexity."
             }
           ],
-          "Brands": [
+          "brands": [
             {
-              "Brand": "Calvados",
-              "Description": "Calvados is an apple brandy from the Normandy region of France, known for its rich, apple-forward flavors."
+              "brand": "Calvados",
+              "description": "Calvados is an apple brandy from the Normandy region of France, known for its rich, apple-forward flavors."
             },
             {
-              "Brand": "Poiré William",
-              "Description": "Poiré William is a pear brandy, renowned for its delicate, fruity taste."
+              "brand": "Poiré William",
+              "description": "Poiré William is a pear brandy, renowned for its delicate, fruity taste."
             },
             {
-              "Brand": "Kirschwasser",
-              "Description": "Kirschwasser is a cherry brandy from Germany, known for its clear, cherry-flavored spirit."
+              "brand": "Kirschwasser",
+              "description": "Kirschwasser is a cherry brandy from Germany, known for its clear, cherry-flavored spirit."
             }
           ]
         },
         {
-          "Title": "American Brandy",
-          "Description": "American brandy is produced in the United States, with a growing number of producers creating high-quality, innovative brandies.",
-          "Key_Characteristics": [
+          "title": "American Brandy",
+          "description": "American brandy is produced in the United States, with a growing number of producers creating high-quality, innovative brandies.",
+          "key_characteristics": [
             {
-              "Characteristic": "Diverse Styles",
-              "Description": "American brandy encompasses a wide range of styles, from traditional grape brandies to innovative fruit brandies."
+              "characteristic": "Diverse Styles",
+              "description": "American brandy encompasses a wide range of styles, from traditional grape brandies to innovative fruit brandies."
             },
             {
-              "Characteristic": "Growing Market",
-              "Description": "The American brandy market is expanding, with an increasing focus on craft and artisanal production."
+              "characteristic": "Growing Market",
+              "description": "The American brandy market is expanding, with an increasing focus on craft and artisanal production."
             }
           ],
-          "Brands": [
+          "brands": [
             {
-              "Brand": "Copper & Kings",
-              "Description": "Copper & Kings is a craft distillery in Louisville, Kentucky, known for its innovative American brandies."
+              "brand": "Copper & Kings",
+              "description": "Copper & Kings is a craft distillery in Louisville, Kentucky, known for its innovative American brandies."
             },
             {
-              "Brand": "Germain-Robin",
-              "Description": "Germain-Robin is a premium American brandy producer, renowned for its small-batch, artisanal brandies."
+              "brand": "Germain-Robin",
+              "description": "Germain-Robin is a premium American brandy producer, renowned for its small-batch, artisanal brandies."
             },
             {
-              "Brand": "Christian Brothers",
-              "Description": "Christian Brothers is a well-known American brandy brand, offering a range of approachable, affordable brandies."
+              "brand": "Christian Brothers",
+              "description": "Christian Brothers is a well-known American brandy brand, offering a range of approachable, affordable brandies."
             }
           ]
         }
       ]
     },
-    "Cultural_Significance": {
-      "Title": "Cultural Significance of Brandy",
-      "Description": "Brandy holds a significant place in various cultures around the world, celebrated in literature, tradition, and social rituals.",
-      "Subsections": [
+    "cultural_significance": {
+      "title": "Cultural Significance of Brandy",
+      "description": "Brandy holds a significant place in various cultures around the world, celebrated in literature, tradition, and social rituals.",
+      "subsections": [
         {
-          "Title": "Brandy in Literature and Arts",
-          "Description": "Brandy has been featured prominently in literature, music, and the arts, often symbolizing sophistication and indulgence.",
-          "Examples": [
+          "title": "Brandy in Literature and Arts",
+          "description": "Brandy has been featured prominently in literature, music, and the arts, often symbolizing sophistication and indulgence.",
+          "examples": [
             {
-              "Example": "Charles Dickens",
-              "Description": "Charles Dickens frequently mentioned brandy in his works, reflecting its popularity in 19th-century England."
+              "example": "Charles Dickens",
+              "description": "Charles Dickens frequently mentioned brandy in his works, reflecting its popularity in 19th-century England."
             },
             {
-              "Example": "Ernest Hemingway",
-              "Description": "Ernest Hemingway was known to enjoy brandy, and it appears in several of his novels and stories."
+              "example": "Ernest Hemingway",
+              "description": "Ernest Hemingway was known to enjoy brandy, and it appears in several of his novels and stories."
             }
           ]
         },
         {
-          "Title": "Traditional Celebrations",
-          "Description": "Brandy is often enjoyed during traditional celebrations and social gatherings, particularly in European cultures.",
-          "Key_Celebrations": [
+          "title": "Traditional Celebrations",
+          "description": "Brandy is often enjoyed during traditional celebrations and social gatherings, particularly in European cultures.",
+          "key_celebrations": [
             {
-              "Celebration": "Christmas",
-              "Description": "In many countries, brandy is a traditional holiday drink, often enjoyed as part of festive meals and celebrations."
+              "celebration": "Christmas",
+              "description": "In many countries, brandy is a traditional holiday drink, often enjoyed as part of festive meals and celebrations."
             },
             {
-              "Celebration": "Weddings",
-              "Description": "Brandy is commonly served at weddings and other significant life events, symbolizing joy and prosperity."
+              "celebration": "Weddings",
+              "description": "Brandy is commonly served at weddings and other significant life events, symbolizing joy and prosperity."
             }
           ]
         },
         {
-          "Title": "Brandy Cocktails",
-          "Description": "Brandy is a versatile spirit used in a variety of classic and contemporary cocktails.",
-          "Key_Cocktails": [
+          "title": "Brandy Cocktails",
+          "description": "Brandy is a versatile spirit used in a variety of classic and contemporary cocktails.",
+          "key_cocktails": [
             {
-              "Cocktail": "Brandy Alexander",
-              "Description": "A creamy, dessert-like cocktail made with brandy, crème de cacao, and cream."
+              "cocktail": "Brandy Alexander",
+              "description": "A creamy, dessert-like cocktail made with brandy, crème de cacao, and cream."
             },
             {
-              "Cocktail": "Sidecar",
-              "Description": "A classic cocktail made with brandy, triple sec, and lemon juice, served in a sugar-rimmed glass."
+              "cocktail": "Sidecar",
+              "description": "A classic cocktail made with brandy, triple sec, and lemon juice, served in a sugar-rimmed glass."
             },
             {
-              "Cocktail": "Metropolitan",
-              "Description": "A brandy-based cocktail with sweet vermouth, simple syrup, and bitters."
+              "cocktail": "Metropolitan",
+              "description": "A brandy-based cocktail with sweet vermouth, simple syrup, and bitters."
             }
           ]
         }
       ]
     },
-    "Modern_Brandy_Industry": {
-      "Title": "Modern Brandy Industry",
-      "Description": "The modern brandy industry is diverse and dynamic, with producers around the world creating a wide range of brandies, from traditional to innovative styles.",
-      "Subsections": [
+    "modern_brandy_industry": {
+      "title": "Modern Brandy Industry",
+      "description": "The modern brandy industry is diverse and dynamic, with producers around the world creating a wide range of brandies, from traditional to innovative styles.",
+      "subsections": [
         {
-          "Title": "Market Trends",
-          "Description": "Current trends in the brandy industry include a focus on premium and artisanal products, sustainability efforts, and increasing international recognition.",
-          "Key_Trends": [
+          "title": "Market Trends",
+          "description": "Current trends in the brandy industry include a focus on premium and artisanal products, sustainability efforts, and increasing international recognition.",
+          "key_trends": [
             {
-              "Trend": "Premium Brandy",
-              "Description": "There is a growing demand for premium and ultra-premium brandies, with a focus on quality, craftsmanship, and unique flavor profiles."
+              "trend": "Premium Brandy",
+              "description": "There is a growing demand for premium and ultra-premium brandies, with a focus on quality, craftsmanship, and unique flavor profiles."
             },
             {
-              "Trend": "Sustainability",
-              "Description": "Sustainability is becoming increasingly important, with many producers adopting eco-friendly practices and focusing on responsible sourcing."
+              "trend": "Sustainability",
+              "description": "Sustainability is becoming increasingly important, with many producers adopting eco-friendly practices and focusing on responsible sourcing."
             },
             {
-              "Trend": "Global Expansion",
-              "Description": "Brandy is gaining international recognition, with increasing exports and a growing presence in global cocktail culture."
+              "trend": "Global Expansion",
+              "description": "Brandy is gaining international recognition, with increasing exports and a growing presence in global cocktail culture."
             }
           ]
         },
         {
-          "Title": "Notable Brands",
-          "Description": "Several brandy brands are recognized for their quality, heritage, and innovation. These brands represent the diverse landscape of the modern brandy market.",
-          "Brands": [
+          "title": "Notable Brands",
+          "description": "Several brandy brands are recognized for their quality, heritage, and innovation. These brands represent the diverse landscape of the modern brandy market.",
+          "brands": [
             {
-              "Brand": "Hennessy",
-              "Description": "Hennessy is one of the most famous Cognac brands, known for its range of high-quality Cognacs."
+              "brand": "Hennessy",
+              "description": "Hennessy is one of the most famous Cognac brands, known for its range of high-quality Cognacs."
             },
             {
-              "Brand": "Rémy Martin",
-              "Description": "Rémy Martin is renowned for its premium Cognacs, particularly those made from grapes from the Grande Champagne region."
+              "brand": "Rémy Martin",
+              "description": "Rémy Martin is renowned for its premium Cognacs, particularly those made from grapes from the Grande Champagne region."
             },
             {
-              "Brand": "Courvoisier",
-              "Description": "Courvoisier is a historic Cognac brand known for its rich, smooth flavors."
+              "brand": "Courvoisier",
+              "description": "Courvoisier is a historic Cognac brand known for its rich, smooth flavors."
             },
             {
-              "Brand": "Martell",
-              "Description": "Martell is one of the oldest Cognac houses, offering a variety of exceptional Cognacs."
+              "brand": "Martell",
+              "description": "Martell is one of the oldest Cognac houses, offering a variety of exceptional Cognacs."
             },
             {
-              "Brand": "Delord",
-              "Description": "Delord is a well-respected Armagnac producer known for its traditional methods and high-quality spirits."
+              "brand": "Delord",
+              "description": "Delord is a well-respected Armagnac producer known for its traditional methods and high-quality spirits."
             },
             {
-              "Brand": "Larressingle",
-              "Description": "Larressingle offers a range of premium Armagnacs, celebrated for their depth and complexity."
+              "brand": "Larressingle",
+              "description": "Larressingle offers a range of premium Armagnacs, celebrated for their depth and complexity."
             },
             {
-              "Brand": "Calvados",
-              "Description": "Calvados is an apple brandy from the Normandy region of France, known for its rich, apple-forward flavors."
+              "brand": "Calvados",
+              "description": "Calvados is an apple brandy from the Normandy region of France, known for its rich, apple-forward flavors."
             },
             {
-              "Brand": "Copper & Kings",
-              "Description": "Copper & Kings is a craft distillery in Louisville, Kentucky, known for its innovative American brandies."
+              "brand": "Copper & Kings",
+              "description": "Copper & Kings is a craft distillery in Louisville, Kentucky, known for its innovative American brandies."
             },
             {
-              "Brand": "Germain-Robin",
-              "Description": "Germain-Robin is a premium American brandy producer, renowned for its small-batch, artisanal brandies."
+              "brand": "Germain-Robin",
+              "description": "Germain-Robin is a premium American brandy producer, renowned for its small-batch, artisanal brandies."
             }
           ]
         }
       ]
     }
   },
-  "Cognac": {
-    "Title": "Cognac",
-    "Description": "Cognac is a specific type of brandy that is produced in the Cognac region of France, known for its strict production regulations and high quality.",
-    "History": {
-      "Title": "History of Cognac",
-      "Description": "The history of Cognac is intertwined with the development of brandy in France and the refinement of distillation techniques.",
-      "Subsections": [
+  "cognac": {
+    "title": "Cognac",
+    "description": "Cognac is a specific type of brandy that is produced in the Cognac region of France, known for its strict production regulations and high quality.",
+    "history": {
+      "title": "History of Cognac",
+      "description": "The history of Cognac is intertwined with the development of brandy in France and the refinement of distillation techniques.",
+      "subsections": [
         {
-          "Title": "Early Beginnings",
-          "Description": "Cognac production began in the 16th century in the Charente region of France, with the Dutch playing a significant role in its development.",
-          "Key_Facts": [
+          "title": "Early Beginnings",
+          "description": "Cognac production began in the 16th century in the Charente region of France, with the Dutch playing a significant role in its development.",
+          "key_facts": [
             {
-              "Date": "16th Century",
-              "Description": "Dutch merchants distilled wine from the Charente region to create 'brandewijn' (burnt wine), which later became known as brandy."
+              "date": "16th Century",
+              "description": "Dutch merchants distilled wine from the Charente region to create 'brandewijn' (burnt wine), which later became known as brandy."
             },
             {
-              "Date": "17th Century",
-              "Description": "The region's reputation for high-quality brandy grew, leading to the establishment of Cognac as a distinct spirit."
+              "date": "17th Century",
+              "description": "The region's reputation for high-quality brandy grew, leading to the establishment of Cognac as a distinct spirit."
             }
           ]
         },
         {
-          "Title": "Rise to Prominence",
-          "Description": "Cognac gained popularity throughout Europe and the world, becoming a symbol of luxury and refinement.",
-          "Key_Facts": [
+          "title": "Rise to Prominence",
+          "description": "Cognac gained popularity throughout Europe and the world, becoming a symbol of luxury and refinement.",
+          "key_facts": [
             {
-              "Date": "18th Century",
-              "Description": "Cognac houses such as Martell and Hennessy were established, contributing to the global recognition of Cognac."
+              "date": "18th Century",
+              "description": "Cognac houses such as Martell and Hennessy were established, contributing to the global recognition of Cognac."
             },
             {
-              "Date": "19th Century",
-              "Description": "The phylloxera epidemic devastated vineyards, but the industry recovered, leading to further refinement and innovation in Cognac production."
+              "date": "19th Century",
+              "description": "The phylloxera epidemic devastated vineyards, but the industry recovered, leading to further refinement and innovation in Cognac production."
             }
           ]
         },
         {
-          "Title": "Modern Era",
-          "Description": "In the modern era, Cognac continues to be celebrated for its quality and craftsmanship, with ongoing innovation and global expansion.",
-          "Key_Facts": [
+          "title": "Modern Era",
+          "description": "In the modern era, Cognac continues to be celebrated for its quality and craftsmanship, with ongoing innovation and global expansion.",
+          "key_facts": [
             {
-              "Date": "20th Century",
-              "Description": "Cognac maintained its status as a premium spirit, with new brands and styles emerging."
+              "date": "20th Century",
+              "description": "Cognac maintained its status as a premium spirit, with new brands and styles emerging."
             },
             {
-              "Date": "21st Century",
-              "Description": "Cognac's popularity continues to grow, with increasing demand in emerging markets and a focus on premium and ultra-premium products."
+              "date": "21st Century",
+              "description": "Cognac's popularity continues to grow, with increasing demand in emerging markets and a focus on premium and ultra-premium products."
             }
           ]
         }
       ]
     },
-    "Production": {
-      "Title": "Production of Cognac",
-      "Description": "Cognac production involves strict regulations, including the use of specific grape varieties, double distillation in copper pot stills, and aging in French oak barrels.",
-      "Subsections": [
+    "production": {
+      "title": "Production of Cognac",
+      "description": "Cognac production involves strict regulations, including the use of specific grape varieties, double distillation in copper pot stills, and aging in French oak barrels.",
+      "subsections": [
         {
-          "Title": "Grape Varieties",
-          "Description": "Cognac must be made from specific grape varieties, primarily Ugni Blanc, Folle Blanche, and Colombard.",
-          "Key_Characteristics": [
+          "title": "Grape Varieties",
+          "description": "Cognac must be made from specific grape varieties, primarily Ugni Blanc, Folle Blanche, and Colombard.",
+          "key_characteristics": [
             {
-              "Variety": "Ugni Blanc",
-              "Description": "Ugni Blanc is the most commonly used grape, known for its high acidity and ability to produce a clean, crisp wine."
+              "variety": "Ugni Blanc",
+              "description": "Ugni Blanc is the most commonly used grape, known for its high acidity and ability to produce a clean, crisp wine."
             },
             {
-              "Variety": "Folle Blanche",
-              "Description": "Folle Blanche is less commonly used but valued for its floral and fruity characteristics."
+              "variety": "Folle Blanche",
+              "description": "Folle Blanche is less commonly used but valued for its floral and fruity characteristics."
             },
             {
-              "Variety": "Colombard",
-              "Description": "Colombard adds additional complexity and spice to the final product."
+              "variety": "Colombard",
+              "description": "Colombard adds additional complexity and spice to the final product."
             }
           ]
         },
         {
-          "Title": "Double Distillation",
-          "Description": "Cognac is distilled twice in copper pot stills, which helps concentrate the flavors and increase the alcohol content.",
-          "Key_Steps": [
+          "title": "Double Distillation",
+          "description": "Cognac is distilled twice in copper pot stills, which helps concentrate the flavors and increase the alcohol content.",
+          "key_steps": [
             {
-              "Step": "First Distillation",
-              "Description": "The first distillation, known as 'première chauffe,' produces a spirit called 'brouillis,' with an alcohol content of around 28-32%."
+              "step": "First Distillation",
+              "description": "The first distillation, known as 'première chauffe,' produces a spirit called 'brouillis,' with an alcohol content of around 28-32%."
             },
             {
-              "Step": "Second Distillation",
-              "Description": "The second distillation, or 'bonne chauffe,' refines the spirit to an alcohol content of 68-72%, creating the final Cognac distillate."
+              "step": "Second Distillation",
+              "description": "The second distillation, or 'bonne chauffe,' refines the spirit to an alcohol content of 68-72%, creating the final Cognac distillate."
             }
           ]
         },
         {
-          "Title": "Aging",
-          "Description": "Cognac must be aged in French oak barrels for a minimum of two years, with longer aging periods resulting in more complex flavors.",
-          "Aging_Categories": [
+          "title": "Aging",
+          "description": "Cognac must be aged in French oak barrels for a minimum of two years, with longer aging periods resulting in more complex flavors.",
+          "aging_categories": [
             {
-              "Category": "VS (Very Special)",
-              "Description": "Aged for at least two years."
+              "category": "VS (Very Special)",
+              "description": "Aged for at least two years."
             },
             {
-              "Category": "VSOP (Very Superior Old Pale)",
-              "Description": "Aged for at least four years."
+              "category": "VSOP (Very Superior Old Pale)",
+              "description": "Aged for at least four years."
             },
             {
-              "Category": "XO (Extra Old)",
-              "Description": "Aged for at least ten years."
+              "category": "XO (Extra Old)",
+              "description": "Aged for at least ten years."
             }
           ]
         }
       ]
     },
-    "Types_of_Cognac": {
-      "Title": "Types of Cognac",
-      "Description": "Cognac is classified based on its aging period, with different categories indicating the minimum time the spirit has spent aging in barrels.",
-      "Subsections": [
+    "types_of_cognac": {
+      "title": "Types of Cognac",
+      "description": "Cognac is classified based on its aging period, with different categories indicating the minimum time the spirit has spent aging in barrels.",
+      "subsections": [
         {
-          "Title": "VS (Very Special)",
-          "Description": "VS Cognac is aged for a minimum of two years, offering a young, vibrant flavor profile.",
-          "Brands": [
+          "title": "VS (Very Special)",
+          "description": "VS Cognac is aged for a minimum of two years, offering a young, vibrant flavor profile.",
+          "brands": [
             {
-              "Brand": "Hennessy VS",
-              "Description": "Hennessy VS is a popular entry-level Cognac known for its rich, fruity flavors."
+              "brand": "Hennessy VS",
+              "description": "Hennessy VS is a popular entry-level Cognac known for its rich, fruity flavors."
             },
             {
-              "Brand": "Martell VS",
-              "Description": "Martell VS offers a smooth, balanced taste with notes of fresh fruit."
+              "brand": "Martell VS",
+              "description": "Martell VS offers a smooth, balanced taste with notes of fresh fruit."
             }
           ]
         },
         {
-          "Title": "VSOP (Very Superior Old Pale)",
-          "Description": "VSOP Cognac is aged for at least four years, resulting in a more complex and mature flavor profile.",
-          "Brands": [
+          "title": "VSOP (Very Superior Old Pale)",
+          "description": "VSOP Cognac is aged for at least four years, resulting in a more complex and mature flavor profile.",
+          "brands": [
             {
-              "Brand": "Rémy Martin VSOP",
-              "Description": "Rémy Martin VSOP is renowned for its rich, well-rounded flavors and smooth finish."
+              "brand": "Rémy Martin VSOP",
+              "description": "Rémy Martin VSOP is renowned for its rich, well-rounded flavors and smooth finish."
             },
             {
-              "Brand": "Courvoisier VSOP",
-              "Description": "Courvoisier VSOP offers a refined, elegant taste with notes of vanilla and caramel."
+              "brand": "Courvoisier VSOP",
+              "description": "Courvoisier VSOP offers a refined, elegant taste with notes of vanilla and caramel."
             }
           ]
         },
         {
-          "Title": "XO (Extra Old)",
-          "Description": "XO Cognac is aged for a minimum of ten years, offering a deeply complex and sophisticated flavor profile.",
-          "Brands": [
+          "title": "XO (Extra Old)",
+          "description": "XO Cognac is aged for a minimum of ten years, offering a deeply complex and sophisticated flavor profile.",
+          "brands": [
             {
-              "Brand": "Hennessy XO",
-              "Description": "Hennessy XO is known for its rich, spicy flavors and long, smooth finish."
+              "brand": "Hennessy XO",
+              "description": "Hennessy XO is known for its rich, spicy flavors and long, smooth finish."
             },
             {
-              "Brand": "Martell XO",
-              "Description": "Martell XO offers a luxurious taste with notes of dark chocolate and dried fruit."
+              "brand": "Martell XO",
+              "description": "Martell XO offers a luxurious taste with notes of dark chocolate and dried fruit."
             }
           ]
         }
       ]
     },
-    "Cultural_Significance": {
-      "Title": "Cultural Significance of Cognac",
-      "Description": "Cognac holds a prestigious place in global culture, often associated with luxury, refinement, and celebration.",
-      "Subsections": [
+    "cultural_significance": {
+      "title": "Cultural Significance of Cognac",
+      "description": "Cognac holds a prestigious place in global culture, often associated with luxury, refinement, and celebration.",
+      "subsections": [
         {
-          "Title": "Cognac in Society",
-          "Description": "Cognac is often enjoyed on special occasions and is a symbol of sophistication and celebration.",
-          "Examples": [
+          "title": "Cognac in Society",
+          "description": "Cognac is often enjoyed on special occasions and is a symbol of sophistication and celebration.",
+          "examples": [
             {
-              "Example": "Diplomatic Gifts",
-              "Description": "Cognac is frequently given as a diplomatic gift, reflecting its status as a premium spirit."
+              "example": "Diplomatic Gifts",
+              "description": "Cognac is frequently given as a diplomatic gift, reflecting its status as a premium spirit."
             },
             {
-              "Example": "Celebrations",
-              "Description": "Cognac is often served at weddings, anniversaries, and other significant life events."
+              "example": "Celebrations",
+              "description": "Cognac is often served at weddings, anniversaries, and other significant life events."
             }
           ]
         },
         {
-          "Title": "Cognac Cocktails",
-          "Description": "Cognac is a versatile ingredient in cocktails, adding depth and complexity to a variety of drinks.",
-          "Key_Cocktails": [
+          "title": "Cognac Cocktails",
+          "description": "Cognac is a versatile ingredient in cocktails, adding depth and complexity to a variety of drinks.",
+          "key_cocktails": [
             {
-              "Cocktail": "French 75",
-              "Description": "A classic cocktail made with Cognac, champagne, lemon juice, and simple syrup."
+              "cocktail": "French 75",
+              "description": "A classic cocktail made with Cognac, champagne, lemon juice, and simple syrup."
             },
             {
-              "Cocktail": "Sidecar",
-              "Description": "A popular cocktail made with Cognac, triple sec, and lemon juice, served in a sugar-rimmed glass."
+              "cocktail": "Sidecar",
+              "description": "A popular cocktail made with Cognac, triple sec, and lemon juice, served in a sugar-rimmed glass."
             },
             {
-              "Cocktail": "Stinger",
-              "Description": "A refreshing cocktail made with Cognac and crème de menthe."
+              "cocktail": "Stinger",
+              "description": "A refreshing cocktail made with Cognac and crème de menthe."
             }
           ]
         }
       ]
     },
-    "Modern_Cognac_Industry": {
-      "Title": "Modern Cognac Industry",
-      "Description": "The modern Cognac industry is characterized by a blend of tradition and innovation, with producers focusing on quality, sustainability, and global expansion.",
-      "Subsections": [
+    "modern_cognac_industry": {
+      "title": "Modern Cognac Industry",
+      "description": "The modern Cognac industry is characterized by a blend of tradition and innovation, with producers focusing on quality, sustainability, and global expansion.",
+      "subsections": [
         {
-          "Title": "Market Trends",
-          "Description": "Current trends in the Cognac industry include a focus on premium and ultra-premium products, sustainability efforts, and increasing international recognition.",
-          "Key_Trends": [
+          "title": "Market Trends",
+          "description": "Current trends in the Cognac industry include a focus on premium and ultra-premium products, sustainability efforts, and increasing international recognition.",
+          "key_trends": [
             {
-              "Trend": "Premium Cognac",
-              "Description": "There is a growing demand for premium and ultra-premium Cognacs, with a focus on quality, craftsmanship, and unique flavor profiles."
+              "trend": "Premium Cognac",
+              "description": "There is a growing demand for premium and ultra-premium Cognacs, with a focus on quality, craftsmanship, and unique flavor profiles."
             },
             {
-              "Trend": "Sustainability",
-              "Description": "Sustainability is becoming increasingly important, with many producers adopting eco-friendly practices and focusing on responsible sourcing."
+              "trend": "Sustainability",
+              "description": "Sustainability is becoming increasingly important, with many producers adopting eco-friendly practices and focusing on responsible sourcing."
             },
             {
-              "Trend": "Global Expansion",
-              "Description": "Cognac is gaining international recognition, with increasing exports and a growing presence in global cocktail culture."
+              "trend": "Global Expansion",
+              "description": "Cognac is gaining international recognition, with increasing exports and a growing presence in global cocktail culture."
             }
           ]
         },
         {
-          "Title": "Notable Brands",
-          "Description": "Several Cognac brands are recognized for their quality, heritage, and innovation. These brands represent the diverse landscape of the modern Cognac market.",
-          "Brands": [
+          "title": "Notable Brands",
+          "description": "Several Cognac brands are recognized for their quality, heritage, and innovation. These brands represent the diverse landscape of the modern Cognac market.",
+          "brands": [
             {
-              "Brand": "Hennessy",
-              "Description": "Hennessy is one of the most famous Cognac brands, known for its range of high-quality Cognacs."
+              "brand": "Hennessy",
+              "description": "Hennessy is one of the most famous Cognac brands, known for its range of high-quality Cognacs."
             },
             {
-              "Brand": "Rémy Martin",
-              "Description": "Rémy Martin is renowned for its premium Cognacs, particularly those made from grapes from the Grande Champagne region."
+              "brand": "Rémy Martin",
+              "description": "Rémy Martin is renowned for its premium Cognacs, particularly those made from grapes from the Grande Champagne region."
             },
             {
-              "Brand": "Courvoisier",
-              "Description": "Courvoisier is a historic Cognac brand known for its rich, smooth flavors."
+              "brand": "Courvoisier",
+              "description": "Courvoisier is a historic Cognac brand known for its rich, smooth flavors."
             },
             {
-              "Brand": "Martell",
-              "Description": "Martell is one of the oldest Cognac houses, offering a variety of exceptional Cognacs."
+              "brand": "Martell",
+              "description": "Martell is one of the oldest Cognac houses, offering a variety of exceptional Cognacs."
             }
           ]
         }

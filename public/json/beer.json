@@ -1,396 +1,396 @@
 {
-  "Beer": {
-    "Overview": {
-      "Title": "Overview of Beers",
-      "Description": "Beer is one of the oldest and most widely consumed alcoholic beverages in the world. It is typically made from four primary ingredients: water, malted barley, hops, and yeast. The brewing process and variety of styles make beer a diverse and complex beverage.",
-      "Subsections": [
+  "beer": {
+    "overview": {
+      "title": "Overview of Beers",
+      "description": "Beer is one of the oldest and most widely consumed alcoholic beverages in the world. It is typically made from four primary ingredients: water, malted barley, hops, and yeast. The brewing process and variety of styles make beer a diverse and complex beverage.",
+      "subsections": [
         {
-          "Title": "What is Beer?",
-          "Description": "Beer is an alcoholic drink produced by fermenting sugars, primarily from malted barley, with yeast. The addition of hops provides bitterness and aroma.",
-          "Key_Facts": [
+          "title": "What is Beer?",
+          "description": "Beer is an alcoholic drink produced by fermenting sugars, primarily from malted barley, with yeast. The addition of hops provides bitterness and aroma.",
+          "key_facts": [
             {
-              "Fact": "Primary Ingredients",
-              "Description": "The primary ingredients in beer are water, malted barley (or other grains), hops, and yeast."
+              "fact": "Primary Ingredients",
+              "description": "The primary ingredients in beer are water, malted barley (or other grains), hops, and yeast."
             },
             {
-              "Fact": "Alcohol Content",
-              "Description": "The alcohol content of beer typically ranges from 3% to 12% ABV (alcohol by volume), depending on the style."
+              "fact": "Alcohol Content",
+              "description": "The alcohol content of beer typically ranges from 3% to 12% ABV (alcohol by volume), depending on the style."
             }
           ]
         },
         {
-          "Title": "History of Beer",
-          "Description": "Beer has a long history that dates back thousands of years. It has evolved from ancient brewing practices to modern craft beer movements.",
-          "Key_Facts": [
+          "title": "History of Beer",
+          "description": "Beer has a long history that dates back thousands of years. It has evolved from ancient brewing practices to modern craft beer movements.",
+          "key_facts": [
             {
-              "Fact": "Ancient Origins",
-              "Description": "The earliest evidence of beer production dates back to ancient Mesopotamia around 3500 BCE."
+              "fact": "Ancient Origins",
+              "description": "The earliest evidence of beer production dates back to ancient Mesopotamia around 3500 BCE."
             },
             {
-              "Fact": "Medieval Brewing",
-              "Description": "In the Middle Ages, monasteries in Europe played a significant role in refining brewing techniques."
+              "fact": "Medieval Brewing",
+              "description": "In the Middle Ages, monasteries in Europe played a significant role in refining brewing techniques."
             }
           ]
         }
       ]
     },
-    "Brewing_Process": {
-      "Title": "Brewing Process",
-      "Description": "The brewing process involves several key steps: mashing, lautering, boiling, fermenting, conditioning, and packaging. Each step contributes to the final flavor, color, and clarity of the beer.",
-      "Subsections": [
+    "brewing_process": {
+      "title": "Brewing Process",
+      "description": "The brewing process involves several key steps: mashing, lautering, boiling, fermenting, conditioning, and packaging. Each step contributes to the final flavor, color, and clarity of the beer.",
+      "subsections": [
         {
-          "Title": "Mashing",
-          "Description": "Mashing involves mixing crushed malted barley with hot water to convert starches into fermentable sugars.",
-          "Key_Methods": [
+          "title": "Mashing",
+          "description": "Mashing involves mixing crushed malted barley with hot water to convert starches into fermentable sugars.",
+          "key_methods": [
             {
-              "Method": "Temperature Control",
-              "Description": "Maintaining precise temperatures during mashing is crucial for enzyme activity and sugar conversion."
+              "method": "Temperature Control",
+              "description": "Maintaining precise temperatures during mashing is crucial for enzyme activity and sugar conversion."
             },
             {
-              "Method": "Mash Tun",
-              "Description": "A mash tun is used to mix malt and water, allowing for the extraction of sugars."
+              "method": "Mash Tun",
+              "description": "A mash tun is used to mix malt and water, allowing for the extraction of sugars."
             }
           ]
         },
         {
-          "Title": "Lautering",
-          "Description": "Lautering separates the liquid wort from the solid grain husks after mashing.",
-          "Key_Methods": [
+          "title": "Lautering",
+          "description": "Lautering separates the liquid wort from the solid grain husks after mashing.",
+          "key_methods": [
             {
-              "Method": "Vorlautering",
-              "Description": "Vorlautering is the initial phase of lautering where clear wort is collected and returned to the mash tun."
+              "method": "Vorlautering",
+              "description": "Vorlautering is the initial phase of lautering where clear wort is collected and returned to the mash tun."
             },
             {
-              "Method": "Sparging",
-              "Description": "Sparging involves rinsing the grain bed with hot water to extract remaining sugars."
+              "method": "Sparging",
+              "description": "Sparging involves rinsing the grain bed with hot water to extract remaining sugars."
             }
           ]
         },
         {
-          "Title": "Boiling",
-          "Description": "The wort is boiled and hops are added to provide bitterness, aroma, and flavor.",
-          "Key_Methods": [
+          "title": "Boiling",
+          "description": "The wort is boiled and hops are added to provide bitterness, aroma, and flavor.",
+          "key_methods": [
             {
-              "Method": "Hop Addition",
-              "Description": "Hops are added at various stages during boiling to achieve different flavor profiles."
+              "method": "Hop Addition",
+              "description": "Hops are added at various stages during boiling to achieve different flavor profiles."
             },
             {
-              "Method": "Boil Time",
-              "Description": "The duration of the boil impacts the bitterness and color of the beer."
+              "method": "Boil Time",
+              "description": "The duration of the boil impacts the bitterness and color of the beer."
             }
           ]
         },
         {
-          "Title": "Fermentation",
-          "Description": "Fermentation is the process where yeast converts sugars into alcohol and carbon dioxide.",
-          "Key_Methods": [
+          "title": "Fermentation",
+          "description": "Fermentation is the process where yeast converts sugars into alcohol and carbon dioxide.",
+          "key_methods": [
             {
-              "Method": "Primary Fermentation",
-              "Description": "Primary fermentation involves the initial conversion of sugars by yeast, typically lasting one to two weeks."
+              "method": "Primary Fermentation",
+              "description": "Primary fermentation involves the initial conversion of sugars by yeast, typically lasting one to two weeks."
             },
             {
-              "Method": "Secondary Fermentation",
-              "Description": "Secondary fermentation occurs after the primary phase, allowing flavors to mature and settle."
+              "method": "Secondary Fermentation",
+              "description": "Secondary fermentation occurs after the primary phase, allowing flavors to mature and settle."
             }
           ]
         },
         {
-          "Title": "Conditioning",
-          "Description": "Conditioning allows the beer to develop its flavors and carbonation before packaging.",
-          "Key_Methods": [
+          "title": "Conditioning",
+          "description": "Conditioning allows the beer to develop its flavors and carbonation before packaging.",
+          "key_methods": [
             {
-              "Method": "Aging",
-              "Description": "Aging the beer in tanks or bottles helps improve its flavor and clarity."
+              "method": "Aging",
+              "description": "Aging the beer in tanks or bottles helps improve its flavor and clarity."
             },
             {
-              "Method": "Carbonation",
-              "Description": "Carbonation can be achieved naturally through fermentation or by adding carbon dioxide before packaging."
+              "method": "Carbonation",
+              "description": "Carbonation can be achieved naturally through fermentation or by adding carbon dioxide before packaging."
             }
           ]
         },
         {
-          "Title": "Packaging",
-          "Description": "Packaging involves bottling, canning, or kegging the beer for distribution and consumption.",
-          "Key_Methods": [
+          "title": "Packaging",
+          "description": "Packaging involves bottling, canning, or kegging the beer for distribution and consumption.",
+          "key_methods": [
             {
-              "Method": "Bottling",
-              "Description": "Bottling includes filling bottles, capping, and labeling."
+              "method": "Bottling",
+              "description": "Bottling includes filling bottles, capping, and labeling."
             },
             {
-              "Method": "Canning",
-              "Description": "Canning involves filling cans, sealing, and labeling."
-            }
-          ]
-        }
-      ]
-    },
-    "Beer_Styles": {
-      "Title": "Beer Styles",
-      "Description": "Beer comes in a wide variety of styles, each with its own distinct characteristics. Beer styles are generally categorized into ales and lagers, with further subcategories based on flavor, color, and strength.",
-      "Subsections": [
-        {
-          "Title": "Ales",
-          "Description": "Ales are beers brewed with top-fermenting yeast at warmer temperatures. They tend to have a more complex and fruity flavor profile.",
-          "Key_Styles": [
-            {
-              "Name": "Pale Ale",
-              "Description": "Pale ales are known for their balanced flavor with a moderate hop bitterness and malt sweetness.",
-              "Examples": [
-                {
-                  "Brand": "Sierra Nevada Pale Ale",
-                  "Description": "A classic American pale ale with a piney, citrusy hop character and balanced malt sweetness."
-                },
-                {
-                  "Brand": "Fuller's London Pride",
-                  "Description": "An English pale ale with a rich malt flavor and subtle hop notes."
-                }
-              ]
-            },
-            {
-              "Name": "India Pale Ale (IPA)",
-              "Description": "IPAs are characterized by a strong hop flavor and higher bitterness, often with fruity and floral notes.",
-              "Examples": [
-                {
-                  "Brand": "Dogfish Head 60 Minute IPA",
-                  "Description": "A widely recognized IPA with a continuous hop addition throughout the boil, resulting in a balanced bitterness."
-                },
-                {
-                  "Brand": "Stone IPA",
-                  "Description": "Known for its bold hop character and citrus flavors, Stone IPA is a prominent example of American IPA."
-                }
-              ]
-            },
-            {
-              "Name": "Stout",
-              "Description": "Stouts are dark ales with roasted malt flavors, often featuring notes of coffee and chocolate.",
-              "Examples": [
-                {
-                  "Brand": "Guinness Draught",
-                  "Description": "A well-known Irish stout with a creamy texture and roasted malt flavor."
-                },
-                {
-                  "Brand": "Bell's Kalamazoo Stout",
-                  "Description": "An American stout with rich flavors of chocolate and coffee."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "Title": "Lagers",
-          "Description": "Lagers are beers brewed with bottom-fermenting yeast at cooler temperatures. They generally have a cleaner and crisper taste compared to ales.",
-          "Key_Styles": [
-            {
-              "Name": "Pilsner",
-              "Description": "Pilsners are pale lagers with a crisp, clean flavor and a pronounced hop bitterness.",
-              "Examples": [
-                {
-                  "Brand": "Pilsner Urquell",
-                  "Description": "A classic Czech pilsner with a balanced bitterness and biscuity malt character."
-                },
-                {
-                  "Brand": "Heineken",
-                  "Description": "A well-known Dutch pilsner with a light body and mild hop bitterness."
-                }
-              ]
-            },
-            {
-              "Name": "Helles",
-              "Description": "Helles lagers are German-style pale lagers with a maltier profile compared to pilsners.",
-              "Examples": [
-                {
-                  "Brand": "Paulaner Original Munich Lager",
-                  "Description": "A traditional German helles with a smooth malt character and subtle hop bitterness."
-                },
-                {
-                  "Brand": "Spaten Premium Lager",
-                  "Description": "A Munich helles with a malty sweetness and clean finish."
-                }
-              ]
-            },
-            {
-              "Name": "Bock",
-              "Description": "Bocks are strong lagers with a rich, malty flavor and higher alcohol content.",
-              "Examples": [
-                {
-                  "Brand": "Ayinger Celebrator Doppelbock",
-                  "Description": "A renowned German doppelbock with a rich, malty flavor and notes of caramel and chocolate."
-                },
-                {
-                  "Brand": "Shiner Bock",
-                  "Description": "An American bock with a smooth, malty profile and subtle hop presence."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "Title": "Specialty Beers",
-          "Description": "Specialty beers include a wide range of styles that don't fit neatly into the ale or lager categories. These can include experimental and seasonal beers.",
-          "Key_Styles": [
-            {
-              "Name": "Sour Beer",
-              "Description": "Sour beers are intentionally brewed with wild yeast or bacteria to achieve a tart, acidic flavor.",
-              "Examples": [
-                {
-                  "Brand": "Cantillon Gueuze",
-                  "Description": "A classic Belgian gueuze with complex, sour, and fruity notes."
-                },
-                {
-                  "Brand": "The Bruery Terreux Beret",
-                  "Description": "A sour ale with notes of cherry and oak."
-                }
-              ]
-            },
-            {
-              "Name": "Barrel-Aged Beer",
-              "Description": "Barrel-aged beers are aged in barrels previously used for other alcoholic beverages, imparting additional flavors.",
-              "Examples": [
-                {
-                  "Brand": "Goose Island Bourbon County Stout",
-                  "Description": "A rich stout aged in bourbon barrels, offering deep flavors of chocolate, vanilla, and whiskey."
-                },
-                {
-                  "Brand": "Firestone Walker Parabola",
-                  "Description": "A barrel-aged imperial stout with flavors of coffee, chocolate, and bourbon."
-                }
-              ]
+              "method": "Canning",
+              "description": "Canning involves filling cans, sealing, and labeling."
             }
           ]
         }
       ]
     },
-    "Beer_Brands": {
-      "Title": "Notable Beer Brands",
-      "Description": "There are numerous breweries around the world, each offering unique beer styles and flavors. Here are some notable brands known for their quality and influence.",
-      "Brands": [
+    "beer_styles": {
+      "title": "Beer Styles",
+      "description": "Beer comes in a wide variety of styles, each with its own distinct characteristics. Beer styles are generally categorized into ales and lagers, with further subcategories based on flavor, color, and strength.",
+      "subsections": [
         {
-          "Brand": "Budweiser",
-          "Description": "Budweiser is one of the best-selling beers in the world, known for its light, crisp lager flavor."
+          "title": "Ales",
+          "description": "Ales are beers brewed with top-fermenting yeast at warmer temperatures. They tend to have a more complex and fruity flavor profile.",
+          "key_styles": [
+            {
+              "name": "Pale Ale",
+              "description": "Pale ales are known for their balanced flavor with a moderate hop bitterness and malt sweetness.",
+              "examples": [
+                {
+                  "brand": "Sierra Nevada Pale Ale",
+                  "description": "A classic American pale ale with a piney, citrusy hop character and balanced malt sweetness."
+                },
+                {
+                  "brand": "Fuller's London Pride",
+                  "description": "An English pale ale with a rich malt flavor and subtle hop notes."
+                }
+              ]
+            },
+            {
+              "name": "India Pale Ale (IPA)",
+              "description": "IPAs are characterized by a strong hop flavor and higher bitterness, often with fruity and floral notes.",
+              "examples": [
+                {
+                  "brand": "Dogfish Head 60 Minute IPA",
+                  "description": "A widely recognized IPA with a continuous hop addition throughout the boil, resulting in a balanced bitterness."
+                },
+                {
+                  "brand": "Stone IPA",
+                  "description": "Known for its bold hop character and citrus flavors, Stone IPA is a prominent example of American IPA."
+                }
+              ]
+            },
+            {
+              "name": "Stout",
+              "description": "Stouts are dark ales with roasted malt flavors, often featuring notes of coffee and chocolate.",
+              "examples": [
+                {
+                  "brand": "Guinness Draught",
+                  "description": "A well-known Irish stout with a creamy texture and roasted malt flavor."
+                },
+                {
+                  "brand": "Bell's Kalamazoo Stout",
+                  "description": "An American stout with rich flavors of chocolate and coffee."
+                }
+              ]
+            }
+          ]
         },
         {
-          "Brand": "Heineken",
-          "Description": "Heineken is a globally recognized Dutch pilsner with a clean, refreshing taste."
+          "title": "Lagers",
+          "description": "Lagers are beers brewed with bottom-fermenting yeast at cooler temperatures. They generally have a cleaner and crisper taste compared to ales.",
+          "key_styles": [
+            {
+              "name": "Pilsner",
+              "description": "Pilsners are pale lagers with a crisp, clean flavor and a pronounced hop bitterness.",
+              "examples": [
+                {
+                  "brand": "Pilsner Urquell",
+                  "description": "A classic Czech pilsner with a balanced bitterness and biscuity malt character."
+                },
+                {
+                  "brand": "Heineken",
+                  "description": "A well-known Dutch pilsner with a light body and mild hop bitterness."
+                }
+              ]
+            },
+            {
+              "name": "Helles",
+              "description": "Helles lagers are German-style pale lagers with a maltier profile compared to pilsners.",
+              "examples": [
+                {
+                  "brand": "Paulaner Original Munich Lager",
+                  "description": "A traditional German helles with a smooth malt character and subtle hop bitterness."
+                },
+                {
+                  "brand": "Spaten Premium Lager",
+                  "description": "A Munich helles with a malty sweetness and clean finish."
+                }
+              ]
+            },
+            {
+              "name": "Bock",
+              "description": "Bocks are strong lagers with a rich, malty flavor and higher alcohol content.",
+              "examples": [
+                {
+                  "brand": "Ayinger Celebrator Doppelbock",
+                  "description": "A renowned German doppelbock with a rich, malty flavor and notes of caramel and chocolate."
+                },
+                {
+                  "brand": "Shiner Bock",
+                  "description": "An American bock with a smooth, malty profile and subtle hop presence."
+                }
+              ]
+            }
+          ]
         },
         {
-          "Brand": "Guinness",
-          "Description": "Guinness is an iconic Irish stout known for its dark color, creamy head, and roasted malt flavor."
-        },
-        {
-          "Brand": "Sierra Nevada",
-          "Description": "Sierra Nevada is a prominent American brewery known for its Pale Ale and innovative craft beers."
-        },
-        {
-          "Brand": "Chimay",
-          "Description": "Chimay is a Belgian brewery famous for its Trappist beers, including Chimay Blue and Chimay Red."
+          "title": "Specialty Beers",
+          "description": "Specialty beers include a wide range of styles that don't fit neatly into the ale or lager categories. These can include experimental and seasonal beers.",
+          "key_styles": [
+            {
+              "name": "Sour Beer",
+              "description": "Sour beers are intentionally brewed with wild yeast or bacteria to achieve a tart, acidic flavor.",
+              "examples": [
+                {
+                  "brand": "Cantillon Gueuze",
+                  "description": "A classic Belgian gueuze with complex, sour, and fruity notes."
+                },
+                {
+                  "brand": "The Bruery Terreux Beret",
+                  "description": "A sour ale with notes of cherry and oak."
+                }
+              ]
+            },
+            {
+              "name": "Barrel-Aged Beer",
+              "description": "Barrel-aged beers are aged in barrels previously used for other alcoholic beverages, imparting additional flavors.",
+              "examples": [
+                {
+                  "brand": "Goose Island Bourbon County Stout",
+                  "description": "A rich stout aged in bourbon barrels, offering deep flavors of chocolate, vanilla, and whiskey."
+                },
+                {
+                  "brand": "Firestone Walker Parabola",
+                  "description": "A barrel-aged imperial stout with flavors of coffee, chocolate, and bourbon."
+                }
+              ]
+            }
+          ]
         }
       ]
     },
-    "Beer_Culture": {
-      "Title": "Beer Culture",
-      "Description": "Beer has a rich cultural significance across the globe, influencing social practices, festivals, and traditions.",
-      "Subsections": [
+    "beer_brands": {
+      "title": "Notable Beer Brands",
+      "description": "There are numerous breweries around the world, each offering unique beer styles and flavors. Here are some notable brands known for their quality and influence.",
+      "brands": [
         {
-          "Title": "Beer Festivals",
-          "Description": "Beer festivals celebrate the diversity and creativity of the brewing world, showcasing a wide variety of styles and brands.",
-          "Key_Festivals": [
+          "brand": "Budweiser",
+          "description": "Budweiser is one of the best-selling beers in the world, known for its light, crisp lager flavor."
+        },
+        {
+          "brand": "Heineken",
+          "description": "Heineken is a globally recognized Dutch pilsner with a clean, refreshing taste."
+        },
+        {
+          "brand": "Guinness",
+          "description": "Guinness is an iconic Irish stout known for its dark color, creamy head, and roasted malt flavor."
+        },
+        {
+          "brand": "Sierra Nevada",
+          "description": "Sierra Nevada is a prominent American brewery known for its Pale Ale and innovative craft beers."
+        },
+        {
+          "brand": "Chimay",
+          "description": "Chimay is a Belgian brewery famous for its Trappist beers, including Chimay Blue and Chimay Red."
+        }
+      ]
+    },
+    "beer_culture": {
+      "title": "Beer Culture",
+      "description": "Beer has a rich cultural significance across the globe, influencing social practices, festivals, and traditions.",
+      "subsections": [
+        {
+          "title": "Beer Festivals",
+          "description": "Beer festivals celebrate the diversity and creativity of the brewing world, showcasing a wide variety of styles and brands.",
+          "key_festivals": [
             {
-              "Festival": "Oktoberfest",
-              "Description": "Oktoberfest is the world’s largest beer festival held annually in Munich, Germany, featuring traditional German beers and cultural events."
+              "festival": "Oktoberfest",
+              "description": "Oktoberfest is the world’s largest beer festival held annually in Munich, Germany, featuring traditional German beers and cultural events."
             },
             {
-              "Festival": "Great American Beer Festival",
-              "Description": "The Great American Beer Festival is held in Denver, Colorado, celebrating American craft beers and attracting brewers and enthusiasts from across the country."
+              "festival": "Great American Beer Festival",
+              "description": "The Great American Beer Festival is held in Denver, Colorado, celebrating American craft beers and attracting brewers and enthusiasts from across the country."
             }
           ]
         },
         {
-          "Title": "Beer Traditions",
-          "Description": "Beer traditions vary widely, reflecting regional practices and historical influences.",
-          "Key_Traditions": [
+          "title": "Beer Traditions",
+          "description": "Beer traditions vary widely, reflecting regional practices and historical influences.",
+          "key_traditions": [
             {
-              "Tradition": "British Pub Culture",
-              "Description": "In the UK, pub culture is central to social life, with traditional ales and pub activities forming a key part of the experience."
+              "tradition": "British Pub Culture",
+              "description": "In the UK, pub culture is central to social life, with traditional ales and pub activities forming a key part of the experience."
             },
             {
-              "Tradition": "Belgian Beer Culture",
-              "Description": "Belgium is renowned for its diverse beer styles and rich brewing heritage, including Trappist and Abbey beers."
+              "tradition": "Belgian Beer Culture",
+              "description": "Belgium is renowned for its diverse beer styles and rich brewing heritage, including Trappist and Abbey beers."
             }
           ]
         }
       ]
     },
-    "Beer_Industry": {
-      "Title": "The Beer Industry",
-      "Description": "The beer industry is vast and evolving, with trends toward craft brewing, sustainability, and global distribution.",
-      "Subsections": [
+    "beer_industry": {
+      "title": "The Beer Industry",
+      "description": "The beer industry is vast and evolving, with trends toward craft brewing, sustainability, and global distribution.",
+      "subsections": [
         {
-          "Title": "Craft Brewing",
-          "Description": "Craft brewing has revolutionized the beer industry, emphasizing quality, diversity, and innovation.",
-          "Key_Components": [
+          "title": "Craft Brewing",
+          "description": "Craft brewing has revolutionized the beer industry, emphasizing quality, diversity, and innovation.",
+          "key_components": [
             {
-              "Component": "Microbreweries",
-              "Description": "Microbreweries focus on small-scale production and unique, often experimental beer styles."
+              "component": "Microbreweries",
+              "description": "Microbreweries focus on small-scale production and unique, often experimental beer styles."
             },
             {
-              "Component": "Nanobreweries",
-              "Description": "Nanobreweries are even smaller than microbreweries, often run by a single individual or small team."
+              "component": "Nanobreweries",
+              "description": "Nanobreweries are even smaller than microbreweries, often run by a single individual or small team."
             }
           ]
         },
         {
-          "Title": "Global Trends",
-          "Description": "Global trends in the beer industry include the rise of international brands, evolving consumer preferences, and increasing interest in specialty and craft beers.",
-          "Key_Trends": [
+          "title": "Global Trends",
+          "description": "Global trends in the beer industry include the rise of international brands, evolving consumer preferences, and increasing interest in specialty and craft beers.",
+          "key_trends": [
             {
-              "Trend": "Globalization of Craft Beer",
-              "Description": "Craft beer has become a global phenomenon, with breweries from various countries gaining international recognition."
+              "trend": "Globalization of Craft Beer",
+              "description": "Craft beer has become a global phenomenon, with breweries from various countries gaining international recognition."
             },
             {
-              "Trend": "Sustainable Practices",
-              "Description": "Sustainability is increasingly important, with breweries adopting eco-friendly practices in production and packaging."
+              "trend": "Sustainable Practices",
+              "description": "Sustainability is increasingly important, with breweries adopting eco-friendly practices in production and packaging."
             }
           ]
         }
       ]
     },
-    "Beer_Recipes": {
-      "Title": "Beer Recipes",
-      "Description": "Beer recipes vary widely, from simple homebrew recipes to complex commercial formulations. Understanding recipes can offer insights into the brewing process and flavor development.",
-      "Subsections": [
+    "beer_recipes": {
+      "title": "Beer Recipes",
+      "description": "Beer recipes vary widely, from simple homebrew recipes to complex commercial formulations. Understanding recipes can offer insights into the brewing process and flavor development.",
+      "subsections": [
         {
-          "Title": "Basic Homebrew Recipe",
-          "Description": "A basic homebrew recipe typically includes malt extract, hops, yeast, and water, allowing homebrewers to create a wide range of beer styles.",
-          "Key_Components": [
+          "title": "Basic Homebrew Recipe",
+          "description": "A basic homebrew recipe typically includes malt extract, hops, yeast, and water, allowing homebrewers to create a wide range of beer styles.",
+          "key_components": [
             {
-              "Component": "Malt Extract",
-              "Description": "Provides the fermentable sugars needed for brewing."
+              "component": "Malt Extract",
+              "description": "Provides the fermentable sugars needed for brewing."
             },
             {
-              "Component": "Hops",
-              "Description": "Adds bitterness and aroma to the beer."
+              "component": "Hops",
+              "description": "Adds bitterness and aroma to the beer."
             },
             {
-              "Component": "Yeast",
-              "Description": "Ferments the sugars to produce alcohol and carbon dioxide."
+              "component": "Yeast",
+              "description": "Ferments the sugars to produce alcohol and carbon dioxide."
             }
           ]
         },
         {
-          "Title": "Advanced Commercial Recipe",
-          "Description": "Commercial recipes may include additional ingredients and techniques to achieve specific flavors and styles.",
-          "Key_Components": [
+          "title": "Advanced Commercial Recipe",
+          "description": "Commercial recipes may include additional ingredients and techniques to achieve specific flavors and styles.",
+          "key_components": [
             {
-              "Component": "Specialty Malts",
-              "Description": "Provides unique color and flavor characteristics."
+              "component": "Specialty Malts",
+              "description": "Provides unique color and flavor characteristics."
             },
             {
-              "Component": "Adjuncts",
-              "Description": "Additional ingredients like fruit, spices, or herbs used to enhance flavor."
+              "component": "Adjuncts",
+              "description": "Additional ingredients like fruit, spices, or herbs used to enhance flavor."
             },
             {
-              "Component": "Yeast Strains",
-              "Description": "Different yeast strains can significantly impact flavor and fermentation characteristics."
+              "component": "Yeast Strains",
+              "description": "Different yeast strains can significantly impact flavor and fermentation characteristics."
             }
           ]
         }

@@ -1,350 +1,350 @@
 {
-  "Mezcal": {
-    "History": {
-      "Title": "History of Mezcal",
-      "Description": "Mezcal is a traditional Mexican spirit with deep cultural roots and a long history that predates the arrival of the Spanish in the Americas. It is made from the agave plant and is known for its unique, smoky flavor.",
-      "Subsections": [
+  "mezcal": {
+    "history": {
+      "title": "History of Mezcal",
+      "description": "Mezcal is a traditional Mexican spirit with deep cultural roots and a long history that predates the arrival of the Spanish in the Americas. It is made from the agave plant and is known for its unique, smoky flavor.",
+      "subsections": [
         {
-          "Title": "Early Origins",
-          "Description": "The origins of mezcal date back to pre-Hispanic times when indigenous peoples of Mexico first began fermenting agave.",
-          "Key_Facts": [
+          "title": "Early Origins",
+          "description": "The origins of mezcal date back to pre-Hispanic times when indigenous peoples of Mexico first began fermenting agave.",
+          "key_facts": [
             {
-              "Date": "Pre-Columbian Era",
-              "Description": "Indigenous tribes such as the Zapotecs and Mixtecs fermented the sap of the agave plant to create pulque, an alcoholic beverage used in religious ceremonies and daily life."
+              "date": "Pre-Columbian Era",
+              "description": "Indigenous tribes such as the Zapotecs and Mixtecs fermented the sap of the agave plant to create pulque, an alcoholic beverage used in religious ceremonies and daily life."
             }
           ]
         },
         {
-          "Title": "Introduction of Distillation",
-          "Description": "The distillation of agave to produce mezcal began with the arrival of Spanish conquistadors in the 16th century, who brought with them distillation technology.",
-          "Key_Facts": [
+          "title": "Introduction of Distillation",
+          "description": "The distillation of agave to produce mezcal began with the arrival of Spanish conquistadors in the 16th century, who brought with them distillation technology.",
+          "key_facts": [
             {
-              "Date": "1500s",
-              "Description": "Spanish settlers and indigenous peoples began using distillation methods to create a stronger, more potent spirit from agave, which became known as mezcal."
+              "date": "1500s",
+              "description": "Spanish settlers and indigenous peoples began using distillation methods to create a stronger, more potent spirit from agave, which became known as mezcal."
             }
           ]
         },
         {
-          "Title": "Regional Development",
-          "Description": "Over the centuries, mezcal production developed regionally across Mexico, each area contributing its unique techniques and traditions.",
-          "Key_Facts": [
+          "title": "Regional Development",
+          "description": "Over the centuries, mezcal production developed regionally across Mexico, each area contributing its unique techniques and traditions.",
+          "key_facts": [
             {
-              "Date": "1700s-1800s",
-              "Description": "Mezcal became an integral part of regional cultures in Oaxaca, Guerrero, and other states, with each area developing distinct production methods and styles."
+              "date": "1700s-1800s",
+              "description": "Mezcal became an integral part of regional cultures in Oaxaca, Guerrero, and other states, with each area developing distinct production methods and styles."
             }
           ]
         },
         {
-          "Title": "Modernization and Regulation",
-          "Description": "In the 20th century, efforts to regulate and protect mezcal production led to the establishment of standards and certifications.",
-          "Key_Facts": [
+          "title": "Modernization and Regulation",
+          "description": "In the 20th century, efforts to regulate and protect mezcal production led to the establishment of standards and certifications.",
+          "key_facts": [
             {
-              "Date": "1994",
-              "Description": "The Mexican government established the Denomination of Origin for mezcal, defining the regions and production methods allowed for authentic mezcal."
+              "date": "1994",
+              "description": "The Mexican government established the Denomination of Origin for mezcal, defining the regions and production methods allowed for authentic mezcal."
             },
             {
-              "Date": "2005",
-              "Description": "The Mezcal Regulatory Council (CRM) was created to oversee mezcal production, ensuring quality and authenticity."
+              "date": "2005",
+              "description": "The Mezcal Regulatory Council (CRM) was created to oversee mezcal production, ensuring quality and authenticity."
             }
           ]
         }
       ]
     },
-    "Production": {
-      "Title": "Production of Mezcal",
-      "Description": "Mezcal production is a meticulous process that involves harvesting agave, cooking, fermenting, distilling, and aging. The traditional methods used contribute to its distinctive smoky flavor and complex profile.",
-      "Subsections": [
+    "production": {
+      "title": "Production of Mezcal",
+      "description": "Mezcal production is a meticulous process that involves harvesting agave, cooking, fermenting, distilling, and aging. The traditional methods used contribute to its distinctive smoky flavor and complex profile.",
+      "subsections": [
         {
-          "Title": "Ingredients",
-          "Description": "Mezcal is made from a variety of agave species, with each type imparting unique flavors and characteristics to the final product.",
-          "Key_Ingredients": [
+          "title": "Ingredients",
+          "description": "Mezcal is made from a variety of agave species, with each type imparting unique flavors and characteristics to the final product.",
+          "key_ingredients": [
             {
-              "Ingredient": "Agave",
-              "Description": "Mezcal can be made from several types of agave, including Espadín, Tobalá, Madrecuixe, and many others, each contributing distinct flavors."
+              "ingredient": "Agave",
+              "description": "Mezcal can be made from several types of agave, including Espadín, Tobalá, Madrecuixe, and many others, each contributing distinct flavors."
             }
           ]
         },
         {
-          "Title": "Harvesting",
-          "Description": "Agave plants are harvested by jimadores, who expertly trim the leaves to reveal the piñas, which are then used in mezcal production.",
-          "Key_Facts": [
+          "title": "Harvesting",
+          "description": "Agave plants are harvested by jimadores, who expertly trim the leaves to reveal the piñas, which are then used in mezcal production.",
+          "key_facts": [
             {
-              "Fact": "Jimadores",
-              "Description": "Jimadores are skilled laborers who harvest agave by removing the sharp leaves and extracting the piñas, the heart of the plant."
+              "fact": "Jimadores",
+              "description": "Jimadores are skilled laborers who harvest agave by removing the sharp leaves and extracting the piñas, the heart of the plant."
             },
             {
-              "Fact": "Piñas",
-              "Description": "The heart of the agave plant, called the piña, is rich in sugars and is the primary ingredient used in mezcal production."
+              "fact": "Piñas",
+              "description": "The heart of the agave plant, called the piña, is rich in sugars and is the primary ingredient used in mezcal production."
             }
           ]
         },
         {
-          "Title": "Cooking",
-          "Description": "The piñas are traditionally cooked in earthen pits lined with rocks and wood, a process that imparts mezcal's signature smoky flavor.",
-          "Key_Methods": [
+          "title": "Cooking",
+          "description": "The piñas are traditionally cooked in earthen pits lined with rocks and wood, a process that imparts mezcal's signature smoky flavor.",
+          "key_methods": [
             {
-              "Method": "Earthen Pits",
-              "Description": "Piñas are roasted in underground pits lined with rocks and filled with wood and charcoal, which are covered and left to cook for several days."
+              "method": "Earthen Pits",
+              "description": "Piñas are roasted in underground pits lined with rocks and filled with wood and charcoal, which are covered and left to cook for several days."
             },
             {
-              "Method": "Brick Ovens",
-              "Description": "Some modern producers use brick ovens to cook the agave, offering a different flavor profile compared to traditional methods."
+              "method": "Brick Ovens",
+              "description": "Some modern producers use brick ovens to cook the agave, offering a different flavor profile compared to traditional methods."
             }
           ]
         },
         {
-          "Title": "Fermentation",
-          "Description": "After cooking, the agave is crushed to extract the juice, which is then fermented using natural yeasts from the environment.",
-          "Key_Facts": [
+          "title": "Fermentation",
+          "description": "After cooking, the agave is crushed to extract the juice, which is then fermented using natural yeasts from the environment.",
+          "key_facts": [
             {
-              "Fact": "Natural Yeast",
-              "Description": "The fermentation process relies on natural yeasts present in the environment, which can contribute unique flavors to the mezcal."
+              "fact": "Natural Yeast",
+              "description": "The fermentation process relies on natural yeasts present in the environment, which can contribute unique flavors to the mezcal."
             },
             {
-              "Fact": "Fermentation Time",
-              "Description": "Fermentation typically lasts several days to weeks, during which the sugars in the agave juice are converted into alcohol."
+              "fact": "Fermentation Time",
+              "description": "Fermentation typically lasts several days to weeks, during which the sugars in the agave juice are converted into alcohol."
             }
           ]
         },
         {
-          "Title": "Distillation",
-          "Description": "The fermented liquid is distilled, usually twice, to increase the alcohol content and refine the flavor. Distillation methods can vary, with traditional clay pot stills being used in some regions.",
-          "Key_Facts": [
+          "title": "Distillation",
+          "description": "The fermented liquid is distilled, usually twice, to increase the alcohol content and refine the flavor. Distillation methods can vary, with traditional clay pot stills being used in some regions.",
+          "key_facts": [
             {
-              "Fact": "Clay Pot Stills",
-              "Description": "Traditional clay pot stills, known as 'ollas de barro,' are used in some regions to distill mezcal, imparting unique earthy flavors."
+              "fact": "Clay Pot Stills",
+              "description": "Traditional clay pot stills, known as 'ollas de barro,' are used in some regions to distill mezcal, imparting unique earthy flavors."
             },
             {
-              "Fact": "Copper Stills",
-              "Description": "Copper stills are also commonly used, offering a different flavor profile and often resulting in a cleaner, more refined spirit."
+              "fact": "Copper Stills",
+              "description": "Copper stills are also commonly used, offering a different flavor profile and often resulting in a cleaner, more refined spirit."
             }
           ]
         },
         {
-          "Title": "Aging",
-          "Description": "Mezcal can be aged in oak barrels to develop additional flavors and complexity, though many mezcals are enjoyed unaged to highlight the pure agave flavors.",
-          "Aging_Categories": [
+          "title": "Aging",
+          "description": "Mezcal can be aged in oak barrels to develop additional flavors and complexity, though many mezcals are enjoyed unaged to highlight the pure agave flavors.",
+          "aging_categories": [
             {
-              "Category": "Joven",
-              "Description": "Joven (young) mezcal is unaged and bottled immediately after distillation, offering a clear color and a bold, agave-forward flavor."
+              "category": "Joven",
+              "description": "Joven (young) mezcal is unaged and bottled immediately after distillation, offering a clear color and a bold, agave-forward flavor."
             },
             {
-              "Category": "Reposado",
-              "Description": "Reposado mezcal is aged for 2-12 months in oak barrels, resulting in a golden color and a smoother, more rounded flavor with hints of wood and caramel."
+              "category": "Reposado",
+              "description": "Reposado mezcal is aged for 2-12 months in oak barrels, resulting in a golden color and a smoother, more rounded flavor with hints of wood and caramel."
             },
             {
-              "Category": "Añejo",
-              "Description": "Añejo mezcal is aged for 1-3 years in oak barrels, giving it a deep amber color and complex flavors with notes of dried fruit, oak, and spice."
+              "category": "Añejo",
+              "description": "Añejo mezcal is aged for 1-3 years in oak barrels, giving it a deep amber color and complex flavors with notes of dried fruit, oak, and spice."
             },
             {
-              "Category": "Extra Añejo",
-              "Description": "Extra Añejo mezcal is aged for over 3 years, resulting in a dark color and exceptionally rich, complex flavors with deep notes of chocolate, coffee, and tobacco."
+              "category": "Extra Añejo",
+              "description": "Extra Añejo mezcal is aged for over 3 years, resulting in a dark color and exceptionally rich, complex flavors with deep notes of chocolate, coffee, and tobacco."
             }
           ]
         }
       ]
     },
-    "Types_of_Mezcal": {
-      "Title": "Types of Mezcal",
-      "Description": "Mezcal is categorized based on its aging process and the types of agave used, resulting in distinct types that offer different flavors and characteristics. These categories include Joven, Reposado, Añejo, and Extra Añejo.",
-      "Subsections": [
+    "types_of_mezcal": {
+      "title": "Types of Mezcal",
+      "description": "Mezcal is categorized based on its aging process and the types of agave used, resulting in distinct types that offer different flavors and characteristics. These categories include Joven, Reposado, Añejo, and Extra Añejo.",
+      "subsections": [
         {
-          "Title": "Joven Mezcal",
-          "Description": "Joven mezcal, also known as blanco or young mezcal, is unaged and has a clear color. It is known for its bold, pure agave flavor and often intense smokiness.",
-          "Key_Characteristics": [
+          "title": "Joven Mezcal",
+          "description": "Joven mezcal, also known as blanco or young mezcal, is unaged and has a clear color. It is known for its bold, pure agave flavor and often intense smokiness.",
+          "key_characteristics": [
             {
-              "Characteristic": "Unaged",
-              "Description": "Joven mezcal is bottled immediately after distillation, without any aging."
+              "characteristic": "Unaged",
+              "description": "Joven mezcal is bottled immediately after distillation, without any aging."
             },
             {
-              "Characteristic": "Pure Flavor",
-              "Description": "It has a bold, pure flavor that highlights the natural characteristics of the agave, often with pronounced smoky notes."
+              "characteristic": "Pure Flavor",
+              "description": "It has a bold, pure flavor that highlights the natural characteristics of the agave, often with pronounced smoky notes."
             }
           ],
-          "Brands": [
+          "brands": [
             {
-              "Brand": "Del Maguey Vida",
-              "Description": "Del Maguey Vida is a popular joven mezcal known for its balance of fruit, agave, and smoke."
+              "brand": "Del Maguey Vida",
+              "description": "Del Maguey Vida is a popular joven mezcal known for its balance of fruit, agave, and smoke."
             },
             {
-              "Brand": "Mezcal Vago Espadín",
-              "Description": "Mezcal Vago Espadín offers a clean, agave-forward taste with subtle smoke and earthy undertones."
+              "brand": "Mezcal Vago Espadín",
+              "description": "Mezcal Vago Espadín offers a clean, agave-forward taste with subtle smoke and earthy undertones."
             },
             {
-              "Brand": "Banhez Ensemble",
-              "Description": "Banhez Ensemble is a blend of different agave varieties, offering a complex and smooth joven mezcal with a hint of smoke."
+              "brand": "Banhez Ensemble",
+              "description": "Banhez Ensemble is a blend of different agave varieties, offering a complex and smooth joven mezcal with a hint of smoke."
             }
           ]
         },
         {
-          "Title": "Reposado Mezcal",
-          "Description": "Reposado mezcal is aged for 2-12 months in oak barrels, giving it a golden color and a smooth, balanced flavor with hints of wood and caramel.",
-          "Key_Characteristics": [
+          "title": "Reposado Mezcal",
+          "description": "Reposado mezcal is aged for 2-12 months in oak barrels, giving it a golden color and a smooth, balanced flavor with hints of wood and caramel.",
+          "key_characteristics": [
             {
-              "Characteristic": "Aged",
-              "Description": "Reposado mezcal is aged in oak barrels, resulting in a golden color and more complex flavors."
+              "characteristic": "Aged",
+              "description": "Reposado mezcal is aged in oak barrels, resulting in a golden color and more complex flavors."
             },
             {
-              "Characteristic": "Balanced Flavor",
-              "Description": "It has a balanced taste with notes of wood, caramel, and vanilla, along with the natural agave flavor."
+              "characteristic": "Balanced Flavor",
+              "description": "It has a balanced taste with notes of wood, caramel, and vanilla, along with the natural agave flavor."
             }
           ],
-          "Brands": [
+          "brands": [
             {
-              "Brand": "El Jolgorio Reposado",
-              "Description": "El Jolgorio Reposado is known for its rich, smooth flavor with hints of vanilla, caramel, and oak."
+              "brand": "El Jolgorio Reposado",
+              "description": "El Jolgorio Reposado is known for its rich, smooth flavor with hints of vanilla, caramel, and oak."
             },
             {
-              "Brand": "Ilegal Mezcal Reposado",
-              "Description": "Ilegal Mezcal Reposado offers a silky texture with flavors of caramel, cocoa, and agave."
+              "brand": "Ilegal Mezcal Reposado",
+              "description": "Ilegal Mezcal Reposado offers a silky texture with flavors of caramel, cocoa, and agave."
             },
             {
-              "Brand": "Los Amantes Reposado",
-              "Description": "Los Amantes Reposado features a balanced, smooth taste with subtle oak and vanilla notes."
+              "brand": "Los Amantes Reposado",
+              "description": "Los Amantes Reposado features a balanced, smooth taste with subtle oak and vanilla notes."
             }
           ]
         },
         {
-          "Title": "Añejo Mezcal",
-          "Description": "Añejo mezcal is aged for 1-3 years in oak barrels, resulting in a deep amber color and rich, complex flavors.",
-          "Key_Characteristics": [
+          "title": "Añejo Mezcal",
+          "description": "Añejo mezcal is aged for 1-3 years in oak barrels, resulting in a deep amber color and rich, complex flavors.",
+          "key_characteristics": [
             {
-              "Characteristic": "Aged",
-              "Description": "Añejo mezcal is aged for a longer period, developing a deep amber color and rich flavors."
+              "characteristic": "Aged",
+              "description": "Añejo mezcal is aged for a longer period, developing a deep amber color and rich flavors."
             },
             {
-              "Characteristic": "Complex Flavor",
-              "Description": "It has a complex flavor profile with notes of dried fruit, oak, and spice, along with the characteristic agave sweetness."
+              "characteristic": "Complex Flavor",
+              "description": "It has a complex flavor profile with notes of dried fruit, oak, and spice, along with the characteristic agave sweetness."
             }
           ],
-          "Brands": [
+          "brands": [
             {
-              "Brand": "Del Maguey Añejo",
-              "Description": "Del Maguey Añejo is renowned for its rich, full-bodied flavor with hints of caramel, chocolate, and spice."
+              "brand": "Del Maguey Añejo",
+              "description": "Del Maguey Añejo is renowned for its rich, full-bodied flavor with hints of caramel, chocolate, and spice."
             },
             {
-              "Brand": "Montelobos Añejo",
-              "Description": "Montelobos Añejo is a premium mezcal known for its smooth, luxurious taste with notes of vanilla, cinnamon, and dried fruit."
+              "brand": "Montelobos Añejo",
+              "description": "Montelobos Añejo is a premium mezcal known for its smooth, luxurious taste with notes of vanilla, cinnamon, and dried fruit."
             },
             {
-              "Brand": "Mezcal Vago Elote Añejo",
-              "Description": "Mezcal Vago Elote Añejo offers a rich, complex flavor with notes of vanilla, caramel, and toasted oak."
+              "brand": "Mezcal Vago Elote Añejo",
+              "description": "Mezcal Vago Elote Añejo offers a rich, complex flavor with notes of vanilla, caramel, and toasted oak."
             }
           ]
         },
         {
-          "Title": "Extra Añejo Mezcal",
-          "Description": "Extra Añejo mezcal is aged for over 3 years, resulting in a dark color and exceptionally rich, complex flavors.",
-          "Key_Characteristics": [
+          "title": "Extra Añejo Mezcal",
+          "description": "Extra Añejo mezcal is aged for over 3 years, resulting in a dark color and exceptionally rich, complex flavors.",
+          "key_characteristics": [
             {
-              "Characteristic": "Aged",
-              "Description": "Extra Añejo mezcal is aged for a minimum of 3 years, developing a dark color and deep flavors."
+              "characteristic": "Aged",
+              "description": "Extra Añejo mezcal is aged for a minimum of 3 years, developing a dark color and deep flavors."
             },
             {
-              "Characteristic": "Rich Flavor",
-              "Description": "It has an exceptionally rich, complex flavor profile with deep notes of chocolate, coffee, and tobacco, along with the smoothness of the aged agave."
+              "characteristic": "Rich Flavor",
+              "description": "It has an exceptionally rich, complex flavor profile with deep notes of chocolate, coffee, and tobacco, along with the smoothness of the aged agave."
             }
           ],
-          "Brands": [
+          "brands": [
             {
-              "Brand": "El Jolgorio Extra Añejo",
-              "Description": "El Jolgorio Extra Añejo is an ultra-premium mezcal known for its deep, rich flavor and smooth finish."
+              "brand": "El Jolgorio Extra Añejo",
+              "description": "El Jolgorio Extra Añejo is an ultra-premium mezcal known for its deep, rich flavor and smooth finish."
             },
             {
-              "Brand": "Los Amantes Extra Añejo",
-              "Description": "Los Amantes Extra Añejo is a luxurious mezcal with rich flavors of oak, vanilla, and dark chocolate."
+              "brand": "Los Amantes Extra Añejo",
+              "description": "Los Amantes Extra Añejo is a luxurious mezcal with rich flavors of oak, vanilla, and dark chocolate."
             },
             {
-              "Brand": "Real Minero Extra Añejo",
-              "Description": "Real Minero Extra Añejo offers an exceptionally smooth and complex flavor profile with hints of caramel, coffee, and spice."
+              "brand": "Real Minero Extra Añejo",
+              "description": "Real Minero Extra Añejo offers an exceptionally smooth and complex flavor profile with hints of caramel, coffee, and spice."
             }
           ]
         }
       ]
     },
-    "Cultural_Significance": {
-      "Title": "Cultural Significance of Mezcal",
-      "Description": "Mezcal holds a special place in Mexican culture and has influenced global cocktail culture. It is often associated with traditional Mexican celebrations and customs.",
-      "Subsections": [
+    "cultural_significance": {
+      "title": "Cultural Significance of Mezcal",
+      "description": "Mezcal holds a special place in Mexican culture and has influenced global cocktail culture. It is often associated with traditional Mexican celebrations and customs.",
+      "subsections": [
         {
-          "Title": "Mezcal in Mexican Culture",
-          "Description": "In Mexico, mezcal is an integral part of celebrations, festivals, and social gatherings. It is enjoyed in various traditional ways and is a symbol of Mexican heritage.",
-          "Key_Practices": [
+          "title": "Mezcal in Mexican Culture",
+          "description": "In Mexico, mezcal is an integral part of celebrations, festivals, and social gatherings. It is enjoyed in various traditional ways and is a symbol of Mexican heritage.",
+          "key_practices": [
             {
-              "Practice": "Mezcal Rituals",
-              "Description": "Mezcal is often consumed in traditional rituals and ceremonies, with specific customs and practices associated with its consumption."
+              "practice": "Mezcal Rituals",
+              "description": "Mezcal is often consumed in traditional rituals and ceremonies, with specific customs and practices associated with its consumption."
             },
             {
-              "Practice": "Mezcal-Based Cocktails",
-              "Description": "Mezcal is used in a variety of cocktails, offering a unique twist on classic drinks like the Margarita and Mezcal Negroni."
+              "practice": "Mezcal-Based Cocktails",
+              "description": "Mezcal is used in a variety of cocktails, offering a unique twist on classic drinks like the Margarita and Mezcal Negroni."
             }
           ]
         },
         {
-          "Title": "Mezcal in Global Cocktail Culture",
-          "Description": "Mezcal has become a popular ingredient in cocktails worldwide, known for its versatility and distinctive flavor. It plays a significant role in both classic and modern mixology.",
-          "Key_Examples": [
+          "title": "Mezcal in Global Cocktail Culture",
+          "description": "Mezcal has become a popular ingredient in cocktails worldwide, known for its versatility and distinctive flavor. It plays a significant role in both classic and modern mixology.",
+          "key_examples": [
             {
-              "Example": "Mezcal Margarita",
-              "Description": "The Mezcal Margarita is a smoky twist on the classic Margarita, made with mezcal, lime juice, and orange liqueur, served with a salted rim."
+              "example": "Mezcal Margarita",
+              "description": "The Mezcal Margarita is a smoky twist on the classic Margarita, made with mezcal, lime juice, and orange liqueur, served with a salted rim."
             },
             {
-              "Example": "Mezcal Old Fashioned",
-              "Description": "The Mezcal Old Fashioned is a sophisticated cocktail made with mezcal, bitters, sugar, and an orange twist."
+              "example": "Mezcal Old Fashioned",
+              "description": "The Mezcal Old Fashioned is a sophisticated cocktail made with mezcal, bitters, sugar, and an orange twist."
             },
             {
-              "Example": "Mezcal Paloma",
-              "Description": "The Mezcal Paloma is a refreshing cocktail made with mezcal, grapefruit soda, and lime juice, often served over ice."
+              "example": "Mezcal Paloma",
+              "description": "The Mezcal Paloma is a refreshing cocktail made with mezcal, grapefruit soda, and lime juice, often served over ice."
             }
           ]
         }
       ]
     },
-    "Modern_Mezcal_Industry": {
-      "Title": "Modern Mezcal Industry",
-      "Description": "The modern mezcal industry is diverse, with a wide range of brands and styles available. It is characterized by both traditional practices and innovative approaches to production and marketing.",
-      "Subsections": [
+    "modern_mezcal_industry": {
+      "title": "Modern Mezcal Industry",
+      "description": "The modern mezcal industry is diverse, with a wide range of brands and styles available. It is characterized by both traditional practices and innovative approaches to production and marketing.",
+      "subsections": [
         {
-          "Title": "Market Trends",
-          "Description": "Current trends in the mezcal industry include a focus on premium and artisanal production, innovative flavor profiles, and increasing global appreciation for mezcal's unique qualities.",
-          "Key_Trends": [
+          "title": "Market Trends",
+          "description": "Current trends in the mezcal industry include a focus on premium and artisanal production, innovative flavor profiles, and increasing global appreciation for mezcal's unique qualities.",
+          "key_trends": [
             {
-              "Trend": "Premium Mezcal",
-              "Description": "There is a growing demand for premium and ultra-premium mezcals, with a focus on quality, craftsmanship, and unique flavor profiles."
+              "trend": "Premium Mezcal",
+              "description": "There is a growing demand for premium and ultra-premium mezcals, with a focus on quality, craftsmanship, and unique flavor profiles."
             },
             {
-              "Trend": "Sustainability",
-              "Description": "Sustainability is becoming increasingly important, with many producers adopting eco-friendly practices and focusing on responsible sourcing."
+              "trend": "Sustainability",
+              "description": "Sustainability is becoming increasingly important, with many producers adopting eco-friendly practices and focusing on responsible sourcing."
             },
             {
-              "Trend": "Flavored Mezcal",
-              "Description": "Flavored mezcals are gaining popularity, with producers experimenting with various infusions and flavorings to create new and unique products."
+              "trend": "Flavored Mezcal",
+              "description": "Flavored mezcals are gaining popularity, with producers experimenting with various infusions and flavorings to create new and unique products."
             }
           ]
         },
         {
-          "Title": "Notable Brands",
-          "Description": "Several mezcal brands are recognized for their quality, heritage, and innovation. These brands represent the diverse landscape of the modern mezcal market.",
-          "Brands": [
+          "title": "Notable Brands",
+          "description": "Several mezcal brands are recognized for their quality, heritage, and innovation. These brands represent the diverse landscape of the modern mezcal market.",
+          "brands": [
             {
-              "Brand": "Del Maguey",
-              "Description": "Del Maguey is a leading mezcal brand known for its premium quality and wide range of products, from Joven to Extra Añejo."
+              "brand": "Del Maguey",
+              "description": "Del Maguey is a leading mezcal brand known for its premium quality and wide range of products, from Joven to Extra Añejo."
             },
             {
-              "Brand": "Mezcal Vago",
-              "Description": "Mezcal Vago is renowned for its high-quality mezcals and commitment to traditional production methods."
+              "brand": "Mezcal Vago",
+              "description": "Mezcal Vago is renowned for its high-quality mezcals and commitment to traditional production methods."
             },
             {
-              "Brand": "Ilegal Mezcal",
-              "Description": "Ilegal Mezcal is one of the most well-known mezcal brands, offering a range of mezcals from traditional to premium."
+              "brand": "Ilegal Mezcal",
+              "description": "Ilegal Mezcal is one of the most well-known mezcal brands, offering a range of mezcals from traditional to premium."
             },
             {
-              "Brand": "Montelobos",
-              "Description": "Montelobos is known for its smooth, approachable mezcals and modern marketing strategies."
+              "brand": "Montelobos",
+              "description": "Montelobos is known for its smooth, approachable mezcals and modern marketing strategies."
             },
             {
-              "Brand": "Real Minero",
-              "Description": "Real Minero is a premium mezcal brand known for its luxurious, handcrafted bottles and rich, complex flavors."
+              "brand": "Real Minero",
+              "description": "Real Minero is a premium mezcal brand known for its luxurious, handcrafted bottles and rich, complex flavors."
             }
           ]
         }

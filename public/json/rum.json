@@ -1,324 +1,324 @@
 {
-  "Rum": {
-    "Introduction": {
-      "Title": "Introduction to Rum",
-      "Description": "Rum is a distilled alcoholic beverage made from sugarcane byproducts, such as molasses or sugarcane juice. It has a rich history and diverse range of styles, flavors, and uses. This section explores the history, production methods, types of rum, cultural impact, and notable brands."
+  "rum": {
+    "introduction": {
+      "title": "Introduction to Rum",
+      "description": "Rum is a distilled alcoholic beverage made from sugarcane byproducts, such as molasses or sugarcane juice. It has a rich history and diverse range of styles, flavors, and uses. This section explores the history, production methods, types of rum, cultural impact, and notable brands."
     },
-    "History": {
-      "Title": "History of Rum",
-      "Description": "Rum's history spans several centuries, with its origins linked to the Caribbean and the broader colonial world. From its early production to its evolution into a global spirit, rum has played a significant role in history and culture.",
-      "Subsections": [
+    "history": {
+      "title": "History of Rum",
+      "description": "Rum's history spans several centuries, with its origins linked to the Caribbean and the broader colonial world. From its early production to its evolution into a global spirit, rum has played a significant role in history and culture.",
+      "subsections": [
         {
-          "Title": "Origins and Early Development",
-          "Description": "Rum's origins can be traced back to the Caribbean in the 17th century, where it was first produced from sugarcane byproducts. Its development is closely tied to the colonial sugar trade.",
-          "Key_Facts": [
+          "title": "Origins and Early Development",
+          "description": "Rum's origins can be traced back to the Caribbean in the 17th century, where it was first produced from sugarcane byproducts. Its development is closely tied to the colonial sugar trade.",
+          "key_facts": [
             {
-              "Region": "Caribbean",
-              "Date": "17th Century",
-              "Description": "The production of rum began in the Caribbean, where sugarcane was widely cultivated. Rum was initially a byproduct of the sugar industry and became an important part of colonial trade.",
-              "Brands": [
+              "region": "Caribbean",
+              "date": "17th Century",
+              "description": "The production of rum began in the Caribbean, where sugarcane was widely cultivated. Rum was initially a byproduct of the sugar industry and became an important part of colonial trade.",
+              "brands": [
                 {
-                  "Brand": "Mount Gay",
-                  "Description": "Founded in 1703 in Barbados, Mount Gay is one of the oldest rum distilleries in the world, known for its rich history and premium rums."
+                  "brand": "Mount Gay",
+                  "description": "Founded in 1703 in Barbados, Mount Gay is one of the oldest rum distilleries in the world, known for its rich history and premium rums."
                 }
               ]
             },
             {
-              "Region": "Europe",
-              "Date": "18th Century",
-              "Description": "Rum made its way to Europe through colonial trade routes, becoming popular in various countries and influencing European drinking culture."
+              "region": "Europe",
+              "date": "18th Century",
+              "description": "Rum made its way to Europe through colonial trade routes, becoming popular in various countries and influencing European drinking culture."
             }
           ]
         },
         {
-          "Title": "Rum and the Slave Trade",
-          "Description": "Rum played a significant role in the transatlantic slave trade, being used as a trading commodity and in the provisioning of slave ships. Its production and trade were deeply intertwined with this dark chapter in history.",
-          "Key_Facts": [
+          "title": "Rum and the Slave Trade",
+          "description": "Rum played a significant role in the transatlantic slave trade, being used as a trading commodity and in the provisioning of slave ships. Its production and trade were deeply intertwined with this dark chapter in history.",
+          "key_facts": [
             {
-              "Fact": "Trade Commodity",
-              "Description": "Rum was used as a valuable trading commodity in the slave trade, exchanged for enslaved people and other goods."
+              "fact": "Trade Commodity",
+              "description": "Rum was used as a valuable trading commodity in the slave trade, exchanged for enslaved people and other goods."
             },
             {
-              "Fact": "Provisions for Slave Ships",
-              "Description": "Rum was often used to provision slave ships, highlighting its importance in the transatlantic trade network."
+              "fact": "Provisions for Slave Ships",
+              "description": "Rum was often used to provision slave ships, highlighting its importance in the transatlantic trade network."
             }
           ]
         }
       ]
     },
-    "Production": {
-      "Title": "Production of Rum",
-      "Description": "Rum production involves several key steps: fermentation, distillation, and aging. The choice of ingredients and production methods significantly influence the flavor and style of the final product.",
-      "Subsections": [
+    "production": {
+      "title": "Production of Rum",
+      "description": "Rum production involves several key steps: fermentation, distillation, and aging. The choice of ingredients and production methods significantly influence the flavor and style of the final product.",
+      "subsections": [
         {
-          "Title": "Ingredients",
-          "Description": "Rum is primarily made from sugarcane byproducts, including molasses and sugarcane juice. The choice of ingredients affects the flavor and characteristics of the rum.",
-          "Key_Ingredients": [
+          "title": "Ingredients",
+          "description": "Rum is primarily made from sugarcane byproducts, including molasses and sugarcane juice. The choice of ingredients affects the flavor and characteristics of the rum.",
+          "key_ingredients": [
             {
-              "Ingredient": "Molasses",
-              "Description": "Molasses is a byproduct of sugar refining and is commonly used in rum production. It imparts rich, caramel-like flavors to the rum."
+              "ingredient": "Molasses",
+              "description": "Molasses is a byproduct of sugar refining and is commonly used in rum production. It imparts rich, caramel-like flavors to the rum."
             },
             {
-              "Ingredient": "Sugarcane Juice",
-              "Description": "Fresh sugarcane juice, or vesou, is used in the production of agricole rum. It provides a more earthy and fruity flavor profile."
+              "ingredient": "Sugarcane Juice",
+              "description": "Fresh sugarcane juice, or vesou, is used in the production of agricole rum. It provides a more earthy and fruity flavor profile."
             }
           ]
         },
         {
-          "Title": "Fermentation",
-          "Description": "Fermentation is the process where yeast converts sugars in the molasses or sugarcane juice into alcohol. The fermentation process can vary, influencing the rum's flavor and character.",
-          "Key_Facts": [
+          "title": "Fermentation",
+          "description": "Fermentation is the process where yeast converts sugars in the molasses or sugarcane juice into alcohol. The fermentation process can vary, influencing the rum's flavor and character.",
+          "key_facts": [
             {
-              "Fact": "Yeast Strains",
-              "Description": "Different strains of yeast can be used to ferment the sugarcane byproducts, each contributing unique flavors and aromas to the rum."
+              "fact": "Yeast Strains",
+              "description": "Different strains of yeast can be used to ferment the sugarcane byproducts, each contributing unique flavors and aromas to the rum."
             },
             {
-              "Fact": "Fermentation Duration",
-              "Description": "The length of the fermentation process can affect the rum's complexity and flavor profile, with longer fermentation often resulting in more nuanced flavors."
+              "fact": "Fermentation Duration",
+              "description": "The length of the fermentation process can affect the rum's complexity and flavor profile, with longer fermentation often resulting in more nuanced flavors."
             }
           ]
         },
         {
-          "Title": "Distillation",
-          "Description": "Distillation is the process of separating alcohol from the fermented liquid. The choice of distillation method influences the rum's final flavor and purity.",
-          "Key_Methods": [
+          "title": "Distillation",
+          "description": "Distillation is the process of separating alcohol from the fermented liquid. The choice of distillation method influences the rum's final flavor and purity.",
+          "key_methods": [
             {
-              "Method": "Pot Still Distillation",
-              "Description": "Pot still distillation is a traditional method that produces a rich, flavorful rum. It is often used for higher-quality or artisanal rums.",
-              "Brands": [
+              "method": "Pot Still Distillation",
+              "description": "Pot still distillation is a traditional method that produces a rich, flavorful rum. It is often used for higher-quality or artisanal rums.",
+              "brands": [
                 {
-                  "Brand": "Hampden Estate",
-                  "Description": "Hampden Estate, located in Jamaica, uses pot still distillation to produce its renowned, full-bodied rums."
+                  "brand": "Hampden Estate",
+                  "description": "Hampden Estate, located in Jamaica, uses pot still distillation to produce its renowned, full-bodied rums."
                 }
               ]
             },
             {
-              "Method": "Column Still Distillation",
-              "Description": "Column still distillation, or continuous distillation, produces a lighter and purer rum. It is commonly used in large-scale rum production."
+              "method": "Column Still Distillation",
+              "description": "Column still distillation, or continuous distillation, produces a lighter and purer rum. It is commonly used in large-scale rum production."
             }
           ]
         },
         {
-          "Title": "Aging",
-          "Description": "Aging rum in wooden barrels imparts additional flavors and complexity to the spirit. The type of barrel and aging duration can significantly affect the rum's profile.",
-          "Key_Factors": [
+          "title": "Aging",
+          "description": "Aging rum in wooden barrels imparts additional flavors and complexity to the spirit. The type of barrel and aging duration can significantly affect the rum's profile.",
+          "key_factors": [
             {
-              "Factor": "Barrel Type",
-              "Description": "The type of barrel used for aging, such as American oak or ex-bourbon barrels, influences the rum's flavor, adding notes of vanilla, caramel, or spice."
+              "factor": "Barrel Type",
+              "description": "The type of barrel used for aging, such as American oak or ex-bourbon barrels, influences the rum's flavor, adding notes of vanilla, caramel, or spice."
             },
             {
-              "Factor": "Aging Duration",
-              "Description": "Longer aging periods generally result in more complex and nuanced flavors. However, over-aging can also lead to overly woody or tannic characteristics."
+              "factor": "Aging Duration",
+              "description": "Longer aging periods generally result in more complex and nuanced flavors. However, over-aging can also lead to overly woody or tannic characteristics."
             }
           ]
         }
       ]
     },
-    "Types_of_Rum": {
-      "Title": "Types of Rum",
-      "Description": "Rum comes in various styles, each with its own distinctive characteristics and production methods. These styles include White Rum, Gold Rum, Dark Rum, Spiced Rum, and Rhum Agricole.",
-      "Subsections": [
+    "types_of_rum": {
+      "title": "Types of Rum",
+      "description": "Rum comes in various styles, each with its own distinctive characteristics and production methods. These styles include White Rum, Gold Rum, Dark Rum, Spiced Rum, and Rhum Agricole.",
+      "subsections": [
         {
-          "Title": "White Rum",
-          "Description": "White rum is a clear, unaged rum with a light, clean flavor. It is often used in cocktails and is known for its versatility.",
-          "Key_Characteristics": [
+          "title": "White Rum",
+          "description": "White rum is a clear, unaged rum with a light, clean flavor. It is often used in cocktails and is known for its versatility.",
+          "key_characteristics": [
             {
-              "Characteristic": "Light Flavor",
-              "Description": "White rum has a mild, neutral flavor, making it ideal for mixing in cocktails."
+              "characteristic": "Light Flavor",
+              "description": "White rum has a mild, neutral flavor, making it ideal for mixing in cocktails."
             },
             {
-              "Characteristic": "Unaged",
-              "Description": "White rum is typically not aged, resulting in its clear appearance and fresh taste."
+              "characteristic": "Unaged",
+              "description": "White rum is typically not aged, resulting in its clear appearance and fresh taste."
             }
           ],
-          "Brands": [
+          "brands": [
             {
-              "Brand": "Bacardi Superior",
-              "Description": "Bacardi Superior is a well-known white rum with a smooth and clean taste, making it a popular choice for cocktails."
+              "brand": "Bacardi Superior",
+              "description": "Bacardi Superior is a well-known white rum with a smooth and clean taste, making it a popular choice for cocktails."
             },
             {
-              "Brand": "Havana Club 3 Años",
-              "Description": "Havana Club 3 Años is a Cuban white rum aged for three years, offering a subtle, smooth flavor that complements various cocktails."
+              "brand": "Havana Club 3 Años",
+              "description": "Havana Club 3 Años is a Cuban white rum aged for three years, offering a subtle, smooth flavor that complements various cocktails."
             }
           ]
         },
         {
-          "Title": "Gold Rum",
-          "Description": "Gold rum, also known as amber rum, has a richer flavor compared to white rum due to its aging process. It often exhibits notes of caramel and vanilla.",
-          "Key_Characteristics": [
+          "title": "Gold Rum",
+          "description": "Gold rum, also known as amber rum, has a richer flavor compared to white rum due to its aging process. It often exhibits notes of caramel and vanilla.",
+          "key_characteristics": [
             {
-              "Characteristic": "Richer Flavor",
-              "Description": "Gold rum has a more complex flavor profile than white rum, often with hints of caramel, vanilla, and spices."
+              "characteristic": "Richer Flavor",
+              "description": "Gold rum has a more complex flavor profile than white rum, often with hints of caramel, vanilla, and spices."
             },
             {
-              "Characteristic": "Aging",
-              "Description": "Gold rum is typically aged in oak barrels, which contributes to its color and flavor."
+              "characteristic": "Aging",
+              "description": "Gold rum is typically aged in oak barrels, which contributes to its color and flavor."
             }
           ],
-          "Brands": [
+          "brands": [
             {
-              "Brand": "Appleton Estate Signature",
-              "Description": "Appleton Estate Signature is a Jamaican gold rum known for its smooth and flavorful profile, with notes of toffee and spice."
+              "brand": "Appleton Estate Signature",
+              "description": "Appleton Estate Signature is a Jamaican gold rum known for its smooth and flavorful profile, with notes of toffee and spice."
             },
             {
-              "Brand": "Mount Gay Eclipse",
-              "Description": "Mount Gay Eclipse is a Barbadian gold rum with a rich, mellow flavor, featuring hints of vanilla and oak."
+              "brand": "Mount Gay Eclipse",
+              "description": "Mount Gay Eclipse is a Barbadian gold rum with a rich, mellow flavor, featuring hints of vanilla and oak."
             }
           ]
         },
         {
-          "Title": "Dark Rum",
-          "Description": "Dark rum is aged for a longer period, often in charred barrels, resulting in a deep color and robust flavor. It is known for its rich, complex taste and is used in both sipping and cocktails.",
-          "Key_Characteristics": [
+          "title": "Dark Rum",
+          "description": "Dark rum is aged for a longer period, often in charred barrels, resulting in a deep color and robust flavor. It is known for its rich, complex taste and is used in both sipping and cocktails.",
+          "key_characteristics": [
             {
-              "Characteristic": "Deep Color",
-              "Description": "Dark rum has a deep brown or black color, attributed to its extended aging process and interaction with charred barrels."
+              "characteristic": "Deep Color",
+              "description": "Dark rum has a deep brown or black color, attributed to its extended aging process and interaction with charred barrels."
             },
             {
-              "Characteristic": "Robust Flavor",
-              "Description": "Dark rum offers bold flavors, including notes of molasses, spices, and dried fruits."
+              "characteristic": "Robust Flavor",
+              "description": "Dark rum offers bold flavors, including notes of molasses, spices, and dried fruits."
             }
           ],
-          "Brands": [
+          "brands": [
             {
-              "Brand": "Gosling’s Black Seal",
-              "Description": "Gosling’s Black Seal is a renowned dark rum from Bermuda, known for its rich, full-bodied flavor with hints of molasses and spices."
+              "brand": "Gosling’s Black Seal",
+              "description": "Gosling’s Black Seal is a renowned dark rum from Bermuda, known for its rich, full-bodied flavor with hints of molasses and spices."
             },
             {
-              "Brand": "Zacapa 23",
-              "Description": "Zacapa 23 is a Guatemalan dark rum, aged using a solera system, offering complex flavors of caramel, chocolate, and spices."
+              "brand": "Zacapa 23",
+              "description": "Zacapa 23 is a Guatemalan dark rum, aged using a solera system, offering complex flavors of caramel, chocolate, and spices."
             }
           ]
         },
         {
-          "Title": "Spiced Rum",
-          "Description": "Spiced rum is flavored with a variety of spices, such as cinnamon, cloves, and vanilla. It often has a sweeter and more aromatic profile compared to other rum types.",
-          "Key_Characteristics": [
+          "title": "Spiced Rum",
+          "description": "Spiced rum is flavored with a variety of spices, such as cinnamon, cloves, and vanilla. It often has a sweeter and more aromatic profile compared to other rum types.",
+          "key_characteristics": [
             {
-              "Characteristic": "Flavored with Spices",
-              "Description": "Spiced rum is infused with various spices and flavorings, resulting in a sweet and aromatic profile."
+              "characteristic": "Flavored with Spices",
+              "description": "Spiced rum is infused with various spices and flavorings, resulting in a sweet and aromatic profile."
             },
             {
-              "Characteristic": "Versatile Use",
-              "Description": "Spiced rum can be enjoyed neat, on the rocks, or in cocktails, offering a unique twist on traditional rum flavors."
+              "characteristic": "Versatile Use",
+              "description": "Spiced rum can be enjoyed neat, on the rocks, or in cocktails, offering a unique twist on traditional rum flavors."
             }
           ],
-          "Brands": [
+          "brands": [
             {
-              "Brand": "Captain Morgan Original Spiced Rum",
-              "Description": "Captain Morgan Original Spiced Rum is a popular spiced rum known for its smooth, sweet flavor with notes of vanilla and spices."
+              "brand": "Captain Morgan Original Spiced Rum",
+              "description": "Captain Morgan Original Spiced Rum is a popular spiced rum known for its smooth, sweet flavor with notes of vanilla and spices."
             },
             {
-              "Brand": "Sailor Jerry",
-              "Description": "Sailor Jerry is a spiced rum with a robust flavor profile, featuring a blend of vanilla, cinnamon, and other spices."
+              "brand": "Sailor Jerry",
+              "description": "Sailor Jerry is a spiced rum with a robust flavor profile, featuring a blend of vanilla, cinnamon, and other spices."
             }
           ]
         },
         {
-          "Title": "Rhum Agricole",
-          "Description": "Rhum Agricole is made from fresh sugarcane juice rather than molasses, resulting in a distinctive, earthy flavor. It is primarily produced in the French Caribbean.",
-          "Key_Characteristics": [
+          "title": "Rhum Agricole",
+          "description": "Rhum Agricole is made from fresh sugarcane juice rather than molasses, resulting in a distinctive, earthy flavor. It is primarily produced in the French Caribbean.",
+          "key_characteristics": [
             {
-              "Characteristic": "Made from Sugarcane Juice",
-              "Description": "Rhum Agricole is produced from freshly pressed sugarcane juice, giving it a unique and vibrant flavor profile."
+              "characteristic": "Made from Sugarcane Juice",
+              "description": "Rhum Agricole is produced from freshly pressed sugarcane juice, giving it a unique and vibrant flavor profile."
             },
             {
-              "Characteristic": "Earthy Flavor",
-              "Description": "Rhum Agricole has a more earthy and grassy flavor compared to rums made from molasses."
+              "characteristic": "Earthy Flavor",
+              "description": "Rhum Agricole has a more earthy and grassy flavor compared to rums made from molasses."
             }
           ],
-          "Brands": [
+          "brands": [
             {
-              "Brand": "Rhum Clément",
-              "Description": "Rhum Clément is a well-known Rhum Agricole from Martinique, celebrated for its smooth, vegetal flavors and complexity."
+              "brand": "Rhum Clément",
+              "description": "Rhum Clément is a well-known Rhum Agricole from Martinique, celebrated for its smooth, vegetal flavors and complexity."
             },
             {
-              "Brand": "Rhum J.M",
-              "Description": "Rhum J.M is another esteemed Rhum Agricole from Martinique, known for its rich, aromatic profile with hints of tropical fruit and spice."
+              "brand": "Rhum J.M",
+              "description": "Rhum J.M is another esteemed Rhum Agricole from Martinique, known for its rich, aromatic profile with hints of tropical fruit and spice."
             }
           ]
         }
       ]
     },
-    "Cultural_Significance": {
-      "Title": "Cultural Significance of Rum",
-      "Description": "Rum has played a significant role in various cultures, particularly in the Caribbean and Latin America. It is associated with regional traditions, celebrations, and has influenced global cocktail culture.",
-      "Subsections": [
+    "cultural_significance": {
+      "title": "Cultural Significance of Rum",
+      "description": "Rum has played a significant role in various cultures, particularly in the Caribbean and Latin America. It is associated with regional traditions, celebrations, and has influenced global cocktail culture.",
+      "subsections": [
         {
-          "Title": "Rum in Caribbean Culture",
-          "Description": "In the Caribbean, rum is deeply embedded in cultural traditions and celebrations. It is often associated with festivals, social gatherings, and local customs.",
-          "Key_Practices": [
+          "title": "Rum in Caribbean Culture",
+          "description": "In the Caribbean, rum is deeply embedded in cultural traditions and celebrations. It is often associated with festivals, social gatherings, and local customs.",
+          "key_practices": [
             {
-              "Practice": "Rum Punch",
-              "Description": "Rum punch is a popular Caribbean drink made with rum, fruit juices, and spices. It is a staple at social events and celebrations."
+              "practice": "Rum Punch",
+              "description": "Rum punch is a popular Caribbean drink made with rum, fruit juices, and spices. It is a staple at social events and celebrations."
             },
             {
-              "Practice": "Carnival",
-              "Description": "Rum is a key component of Caribbean Carnival celebrations, often enjoyed in various mixed drinks and cocktails."
+              "practice": "Carnival",
+              "description": "Rum is a key component of Caribbean Carnival celebrations, often enjoyed in various mixed drinks and cocktails."
             }
           ]
         },
         {
-          "Title": "Rum in Global Cocktail Culture",
-          "Description": "Rum has made a significant impact on global cocktail culture, featured in classic cocktails and modern mixology. Its versatility allows for a wide range of creative uses in drinks.",
-          "Key_Examples": [
+          "title": "Rum in Global Cocktail Culture",
+          "description": "Rum has made a significant impact on global cocktail culture, featured in classic cocktails and modern mixology. Its versatility allows for a wide range of creative uses in drinks.",
+          "key_examples": [
             {
-              "Example": "Mojito",
-              "Description": "The Mojito is a classic cocktail made with white rum, mint, lime, sugar, and soda water. It is a refreshing and popular choice in bars and restaurants worldwide."
+              "example": "Mojito",
+              "description": "The Mojito is a classic cocktail made with white rum, mint, lime, sugar, and soda water. It is a refreshing and popular choice in bars and restaurants worldwide."
             },
             {
-              "Example": "Daiquiri",
-              "Description": "The Daiquiri is a timeless cocktail made with rum, lime juice, and simple syrup. It comes in various flavors and variations, showcasing rum's versatility."
+              "example": "Daiquiri",
+              "description": "The Daiquiri is a timeless cocktail made with rum, lime juice, and simple syrup. It comes in various flavors and variations, showcasing rum's versatility."
             }
           ]
         }
       ]
     },
-    "Modern_Rum_Industry": {
-      "Title": "Modern Rum Industry",
-      "Description": "The modern rum industry is diverse and dynamic, with a wide range of brands and styles available. Trends in production, flavoring, and branding reflect the evolving nature of the rum market.",
-      "Subsections": [
+    "modern_rum_industry": {
+      "title": "Modern Rum Industry",
+      "description": "The modern rum industry is diverse and dynamic, with a wide range of brands and styles available. Trends in production, flavoring, and branding reflect the evolving nature of the rum market.",
+      "subsections": [
         {
-          "Title": "Market Trends",
-          "Description": "Current trends in the rum industry include a focus on premium and craft rums, innovative flavor profiles, and sustainable practices. These trends highlight the industry's growth and evolution.",
-          "Key_Trends": [
+          "title": "Market Trends",
+          "description": "Current trends in the rum industry include a focus on premium and craft rums, innovative flavor profiles, and sustainable practices. These trends highlight the industry's growth and evolution.",
+          "key_trends": [
             {
-              "Trend": "Craft Rum",
-              "Description": "Craft rum production emphasizes artisanal methods and high-quality ingredients. Small distilleries are creating unique and innovative rums with distinct flavors."
+              "trend": "Craft Rum",
+              "description": "Craft rum production emphasizes artisanal methods and high-quality ingredients. Small distilleries are creating unique and innovative rums with distinct flavors."
             },
             {
-              "Trend": "Flavor Innovation",
-              "Description": "There is a growing trend towards experimenting with new flavors and ingredients in rum production, leading to a diverse array of products."
+              "trend": "Flavor Innovation",
+              "description": "There is a growing trend towards experimenting with new flavors and ingredients in rum production, leading to a diverse array of products."
             },
             {
-              "Trend": "Sustainability",
-              "Description": "Sustainability is becoming increasingly important in the rum industry, with many producers focusing on eco-friendly practices and responsible sourcing."
+              "trend": "Sustainability",
+              "description": "Sustainability is becoming increasingly important in the rum industry, with many producers focusing on eco-friendly practices and responsible sourcing."
             }
           ]
         },
         {
-          "Title": "Notable Brands",
-          "Description": "Several rum brands have established themselves as leaders in the industry through quality, innovation, and unique offerings. These brands represent the diverse landscape of the modern rum market.",
-          "Brands": [
+          "title": "Notable Brands",
+          "description": "Several rum brands have established themselves as leaders in the industry through quality, innovation, and unique offerings. These brands represent the diverse landscape of the modern rum market.",
+          "brands": [
             {
-              "Brand": "Mount Gay",
-              "Description": "Mount Gay Rum, established in 1703, is one of the oldest rum producers in the world. Known for its premium rums, it offers a rich heritage and high-quality products."
+              "brand": "Mount Gay",
+              "description": "Mount Gay Rum, established in 1703, is one of the oldest rum producers in the world. Known for its premium rums, it offers a rich heritage and high-quality products."
             },
             {
-              "Brand": "Bacardi",
-              "Description": "Bacardi is a globally recognized rum brand, known for its wide range of rums, including white, gold, and spiced varieties. It has a significant presence in the international market."
+              "brand": "Bacardi",
+              "description": "Bacardi is a globally recognized rum brand, known for its wide range of rums, including white, gold, and spiced varieties. It has a significant presence in the international market."
             },
             {
-              "Brand": "Havana Club",
-              "Description": "Havana Club is a Cuban rum brand celebrated for its traditional production methods and high-quality rums. It offers a range of products, including white, gold, and dark rums."
+              "brand": "Havana Club",
+              "description": "Havana Club is a Cuban rum brand celebrated for its traditional production methods and high-quality rums. It offers a range of products, including white, gold, and dark rums."
             },
             {
-              "Brand": "Ron Diplomático",
-              "Description": "Ron Diplomático, from Venezuela, is known for its rich and complex rums, including aged and premium expressions. It is renowned for its craftsmanship and quality."
+              "brand": "Ron Diplomático",
+              "description": "Ron Diplomático, from Venezuela, is known for its rich and complex rums, including aged and premium expressions. It is renowned for its craftsmanship and quality."
             },
             {
-              "Brand": "Rhum Clément",
-              "Description": "Rhum Clément, from Martinique, is a leading Rhum Agricole brand, known for its high-quality, agricole rums made from fresh sugarcane juice."
+              "brand": "Rhum Clément",
+              "description": "Rhum Clément, from Martinique, is a leading Rhum Agricole brand, known for its high-quality, agricole rums made from fresh sugarcane juice."
             }
           ]
         }

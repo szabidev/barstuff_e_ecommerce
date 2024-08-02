@@ -1,477 +1,477 @@
 {
-  "Other_Spirits": {
-    "Title": "Other Spirits",
-    "Description": "This section covers a variety of spirits that don't fit neatly into larger categories like whiskey, vodka, gin, rum, tequila, or brandy. These spirits are used in cocktails and have unique characteristics that make them valuable in the bar and bartending industry.",
-    "Subsections": [
+  "other_spirits": {
+    "title": "Other Spirits",
+    "description": "This section covers a variety of spirits that don't fit neatly into larger categories like whiskey, vodka, gin, rum, tequila, or brandy. These spirits are used in cocktails and have unique characteristics that make them valuable in the bar and bartending industry.",
+    "subsections": [
       {
-        "Title": "Sake",
-        "Description": "Sake is a Japanese alcoholic beverage made from fermented rice. It is often referred to as 'rice wine,' but its production process is more akin to brewing beer.",
-        "Production_Method": {
-          "Overview": "Sake is brewed through a fermentation process involving rice, water, yeast, and koji mold. The rice is polished to remove the outer layers, and then steamed. Koji mold is added to convert the rice starches into sugars, which yeast then ferments into alcohol.",
-          "Detailed_Steps": [
+        "title": "Sake",
+        "description": "Sake is a Japanese alcoholic beverage made from fermented rice. It is often referred to as 'rice wine,' but its production process is more akin to brewing beer.",
+        "production_method": {
+          "overview": "Sake is brewed through a fermentation process involving rice, water, yeast, and koji mold. The rice is polished to remove the outer layers, and then steamed. Koji mold is added to convert the rice starches into sugars, which yeast then ferments into alcohol.",
+          "detailed_steps": [
             {
-              "Step": "Rice Polishing",
-              "Description": "Rice is polished to remove the outer layers, with the degree of polishing affecting the quality and style of the sake."
+              "step": "Rice Polishing",
+              "description": "Rice is polished to remove the outer layers, with the degree of polishing affecting the quality and style of the sake."
             },
             {
-              "Step": "Steaming",
-              "Description": "The polished rice is steamed to prepare it for fermentation."
+              "step": "Steaming",
+              "description": "The polished rice is steamed to prepare it for fermentation."
             },
             {
-              "Step": "Koji Cultivation",
-              "Description": "Koji mold is added to the steamed rice to convert starches into sugars."
+              "step": "Koji Cultivation",
+              "description": "Koji mold is added to the steamed rice to convert starches into sugars."
             },
             {
-              "Step": "Fermentation",
-              "Description": "Yeast is added to the koji-treated rice to ferment the sugars into alcohol."
+              "step": "Fermentation",
+              "description": "Yeast is added to the koji-treated rice to ferment the sugars into alcohol."
             },
             {
-              "Step": "Pressing",
-              "Description": "The fermented mixture is pressed to separate the liquid sake from the solid rice lees."
+              "step": "Pressing",
+              "description": "The fermented mixture is pressed to separate the liquid sake from the solid rice lees."
             },
             {
-              "Step": "Filtering and Pasteurization",
-              "Description": "The sake is filtered and pasteurized to remove impurities and stabilize the flavor."
+              "step": "Filtering and Pasteurization",
+              "description": "The sake is filtered and pasteurized to remove impurities and stabilize the flavor."
             },
             {
-              "Step": "Aging",
-              "Description": "The sake is aged for a period to develop its flavors before bottling."
+              "step": "Aging",
+              "description": "The sake is aged for a period to develop its flavors before bottling."
             }
           ]
         },
-        "Usage": {
-          "Overview": "Sake is enjoyed both chilled and warm, depending on the style and preference. It is often served in small ceramic cups or glasses and can be paired with a variety of Japanese dishes or used in cocktails.",
-          "Common_Uses": [
+        "usage": {
+          "overview": "Sake is enjoyed both chilled and warm, depending on the style and preference. It is often served in small ceramic cups or glasses and can be paired with a variety of Japanese dishes or used in cocktails.",
+          "common_uses": [
             {
-              "Use": "Drinking Straight",
-              "Description": "Sake can be enjoyed straight, either chilled, at room temperature, or warmed, depending on the style and personal preference."
+              "use": "Drinking Straight",
+              "description": "Sake can be enjoyed straight, either chilled, at room temperature, or warmed, depending on the style and personal preference."
             },
             {
-              "Use": "Pairing with Japanese Cuisine",
-              "Description": "Sake complements a range of Japanese foods, from sushi and sashimi to tempura and teriyaki dishes."
+              "use": "Pairing with Japanese Cuisine",
+              "description": "Sake complements a range of Japanese foods, from sushi and sashimi to tempura and teriyaki dishes."
             },
             {
-              "Use": "Cocktails",
-              "Description": "Sake can be used in cocktails, adding a unique flavor profile to mixed drinks like the Sake Martini or Sake Mojito."
+              "use": "Cocktails",
+              "description": "Sake can be used in cocktails, adding a unique flavor profile to mixed drinks like the Sake Martini or Sake Mojito."
             }
           ]
         },
-        "Key_Styles": [
+        "key_styles": [
           {
-            "Name": "Junmai",
-            "Description": "Junmai is pure rice sake with no added alcohol. It is characterized by a rich, full-bodied flavor.",
-            "Examples": [
+            "name": "Junmai",
+            "description": "Junmai is pure rice sake with no added alcohol. It is characterized by a rich, full-bodied flavor.",
+            "examples": [
               {
-                "Brand": "Dewazakura Oka Ginjo",
-                "Description": "A fragrant Junmai sake with a delicate floral aroma and smooth texture."
+                "brand": "Dewazakura Oka Ginjo",
+                "description": "A fragrant Junmai sake with a delicate floral aroma and smooth texture."
               },
               {
-                "Brand": "Kikusui Junmai",
-                "Description": "A well-balanced Junmai with a clean finish and hints of fruitiness."
+                "brand": "Kikusui Junmai",
+                "description": "A well-balanced Junmai with a clean finish and hints of fruitiness."
               }
             ]
           },
           {
-            "Name": "Ginjo",
-            "Description": "Ginjo sake is made with highly polished rice and often has a fruity and floral flavor profile. It typically has a higher level of refined quality.",
-            "Examples": [
+            "name": "Ginjo",
+            "description": "Ginjo sake is made with highly polished rice and often has a fruity and floral flavor profile. It typically has a higher level of refined quality.",
+            "examples": [
               {
-                "Brand": "Dassai 39",
-                "Description": "A premium Ginjo sake with a delicate and refined taste, showcasing notes of pear and melon."
+                "brand": "Dassai 39",
+                "description": "A premium Ginjo sake with a delicate and refined taste, showcasing notes of pear and melon."
               },
               {
-                "Brand": "Hakkaisan Ginjo",
-                "Description": "A smooth Ginjo with hints of citrus and a balanced finish."
+                "brand": "Hakkaisan Ginjo",
+                "description": "A smooth Ginjo with hints of citrus and a balanced finish."
               }
             ]
           },
           {
-            "Name": "Daiginjo",
-            "Description": "Daiginjo is the highest grade of sake, made with rice polished to at least 50% of its original size. It is known for its complex and sophisticated flavor.",
-            "Examples": [
+            "name": "Daiginjo",
+            "description": "Daiginjo is the highest grade of sake, made with rice polished to at least 50% of its original size. It is known for its complex and sophisticated flavor.",
+            "examples": [
               {
-                "Brand": "Kubota Manju",
-                "Description": "An elegant Daiginjo with notes of apple and melon, complemented by a smooth, creamy texture."
+                "brand": "Kubota Manju",
+                "description": "An elegant Daiginjo with notes of apple and melon, complemented by a smooth, creamy texture."
               },
               {
-                "Brand": "Juyondai Daiginjo",
-                "Description": "A highly sought-after Daiginjo with rich, nuanced flavors and a silky mouthfeel."
+                "brand": "Juyondai Daiginjo",
+                "description": "A highly sought-after Daiginjo with rich, nuanced flavors and a silky mouthfeel."
               }
             ]
           }
         ]
       },
       {
-        "Title": "Soju",
-        "Description": "Soju is a Korean distilled spirit made from grains or starches like rice, barley, or sweet potatoes. It is known for its versatility and relatively lower alcohol content compared to other spirits.",
-        "Production_Method": {
-          "Overview": "Soju is produced through a process of fermentation and distillation. The base ingredient, whether rice, barley, or sweet potatoes, is first fermented to produce a low-alcohol wash, which is then distilled to increase the alcohol content.",
-          "Detailed_Steps": [
+        "title": "Soju",
+        "description": "Soju is a Korean distilled spirit made from grains or starches like rice, barley, or sweet potatoes. It is known for its versatility and relatively lower alcohol content compared to other spirits.",
+        "production_method": {
+          "overview": "Soju is produced through a process of fermentation and distillation. The base ingredient, whether rice, barley, or sweet potatoes, is first fermented to produce a low-alcohol wash, which is then distilled to increase the alcohol content.",
+          "detailed_steps": [
             {
-              "Step": "Fermentation",
-              "Description": "Grains or starches are fermented with the help of yeast to produce a low-alcohol wash."
+              "step": "Fermentation",
+              "description": "Grains or starches are fermented with the help of yeast to produce a low-alcohol wash."
             },
             {
-              "Step": "Distillation",
-              "Description": "The fermented wash is distilled to extract the alcohol, typically using a pot still or continuous still."
+              "step": "Distillation",
+              "description": "The fermented wash is distilled to extract the alcohol, typically using a pot still or continuous still."
             },
             {
-              "Step": "Dilution",
-              "Description": "The distilled spirit is diluted with water to reach the desired alcohol content, usually around 16-25% ABV."
+              "step": "Dilution",
+              "description": "The distilled spirit is diluted with water to reach the desired alcohol content, usually around 16-25% ABV."
             },
             {
-              "Step": "Filtration",
-              "Description": "The diluted Soju may be filtered to remove impurities and achieve a smoother taste."
+              "step": "Filtration",
+              "description": "The diluted Soju may be filtered to remove impurities and achieve a smoother taste."
             },
             {
-              "Step": "Bottling",
-              "Description": "The final product is bottled and can be enjoyed as is or used in cocktails."
+              "step": "Bottling",
+              "description": "The final product is bottled and can be enjoyed as is or used in cocktails."
             }
           ]
         },
-        "Usage": {
-          "Overview": "Soju is versatile and can be consumed straight, chilled, or as a mixer in cocktails. It is a popular beverage in Korea and is often enjoyed with meals.",
-          "Common_Uses": [
+        "usage": {
+          "overview": "Soju is versatile and can be consumed straight, chilled, or as a mixer in cocktails. It is a popular beverage in Korea and is often enjoyed with meals.",
+          "common_uses": [
             {
-              "Use": "Drinking Straight",
-              "Description": "Soju is commonly enjoyed straight, either chilled or at room temperature."
+              "use": "Drinking Straight",
+              "description": "Soju is commonly enjoyed straight, either chilled or at room temperature."
             },
             {
-              "Use": "Pairing with Korean Cuisine",
-              "Description": "Soju pairs well with Korean dishes such as barbecue, kimchi, and spicy stews."
+              "use": "Pairing with Korean Cuisine",
+              "description": "Soju pairs well with Korean dishes such as barbecue, kimchi, and spicy stews."
             },
             {
-              "Use": "Cocktails",
-              "Description": "Soju can be used in cocktails like Soju Bloody Mary or Soju Mojito, adding a unique twist to traditional drinks."
+              "use": "Cocktails",
+              "description": "Soju can be used in cocktails like Soju Bloody Mary or Soju Mojito, adding a unique twist to traditional drinks."
             }
           ]
         },
-        "Key_Styles": [
+        "key_styles": [
           {
-            "Name": "Original Soju",
-            "Description": "Original Soju is a clear, neutral spirit with a smooth, clean taste. It is typically consumed straight or used in cocktails.",
-            "Examples": [
+            "name": "Original Soju",
+            "description": "Original Soju is a clear, neutral spirit with a smooth, clean taste. It is typically consumed straight or used in cocktails.",
+            "examples": [
               {
-                "Brand": "Chamisul Classic",
-                "Description": "A popular Soju with a smooth finish and subtle sweetness."
+                "brand": "Chamisul Classic",
+                "description": "A popular Soju with a smooth finish and subtle sweetness."
               },
               {
-                "Brand": "HiteJinro Soju",
-                "Description": "A well-known Soju with a clean taste and balanced profile."
+                "brand": "HiteJinro Soju",
+                "description": "A well-known Soju with a clean taste and balanced profile."
               }
             ]
           },
           {
-            "Name": "Fruit-Flavored Soju",
-            "Description": "Fruit-flavored Soju is infused with various fruit flavors, making it a popular choice for cocktails and casual drinking.",
-            "Examples": [
+            "name": "Fruit-Flavored Soju",
+            "description": "Fruit-flavored Soju is infused with various fruit flavors, making it a popular choice for cocktails and casual drinking.",
+            "examples": [
               {
-                "Brand": "Chamisul Fresh",
-                "Description": "A fruit-flavored Soju with notes of grapefruit and a refreshing taste."
+                "brand": "Chamisul Fresh",
+                "description": "A fruit-flavored Soju with notes of grapefruit and a refreshing taste."
               },
               {
-                "Brand": "Jinro Strawberry Soju",
-                "Description": "A Soju with a pronounced strawberry flavor, ideal for mixing in cocktails or enjoying on its own."
+                "brand": "Jinro Strawberry Soju",
+                "description": "A Soju with a pronounced strawberry flavor, ideal for mixing in cocktails or enjoying on its own."
               }
             ]
           }
         ]
       },
       {
-        "Title": "Absinthe",
-        "Description": "Absinthe is a highly alcoholic spirit made from wormwood and other botanicals. It has a distinctive green color and is known for its complex, herbal flavor profile.",
-        "Production_Method": {
-          "Overview": "Absinthe is distilled from a base of neutral spirits infused with botanicals such as wormwood, anise, and fennel. It is typically diluted with water before drinking, which causes it to turn a milky white.",
-          "Detailed_Steps": [
+        "title": "Absinthe",
+        "description": "Absinthe is a highly alcoholic spirit made from wormwood and other botanicals. It has a distinctive green color and is known for its complex, herbal flavor profile.",
+        "production_method": {
+          "overview": "Absinthe is distilled from a base of neutral spirits infused with botanicals such as wormwood, anise, and fennel. It is typically diluted with water before drinking, which causes it to turn a milky white.",
+          "detailed_steps": [
             {
-              "Step": "Maceration",
-              "Description": "Botanicals like wormwood, anise, and fennel are macerated in neutral spirits to extract their flavors."
+              "step": "Maceration",
+              "description": "Botanicals like wormwood, anise, and fennel are macerated in neutral spirits to extract their flavors."
             },
             {
-              "Step": "Distillation",
-              "Description": "The macerated mixture is distilled to concentrate the alcohol and flavors."
+              "step": "Distillation",
+              "description": "The macerated mixture is distilled to concentrate the alcohol and flavors."
             },
             {
-              "Step": "Coloring",
-              "Description": "For traditional green Absinthe, additional herbs are used to impart a green color."
+              "step": "Coloring",
+              "description": "For traditional green Absinthe, additional herbs are used to impart a green color."
             },
             {
-              "Step": "Aging",
-              "Description": "Absinthe may be aged to develop its flavors before bottling."
+              "step": "Aging",
+              "description": "Absinthe may be aged to develop its flavors before bottling."
             },
             {
-              "Step": "Bottling",
-              "Description": "The final product is bottled and is typically diluted with water before drinking."
+              "step": "Bottling",
+              "description": "The final product is bottled and is typically diluted with water before drinking."
             }
           ]
         },
-        "Usage": {
-          "Overview": "Absinthe is often enjoyed diluted with water, which causes it to turn a milky white. It can also be used in cocktails or enjoyed straight.",
-          "Common_Uses": [
+        "usage": {
+          "overview": "Absinthe is often enjoyed diluted with water, which causes it to turn a milky white. It can also be used in cocktails or enjoyed straight.",
+          "common_uses": [
             {
-              "Use": "Traditional Preparation",
-              "Description": "Absinthe is traditionally prepared by slowly dripping cold water over a sugar cube placed on a slotted spoon, allowing it to mix with the spirit and turn cloudy."
+              "use": "Traditional Preparation",
+              "description": "Absinthe is traditionally prepared by slowly dripping cold water over a sugar cube placed on a slotted spoon, allowing it to mix with the spirit and turn cloudy."
             },
             {
-              "Use": "Cocktails",
-              "Description": "Absinthe is used in cocktails such as the Sazerac, Corpse Reviver #2, and the Absinthe Martini."
+              "use": "Cocktails",
+              "description": "Absinthe is used in cocktails such as the Sazerac, Corpse Reviver #2, and the Absinthe Martini."
             },
             {
-              "Use": "Digestif",
-              "Description": "Absinthe is often consumed as a digestif after meals, appreciated for its herbal complexity."
+              "use": "Digestif",
+              "description": "Absinthe is often consumed as a digestif after meals, appreciated for its herbal complexity."
             }
           ]
         },
-        "Key_Styles": [
+        "key_styles": [
           {
-            "Name": "Traditional Absinthe",
-            "Description": "Traditional Absinthe is made using historical methods and contains high levels of wormwood.",
-            "Examples": [
+            "name": "Traditional Absinthe",
+            "description": "Traditional Absinthe is made using historical methods and contains high levels of wormwood.",
+            "examples": [
               {
-                "Brand": "Pernod Absinthe",
-                "Description": "A classic Absinthe with a bold, herbal flavor and high alcohol content."
+                "brand": "Pernod Absinthe",
+                "description": "A classic Absinthe with a bold, herbal flavor and high alcohol content."
               },
               {
-                "Brand": "La Fée Parisienne",
-                "Description": "A premium Absinthe with a balanced flavor profile and traditional production methods."
+                "brand": "La Fée Parisienne",
+                "description": "A premium Absinthe with a balanced flavor profile and traditional production methods."
               }
             ]
           },
           {
-            "Name": "Modern Absinthe",
-            "Description": "Modern Absinthe often has a milder flavor and is sometimes produced with less wormwood than traditional versions.",
-            "Examples": [
+            "name": "Modern Absinthe",
+            "description": "Modern Absinthe often has a milder flavor and is sometimes produced with less wormwood than traditional versions.",
+            "examples": [
               {
-                "Brand": "Absinthe Nouvelle-Orléans",
-                "Description": "A contemporary Absinthe with a refined, herbal flavor and lower bitterness."
+                "brand": "Absinthe Nouvelle-Orléans",
+                "description": "A contemporary Absinthe with a refined, herbal flavor and lower bitterness."
               },
               {
-                "Brand": "Jade Liqueurs Vintage",
-                "Description": "A high-quality modern Absinthe with a nuanced and well-balanced flavor profile."
+                "brand": "Jade Liqueurs Vintage",
+                "description": "A high-quality modern Absinthe with a nuanced and well-balanced flavor profile."
               }
             ]
           }
         ]
       },
       {
-        "Title": "Arak",
-        "Description": "Arak is a traditional Middle Eastern spirit made from distilled grapes and flavored with anise. It is typically enjoyed diluted with water, which turns it a milky white.",
-        "Production_Method": {
-          "Overview": "Arak is produced by fermenting grapes and then distilling the fermented liquid. Aniseed is added during the distillation process to impart its distinctive flavor.",
-          "Detailed_Steps": [
+        "title": "Arak",
+        "description": "Arak is a traditional Middle Eastern spirit made from distilled grapes and flavored with anise. It is typically enjoyed diluted with water, which turns it a milky white.",
+        "production_method": {
+          "overview": "Arak is produced by fermenting grapes and then distilling the fermented liquid. Aniseed is added during the distillation process to impart its distinctive flavor.",
+          "detailed_steps": [
             {
-              "Step": "Fermentation",
-              "Description": "Grapes are fermented to produce a low-alcohol liquid."
+              "step": "Fermentation",
+              "description": "Grapes are fermented to produce a low-alcohol liquid."
             },
             {
-              "Step": "Distillation",
-              "Description": "The fermented liquid is distilled, and aniseed is added to infuse its flavor."
+              "step": "Distillation",
+              "description": "The fermented liquid is distilled, and aniseed is added to infuse its flavor."
             },
             {
-              "Step": "Aging",
-              "Description": "Arak may be aged to mellow its flavors before bottling."
+              "step": "Aging",
+              "description": "Arak may be aged to mellow its flavors before bottling."
             },
             {
-              "Step": "Bottling",
-              "Description": "The final product is bottled and is typically diluted with water before drinking."
+              "step": "Bottling",
+              "description": "The final product is bottled and is typically diluted with water before drinking."
             }
           ]
         },
-        "Usage": {
-          "Overview": "Arak is enjoyed diluted with water, which turns it a milky white. It is typically consumed as part of a meal or social occasion.",
-          "Common_Uses": [
+        "usage": {
+          "overview": "Arak is enjoyed diluted with water, which turns it a milky white. It is typically consumed as part of a meal or social occasion.",
+          "common_uses": [
             {
-              "Use": "Drinking Diluted",
-              "Description": "Arak is traditionally diluted with water and served over ice, which causes it to turn a milky white."
+              "use": "Drinking Diluted",
+              "description": "Arak is traditionally diluted with water and served over ice, which causes it to turn a milky white."
             },
             {
-              "Use": "Pairing with Middle Eastern Cuisine",
-              "Description": "Arak pairs well with a range of Middle Eastern dishes, including mezze, grilled meats, and flatbreads."
+              "use": "Pairing with Middle Eastern Cuisine",
+              "description": "Arak pairs well with a range of Middle Eastern dishes, including mezze, grilled meats, and flatbreads."
             },
             {
-              "Use": "Social Occasions",
-              "Description": "Arak is often enjoyed in social settings and is a traditional beverage for celebrations and gatherings."
+              "use": "Social Occasions",
+              "description": "Arak is often enjoyed in social settings and is a traditional beverage for celebrations and gatherings."
             }
           ]
         },
-        "Key_Styles": [
+        "key_styles": [
           {
-            "Name": "Lebanese Arak",
-            "Description": "Lebanese Arak is renowned for its smooth, aniseed flavor and is often enjoyed as part of a traditional Lebanese mezze.",
-            "Examples": [
+            "name": "Lebanese Arak",
+            "description": "Lebanese Arak is renowned for its smooth, aniseed flavor and is often enjoyed as part of a traditional Lebanese mezze.",
+            "examples": [
               {
-                "Brand": "Arak Karam",
-                "Description": "A traditional Lebanese Arak with a smooth texture and strong anise flavor."
+                "brand": "Arak Karam",
+                "description": "A traditional Lebanese Arak with a smooth texture and strong anise flavor."
               },
               {
-                "Brand": "Arak Brun",
-                "Description": "A high-quality Arak with balanced anise notes and a refined finish."
+                "brand": "Arak Brun",
+                "description": "A high-quality Arak with balanced anise notes and a refined finish."
               }
             ]
           },
           {
-            "Name": "Syrian Arak",
-            "Description": "Syrian Arak is similar to Lebanese Arak but may have regional variations in flavor and production techniques.",
-            "Examples": [
+            "name": "Syrian Arak",
+            "description": "Syrian Arak is similar to Lebanese Arak but may have regional variations in flavor and production techniques.",
+            "examples": [
               {
-                "Brand": "Arak Al-Karim",
-                "Description": "A Syrian Arak with a rich anise flavor and smooth mouthfeel."
+                "brand": "Arak Al-Karim",
+                "description": "A Syrian Arak with a rich anise flavor and smooth mouthfeel."
               },
               {
-                "Brand": "Arak Khamseen",
-                "Description": "A well-regarded Syrian Arak with a balanced anise profile and complex flavor."
+                "brand": "Arak Khamseen",
+                "description": "A well-regarded Syrian Arak with a balanced anise profile and complex flavor."
               }
             ]
           }
         ]
       },
       {
-        "Title": "Pisco",
-        "Description": "Pisco is a South American brandy made from distilled grapes, primarily produced in Peru and Chile. It has a distinctive flavor profile influenced by the type of grapes used and the production methods.",
-        "Production_Method": {
-          "Overview": "Pisco is produced by fermenting grapes and then distilling the liquid to produce a high-proof spirit. The production process is carefully controlled to preserve the unique flavors of the grapes.",
-          "Detailed_Steps": [
+        "title": "Pisco",
+        "description": "Pisco is a South American brandy made from distilled grapes, primarily produced in Peru and Chile. It has a distinctive flavor profile influenced by the type of grapes used and the production methods.",
+        "production_method": {
+          "overview": "Pisco is produced by fermenting grapes and then distilling the liquid to produce a high-proof spirit. The production process is carefully controlled to preserve the unique flavors of the grapes.",
+          "detailed_steps": [
             {
-              "Step": "Grape Harvesting",
-              "Description": "Grapes are harvested and selected based on the desired flavor profile of the Pisco."
+              "step": "Grape Harvesting",
+              "description": "Grapes are harvested and selected based on the desired flavor profile of the Pisco."
             },
             {
-              "Step": "Fermentation",
-              "Description": "The harvested grapes are fermented to convert sugars into alcohol."
+              "step": "Fermentation",
+              "description": "The harvested grapes are fermented to convert sugars into alcohol."
             },
             {
-              "Step": "Distillation",
-              "Description": "The fermented liquid is distilled in pot stills, typically in small batches."
+              "step": "Distillation",
+              "description": "The fermented liquid is distilled in pot stills, typically in small batches."
             },
             {
-              "Step": "Aging",
-              "Description": "Pisco may be aged in neutral containers or barrels to develop its flavors, though some types are bottled immediately after distillation."
+              "step": "Aging",
+              "description": "Pisco may be aged in neutral containers or barrels to develop its flavors, though some types are bottled immediately after distillation."
             },
             {
-              "Step": "Bottling",
-              "Description": "The final Pisco is bottled and may be filtered before release."
+              "step": "Bottling",
+              "description": "The final Pisco is bottled and may be filtered before release."
             }
           ]
         },
-        "Usage": {
-          "Overview": "Pisco is enjoyed straight, on the rocks, or as a key ingredient in cocktails. It is a staple in South American culture and cuisine.",
-          "Common_Uses": [
+        "usage": {
+          "overview": "Pisco is enjoyed straight, on the rocks, or as a key ingredient in cocktails. It is a staple in South American culture and cuisine.",
+          "common_uses": [
             {
-              "Use": "Drinking Straight",
-              "Description": "Pisco can be enjoyed straight, either chilled or at room temperature."
+              "use": "Drinking Straight",
+              "description": "Pisco can be enjoyed straight, either chilled or at room temperature."
             },
             {
-              "Use": "Cocktails",
-              "Description": "Pisco is used in cocktails such as the Pisco Sour, Chilcano, and Pisco Punch."
+              "use": "Cocktails",
+              "description": "Pisco is used in cocktails such as the Pisco Sour, Chilcano, and Pisco Punch."
             },
             {
-              "Use": "Pairing with South American Cuisine",
-              "Description": "Pisco pairs well with a variety of South American dishes, including ceviche, grilled meats, and empanadas."
+              "use": "Pairing with South American Cuisine",
+              "description": "Pisco pairs well with a variety of South American dishes, including ceviche, grilled meats, and empanadas."
             }
           ]
         },
-        "Key_Styles": [
+        "key_styles": [
           {
-            "Name": "Pisco Sour",
-            "Description": "Pisco Sour is a popular cocktail made with Pisco, lime juice, simple syrup, and egg white, known for its frothy texture and refreshing taste.",
-            "Examples": [
+            "name": "Pisco Sour",
+            "description": "Pisco Sour is a popular cocktail made with Pisco, lime juice, simple syrup, and egg white, known for its frothy texture and refreshing taste.",
+            "examples": [
               {
-                "Brand": "Pisco Portón",
-                "Description": "A premium Pisco used in cocktails, with a smooth and refined flavor."
+                "brand": "Pisco Portón",
+                "description": "A premium Pisco used in cocktails, with a smooth and refined flavor."
               },
               {
-                "Brand": "Barsol Pisco",
-                "Description": "A high-quality Pisco with a fruity and floral profile, perfect for making Pisco Sours."
+                "brand": "Barsol Pisco",
+                "description": "A high-quality Pisco with a fruity and floral profile, perfect for making Pisco Sours."
               }
             ]
           },
           {
-            "Name": "Acholado",
-            "Description": "Acholado is a blend of different grape varieties, resulting in a complex and aromatic Pisco.",
-            "Examples": [
+            "name": "Acholado",
+            "description": "Acholado is a blend of different grape varieties, resulting in a complex and aromatic Pisco.",
+            "examples": [
               {
-                "Brand": "Pisco La Caravedo Acholado",
-                "Description": "A blended Pisco with rich flavors and aromatic complexity."
+                "brand": "Pisco La Caravedo Acholado",
+                "description": "A blended Pisco with rich flavors and aromatic complexity."
               },
               {
-                "Brand": "Pisco Capel Acholado",
-                "Description": "A well-regarded Acholado with a balanced profile and nuanced flavors."
+                "brand": "Pisco Capel Acholado",
+                "description": "A well-regarded Acholado with a balanced profile and nuanced flavors."
               }
             ]
           }
         ]
       },
       {
-        "Title": "Grappa",
-        "Description": "Grappa is an Italian spirit made from distilled grape pomace (the skins, seeds, and stems left over from winemaking). It is often enjoyed as a digestif after meals.",
-        "Production_Method": {
-          "Overview": "Grappa is made by distilling the pomace left over from winemaking. The pomace is fermented and then distilled to extract the alcohol. The spirit may be aged in barrels to develop its flavors.",
-          "Detailed_Steps": [
+        "title": "Grappa",
+        "description": "Grappa is an Italian spirit made from distilled grape pomace (the skins, seeds, and stems left over from winemaking). It is often enjoyed as a digestif after meals.",
+        "production_method": {
+          "overview": "Grappa is made by distilling the pomace left over from winemaking. The pomace is fermented and then distilled to extract the alcohol. The spirit may be aged in barrels to develop its flavors.",
+          "detailed_steps": [
             {
-              "Step": "Pomace Collection",
-              "Description": "The pomace, which includes grape skins, seeds, and stems, is collected after winemaking."
+              "step": "Pomace Collection",
+              "description": "The pomace, which includes grape skins, seeds, and stems, is collected after winemaking."
             },
             {
-              "Step": "Fermentation",
-              "Description": "The pomace is fermented to convert remaining sugars into alcohol."
+              "step": "Fermentation",
+              "description": "The pomace is fermented to convert remaining sugars into alcohol."
             },
             {
-              "Step": "Distillation",
-              "Description": "The fermented pomace is distilled in pot stills to extract the alcohol."
+              "step": "Distillation",
+              "description": "The fermented pomace is distilled in pot stills to extract the alcohol."
             },
             {
-              "Step": "Aging",
-              "Description": "Grappa may be aged in wooden barrels to develop its flavors, though some types are bottled unaged."
+              "step": "Aging",
+              "description": "Grappa may be aged in wooden barrels to develop its flavors, though some types are bottled unaged."
             },
             {
-              "Step": "Bottling",
-              "Description": "The final product is bottled and may be filtered before release."
+              "step": "Bottling",
+              "description": "The final product is bottled and may be filtered before release."
             }
           ]
         },
-        "Usage": {
-          "Overview": "Grappa is typically enjoyed as a digestif, either straight or on the rocks. It can also be used in cocktails or culinary applications.",
-          "Common_Uses": [
+        "usage": {
+          "overview": "Grappa is typically enjoyed as a digestif, either straight or on the rocks. It can also be used in cocktails or culinary applications.",
+          "common_uses": [
             {
-              "Use": "Digestif",
-              "Description": "Grappa is commonly consumed as a digestif after meals to aid digestion."
+              "use": "Digestif",
+              "description": "Grappa is commonly consumed as a digestif after meals to aid digestion."
             },
             {
-              "Use": "Cocktails",
-              "Description": "Grappa can be used in cocktails like the Grappa Sour or Grappa Martini."
+              "use": "Cocktails",
+              "description": "Grappa can be used in cocktails like the Grappa Sour or Grappa Martini."
             },
             {
-              "Use": "Culinary",
-              "Description": "Grappa can be used in cooking, especially in Italian cuisine, to add depth to dishes and sauces."
+              "use": "Culinary",
+              "description": "Grappa can be used in cooking, especially in Italian cuisine, to add depth to dishes and sauces."
             }
           ]
         },
-        "Key_Styles": [
+        "key_styles": [
           {
-            "Name": "Aged Grappa",
-            "Description": "Aged Grappa is matured in wooden barrels, which imparts additional complexity and smoothness to the spirit.",
-            "Examples": [
+            "name": "Aged Grappa",
+            "description": "Aged Grappa is matured in wooden barrels, which imparts additional complexity and smoothness to the spirit.",
+            "examples": [
               {
-                "Brand": "Grappa Nonino",
-                "Description": "An aged Grappa with rich flavors of vanilla and oak, offering a smooth finish."
+                "brand": "Grappa Nonino",
+                "description": "An aged Grappa with rich flavors of vanilla and oak, offering a smooth finish."
               },
               {
-                "Brand": "Jacopo Poli Grappa",
-                "Description": "A premium aged Grappa with a refined flavor profile and elegant finish."
+                "brand": "Jacopo Poli Grappa",
+                "description": "A premium aged Grappa with a refined flavor profile and elegant finish."
               }
             ]
           },
           {
-            "Name": "Unaged Grappa",
-            "Description": "Unaged Grappa is clear and has a more intense, raw flavor profile compared to its aged counterparts.",
-            "Examples": [
+            "name": "Unaged Grappa",
+            "description": "Unaged Grappa is clear and has a more intense, raw flavor profile compared to its aged counterparts.",
+            "examples": [
               {
-                "Brand": "Grappa Berta",
-                "Description": "A high-quality unaged Grappa with a robust and bold flavor."
+                "brand": "Grappa Berta",
+                "description": "A high-quality unaged Grappa with a robust and bold flavor."
               },
               {
-                "Brand": "Berta Grappa",
-                "Description": "A smooth, unaged Grappa with a clean and straightforward taste."
+                "brand": "Berta Grappa",
+                "description": "A smooth, unaged Grappa with a clean and straightforward taste."
               }
             ]
           }

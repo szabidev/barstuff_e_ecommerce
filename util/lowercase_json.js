@@ -1,5 +1,6 @@
 const fs = require("fs");
-const jsonFilePath = "../public/json/history.json";
+const path = require("path");
+const jsonDirPath = path.join(__dirname, "../public/json");
 
 // Function to recursively convert all keys in an object to lowercase
 function convertKeysToLowercase(obj) {
@@ -14,30 +15,45 @@ function convertKeysToLowercase(obj) {
   return obj;
 }
 
-// Read the JSON file
-fs.readFile(jsonFilePath, "utf8", (err, data) => {
+// Read the JSON directory
+fs.readdir(jsonDirPath, (err, files) => {
   if (err) {
-    console.error("Error reading file:", err);
+    console.error("Error reading directory:", err);
     return;
   }
 
-  // Parse the JSON data
-  let jsonData = JSON.parse(data);
+  // Filter JSON files
+  const jsonFiles = files.filter((file) => path.extname(file) === ".json");
 
-  // Convert keys to lowercase
-  let lowercaseData = convertKeysToLowercase(jsonData);
+  jsonFiles.forEach((file) => {
+    const jsonFilePath = path.join(jsonDirPath, file);
 
-  // Write the modified JSON to a new file
-  fs.writeFile(
-    jsonFilePath,
-    JSON.stringify(lowercaseData, null, 2),
-    "utf8",
-    (err) => {
+    // Read each JSON file
+    fs.readFile(jsonFilePath, "utf8", (err, data) => {
       if (err) {
-        console.error("Error writing file:", err);
+        console.error(`Error reading file ${file}:`, err);
         return;
       }
-      console.log("history.json lowercased.");
-    }
-  );
+
+      // Parse the JSON data
+      let jsonData = JSON.parse(data);
+
+      // Convert keys to lowercase
+      let lowercaseData = convertKeysToLowercase(jsonData);
+
+      // Write the modified JSON to the same file
+      fs.writeFile(
+        jsonFilePath,
+        JSON.stringify(lowercaseData, null, 2),
+        "utf8",
+        (err) => {
+          if (err) {
+            console.error(`Error writing file ${file}:`, err);
+            return;
+          }
+          console.log(`${file} lowercased.`);
+        }
+      );
+    });
+  });
 });

@@ -1,354 +1,354 @@
 {
-  "Tequila": {
-    "History": {
-      "Title": "History of Tequila",
-      "Description": "Tequila is a distilled spirit with a rich history rooted in Mexican culture. Its origins date back to ancient civilizations that first cultivated the agave plant.",
-      "Subsections": [
+  "tequila": {
+    "history": {
+      "title": "History of Tequila",
+      "description": "Tequila is a distilled spirit with a rich history rooted in Mexican culture. Its origins date back to ancient civilizations that first cultivated the agave plant.",
+      "subsections": [
         {
-          "Title": "Early Origins",
-          "Description": "The origins of tequila can be traced back to the indigenous peoples of Mexico, who fermented the sap of the agave plant to produce a beverage called pulque.",
-          "Key_Facts": [
+          "title": "Early Origins",
+          "description": "The origins of tequila can be traced back to the indigenous peoples of Mexico, who fermented the sap of the agave plant to produce a beverage called pulque.",
+          "key_facts": [
             {
-              "Date": "Pre-Columbian Era",
-              "Description": "Indigenous tribes such as the Aztecs and other Mesoamerican cultures fermented agave sap to produce pulque, a milky, alcoholic beverage used in religious ceremonies."
+              "date": "Pre-Columbian Era",
+              "description": "Indigenous tribes such as the Aztecs and other Mesoamerican cultures fermented agave sap to produce pulque, a milky, alcoholic beverage used in religious ceremonies."
             }
           ]
         },
         {
-          "Title": "Introduction of Distillation",
-          "Description": "The Spanish introduced distillation techniques to Mexico in the 16th century, leading to the creation of what we now know as tequila.",
-          "Key_Facts": [
+          "title": "Introduction of Distillation",
+          "description": "The Spanish introduced distillation techniques to Mexico in the 16th century, leading to the creation of what we now know as tequila.",
+          "key_facts": [
             {
-              "Date": "1500s",
-              "Description": "Spanish conquistadors brought copper stills and distillation technology to Mexico, which were used to distill agave and produce the first versions of tequila."
+              "date": "1500s",
+              "description": "Spanish conquistadors brought copper stills and distillation technology to Mexico, which were used to distill agave and produce the first versions of tequila."
             }
           ]
         },
         {
-          "Title": "Commercial Production",
-          "Description": "Tequila began to be produced commercially in the 17th century, with the first licenses granted in the early 1800s.",
-          "Key_Facts": [
+          "title": "Commercial Production",
+          "description": "Tequila began to be produced commercially in the 17th century, with the first licenses granted in the early 1800s.",
+          "key_facts": [
             {
-              "Date": "1600s",
-              "Description": "Commercial production of tequila began in the area around the town of Tequila, Jalisco."
+              "date": "1600s",
+              "description": "Commercial production of tequila began in the area around the town of Tequila, Jalisco."
             },
             {
-              "Date": "1795",
-              "Description": "Jose Maria Guadalupe de Cuervo received the first official license to produce and distribute tequila."
+              "date": "1795",
+              "description": "Jose Maria Guadalupe de Cuervo received the first official license to produce and distribute tequila."
             }
           ]
         },
         {
-          "Title": "Modernization and Regulation",
-          "Description": "Tequila production has evolved significantly over the centuries, with modern regulations and denominations ensuring quality and authenticity.",
-          "Key_Facts": [
+          "title": "Modernization and Regulation",
+          "description": "Tequila production has evolved significantly over the centuries, with modern regulations and denominations ensuring quality and authenticity.",
+          "key_facts": [
             {
-              "Date": "1974",
-              "Description": "The Mexican government established the Denomination of Origin for tequila, protecting the name and specifying that it can only be produced in certain regions of Mexico."
+              "date": "1974",
+              "description": "The Mexican government established the Denomination of Origin for tequila, protecting the name and specifying that it can only be produced in certain regions of Mexico."
             },
             {
-              "Date": "1997",
-              "Description": "The Tequila Regulatory Council (CRT) was formed to oversee and certify the production of tequila, ensuring adherence to quality standards."
+              "date": "1997",
+              "description": "The Tequila Regulatory Council (CRT) was formed to oversee and certify the production of tequila, ensuring adherence to quality standards."
             }
           ]
         }
       ]
     },
-    "Production": {
-      "Title": "Production of Tequila",
-      "Description": "The production of tequila involves several key steps, including harvesting agave, cooking, fermenting, distilling, and aging. Each step plays a crucial role in determining the final flavor and quality of the tequila.",
-      "Subsections": [
+    "production": {
+      "title": "Production of Tequila",
+      "description": "The production of tequila involves several key steps, including harvesting agave, cooking, fermenting, distilling, and aging. Each step plays a crucial role in determining the final flavor and quality of the tequila.",
+      "subsections": [
         {
-          "Title": "Ingredients",
-          "Description": "Tequila is made primarily from the blue agave plant, which grows in specific regions of Mexico. The quality and characteristics of the agave are critical to the production of high-quality tequila.",
-          "Key_Ingredients": [
+          "title": "Ingredients",
+          "description": "Tequila is made primarily from the blue agave plant, which grows in specific regions of Mexico. The quality and characteristics of the agave are critical to the production of high-quality tequila.",
+          "key_ingredients": [
             {
-              "Ingredient": "Blue Agave",
-              "Description": "Tequila is made from the blue agave plant (Agave tequilana Weber), which is known for its high sugar content and distinctive flavor profile."
+              "ingredient": "Blue Agave",
+              "description": "Tequila is made from the blue agave plant (Agave tequilana Weber), which is known for its high sugar content and distinctive flavor profile."
             }
           ]
         },
         {
-          "Title": "Harvesting",
-          "Description": "The harvesting of agave involves skilled laborers known as jimadores, who expertly remove the agave leaves to reveal the heart of the plant, called the piña.",
-          "Key_Facts": [
+          "title": "Harvesting",
+          "description": "The harvesting of agave involves skilled laborers known as jimadores, who expertly remove the agave leaves to reveal the heart of the plant, called the piña.",
+          "key_facts": [
             {
-              "Fact": "Jimadores",
-              "Description": "Jimadores are skilled workers who harvest the agave plants by removing the sharp leaves and extracting the piñas, which are used in tequila production."
+              "fact": "Jimadores",
+              "description": "Jimadores are skilled workers who harvest the agave plants by removing the sharp leaves and extracting the piñas, which are used in tequila production."
             },
             {
-              "Fact": "Piñas",
-              "Description": "The heart of the agave plant, called the piña, is rich in sugars and is the primary ingredient used in tequila production."
+              "fact": "Piñas",
+              "description": "The heart of the agave plant, called the piña, is rich in sugars and is the primary ingredient used in tequila production."
             }
           ]
         },
         {
-          "Title": "Cooking",
-          "Description": "The piñas are then cooked to convert the complex carbohydrates into fermentable sugars. This cooking process can be done using traditional or modern methods.",
-          "Key_Methods": [
+          "title": "Cooking",
+          "description": "The piñas are then cooked to convert the complex carbohydrates into fermentable sugars. This cooking process can be done using traditional or modern methods.",
+          "key_methods": [
             {
-              "Method": "Traditional Ovens",
-              "Description": "Traditional brick or stone ovens, known as hornos, are used to slowly cook the agave piñas over several days, enhancing the flavor profile."
+              "method": "Traditional Ovens",
+              "description": "Traditional brick or stone ovens, known as hornos, are used to slowly cook the agave piñas over several days, enhancing the flavor profile."
             },
             {
-              "Method": "Autoclaves",
-              "Description": "Autoclaves are large, stainless steel pressure cookers that can cook the agave piñas more quickly, often in a matter of hours."
+              "method": "Autoclaves",
+              "description": "Autoclaves are large, stainless steel pressure cookers that can cook the agave piñas more quickly, often in a matter of hours."
             }
           ]
         },
         {
-          "Title": "Fermentation",
-          "Description": "After cooking, the agave is crushed to extract the juice, which is then fermented to produce alcohol. Fermentation can be influenced by various factors, including the type of yeast used and the fermentation environment.",
-          "Key_Facts": [
+          "title": "Fermentation",
+          "description": "After cooking, the agave is crushed to extract the juice, which is then fermented to produce alcohol. Fermentation can be influenced by various factors, including the type of yeast used and the fermentation environment.",
+          "key_facts": [
             {
-              "Fact": "Natural Yeast",
-              "Description": "Some producers use natural yeasts from the environment, which can contribute unique flavors to the tequila."
+              "fact": "Natural Yeast",
+              "description": "Some producers use natural yeasts from the environment, which can contribute unique flavors to the tequila."
             },
             {
-              "Fact": "Fermentation Time",
-              "Description": "The fermentation process typically lasts several days, during which the sugars in the agave juice are converted into alcohol."
+              "fact": "Fermentation Time",
+              "description": "The fermentation process typically lasts several days, during which the sugars in the agave juice are converted into alcohol."
             }
           ]
         },
         {
-          "Title": "Distillation",
-          "Description": "The fermented liquid is then distilled, usually twice, to increase the alcohol content and refine the flavor. Distillation is a crucial step that significantly impacts the quality of the final product.",
-          "Key_Facts": [
+          "title": "Distillation",
+          "description": "The fermented liquid is then distilled, usually twice, to increase the alcohol content and refine the flavor. Distillation is a crucial step that significantly impacts the quality of the final product.",
+          "key_facts": [
             {
-              "Fact": "First Distillation",
-              "Description": "The first distillation, known as 'destrozamiento' or 'smashing,' results in a cloudy liquid called 'ordinario.'"
+              "fact": "First Distillation",
+              "description": "The first distillation, known as 'destrozamiento' or 'smashing,' results in a cloudy liquid called 'ordinario.'"
             },
             {
-              "Fact": "Second Distillation",
-              "Description": "The second distillation, known as 'rectification,' produces a clear spirit called 'silver' or 'blanco' tequila, which can be bottled immediately or aged further."
+              "fact": "Second Distillation",
+              "description": "The second distillation, known as 'rectification,' produces a clear spirit called 'silver' or 'blanco' tequila, which can be bottled immediately or aged further."
             }
           ]
         },
         {
-          "Title": "Aging",
-          "Description": "Tequila can be aged in oak barrels to develop additional flavors and complexity. The aging process results in different types of tequila, each with its own unique characteristics.",
-          "Aging_Categories": [
+          "title": "Aging",
+          "description": "Tequila can be aged in oak barrels to develop additional flavors and complexity. The aging process results in different types of tequila, each with its own unique characteristics.",
+          "aging_categories": [
             {
-              "Category": "Blanco",
-              "Description": "Blanco tequila, also known as silver or white tequila, is unaged and bottled immediately after distillation. It has a clear color and a bold, agave-forward flavor."
+              "category": "Blanco",
+              "description": "Blanco tequila, also known as silver or white tequila, is unaged and bottled immediately after distillation. It has a clear color and a bold, agave-forward flavor."
             },
             {
-              "Category": "Reposado",
-              "Description": "Reposado tequila is aged for 2-12 months in oak barrels, resulting in a golden color and a smoother, more rounded flavor with hints of vanilla and caramel."
+              "category": "Reposado",
+              "description": "Reposado tequila is aged for 2-12 months in oak barrels, resulting in a golden color and a smoother, more rounded flavor with hints of vanilla and caramel."
             },
             {
-              "Category": "Añejo",
-              "Description": "Añejo tequila is aged for 1-3 years in oak barrels, giving it a deep amber color and complex flavors with notes of dried fruit, oak, and spice."
+              "category": "Añejo",
+              "description": "Añejo tequila is aged for 1-3 years in oak barrels, giving it a deep amber color and complex flavors with notes of dried fruit, oak, and spice."
             },
             {
-              "Category": "Extra Añejo",
-              "Description": "Extra Añejo tequila is aged for over 3 years, resulting in a dark color and exceptionally rich, complex flavors with deep notes of chocolate, coffee, and tobacco."
+              "category": "Extra Añejo",
+              "description": "Extra Añejo tequila is aged for over 3 years, resulting in a dark color and exceptionally rich, complex flavors with deep notes of chocolate, coffee, and tobacco."
             }
           ]
         }
       ]
     },
-    "Types_of_Tequila": {
-      "Title": "Types of Tequila",
-      "Description": "Tequila is categorized based on its aging process, resulting in distinct types that offer different flavors and characteristics. These categories include Blanco, Reposado, Añejo, and Extra Añejo.",
-      "Subsections": [
+    "types_of_tequila": {
+      "title": "Types of Tequila",
+      "description": "Tequila is categorized based on its aging process, resulting in distinct types that offer different flavors and characteristics. These categories include Blanco, Reposado, Añejo, and Extra Añejo.",
+      "subsections": [
         {
-          "Title": "Blanco Tequila",
-          "Description": "Blanco tequila, also known as silver or white tequila, is unaged and has a clear color. It is known for its bold, pure agave flavor.",
-          "Key_Characteristics": [
+          "title": "Blanco Tequila",
+          "description": "Blanco tequila, also known as silver or white tequila, is unaged and has a clear color. It is known for its bold, pure agave flavor.",
+          "key_characteristics": [
             {
-              "Characteristic": "Unaged",
-              "Description": "Blanco tequila is bottled immediately after distillation, without any aging."
+              "characteristic": "Unaged",
+              "description": "Blanco tequila is bottled immediately after distillation, without any aging."
             },
             {
-              "Characteristic": "Pure Flavor",
-              "Description": "It has a bold, pure flavor that highlights the natural characteristics of the blue agave."
+              "characteristic": "Pure Flavor",
+              "description": "It has a bold, pure flavor that highlights the natural characteristics of the blue agave."
             }
           ],
-          "Brands": [
+          "brands": [
             {
-              "Brand": "Patrón Silver",
-              "Description": "Patrón Silver is a premium Blanco tequila known for its smooth, fresh agave flavor and citrus notes."
+              "brand": "Patrón Silver",
+              "description": "Patrón Silver is a premium Blanco tequila known for its smooth, fresh agave flavor and citrus notes."
             },
             {
-              "Brand": "Don Julio Blanco",
-              "Description": "Don Julio Blanco offers a crisp, clean taste with hints of citrus and a peppery finish."
+              "brand": "Don Julio Blanco",
+              "description": "Don Julio Blanco offers a crisp, clean taste with hints of citrus and a peppery finish."
             },
             {
-              "Brand": "Cabo Wabo Blanco",
-              "Description": "Cabo Wabo Blanco is recognized for its full-bodied agave flavor with earthy undertones."
+              "brand": "Cabo Wabo Blanco",
+              "description": "Cabo Wabo Blanco is recognized for its full-bodied agave flavor with earthy undertones."
             }
           ]
         },
         {
-          "Title": "Reposado Tequila",
-          "Description": "Reposado tequila is aged for 2-12 months in oak barrels, giving it a golden color and a smooth, balanced flavor.",
-          "Key_Characteristics": [
+          "title": "Reposado Tequila",
+          "description": "Reposado tequila is aged for 2-12 months in oak barrels, giving it a golden color and a smooth, balanced flavor.",
+          "key_characteristics": [
             {
-              "Characteristic": "Aged",
-              "Description": "Reposado tequila is aged in oak barrels, resulting in a golden color and more complex flavors."
+              "characteristic": "Aged",
+              "description": "Reposado tequila is aged in oak barrels, resulting in a golden color and more complex flavors."
             },
             {
-              "Characteristic": "Balanced Flavor",
-              "Description": "It has a balanced taste with notes of vanilla, caramel, and oak, along with the natural agave flavor."
+              "characteristic": "Balanced Flavor",
+              "description": "It has a balanced taste with notes of vanilla, caramel, and oak, along with the natural agave flavor."
             }
           ],
-          "Brands": [
+          "brands": [
             {
-              "Brand": "Herradura Reposado",
-              "Description": "Herradura Reposado is known for its rich, smooth flavor with hints of vanilla, cinnamon, and caramel."
+              "brand": "Herradura Reposado",
+              "description": "Herradura Reposado is known for its rich, smooth flavor with hints of vanilla, cinnamon, and caramel."
             },
             {
-              "Brand": "Casamigos Reposado",
-              "Description": "Casamigos Reposado offers a silky texture with flavors of caramel, cocoa, and agave."
+              "brand": "Casamigos Reposado",
+              "description": "Casamigos Reposado offers a silky texture with flavors of caramel, cocoa, and agave."
             },
             {
-              "Brand": "El Tesoro Reposado",
-              "Description": "El Tesoro Reposado features a balanced, smooth taste with subtle oak and vanilla notes."
+              "brand": "El Tesoro Reposado",
+              "description": "El Tesoro Reposado features a balanced, smooth taste with subtle oak and vanilla notes."
             }
           ]
         },
         {
-          "Title": "Añejo Tequila",
-          "Description": "Añejo tequila is aged for 1-3 years in oak barrels, resulting in a deep amber color and rich, complex flavors.",
-          "Key_Characteristics": [
+          "title": "Añejo Tequila",
+          "description": "Añejo tequila is aged for 1-3 years in oak barrels, resulting in a deep amber color and rich, complex flavors.",
+          "key_characteristics": [
             {
-              "Characteristic": "Aged",
-              "Description": "Añejo tequila is aged for a longer period, developing a deep amber color and rich flavors."
+              "characteristic": "Aged",
+              "description": "Añejo tequila is aged for a longer period, developing a deep amber color and rich flavors."
             },
             {
-              "Characteristic": "Complex Flavor",
-              "Description": "It has a complex flavor profile with notes of dried fruit, oak, and spice, along with the characteristic agave sweetness."
+              "characteristic": "Complex Flavor",
+              "description": "It has a complex flavor profile with notes of dried fruit, oak, and spice, along with the characteristic agave sweetness."
             }
           ],
-          "Brands": [
+          "brands": [
             {
-              "Brand": "Don Julio Añejo",
-              "Description": "Don Julio Añejo is renowned for its rich, full-bodied flavor with hints of caramel, chocolate, and spice."
+              "brand": "Don Julio Añejo",
+              "description": "Don Julio Añejo is renowned for its rich, full-bodied flavor with hints of caramel, chocolate, and spice."
             },
             {
-              "Brand": "Clase Azul Añejo",
-              "Description": "Clase Azul Añejo is a premium tequila known for its smooth, luxurious taste with notes of vanilla, cinnamon, and dried fruit."
+              "brand": "Clase Azul Añejo",
+              "description": "Clase Azul Añejo is a premium tequila known for its smooth, luxurious taste with notes of vanilla, cinnamon, and dried fruit."
             },
             {
-              "Brand": "Avión Añejo",
-              "Description": "Avión Añejo offers a rich, complex flavor with notes of vanilla, caramel, and toasted oak."
+              "brand": "Avión Añejo",
+              "description": "Avión Añejo offers a rich, complex flavor with notes of vanilla, caramel, and toasted oak."
             }
           ]
         },
         {
-          "Title": "Extra Añejo Tequila",
-          "Description": "Extra Añejo tequila is aged for over 3 years, resulting in a dark color and exceptionally rich, complex flavors.",
-          "Key_Characteristics": [
+          "title": "Extra Añejo Tequila",
+          "description": "Extra Añejo tequila is aged for over 3 years, resulting in a dark color and exceptionally rich, complex flavors.",
+          "key_characteristics": [
             {
-              "Characteristic": "Aged",
-              "Description": "Extra Añejo tequila is aged for a minimum of 3 years, developing a dark color and deep flavors."
+              "characteristic": "Aged",
+              "description": "Extra Añejo tequila is aged for a minimum of 3 years, developing a dark color and deep flavors."
             },
             {
-              "Characteristic": "Rich Flavor",
-              "Description": "It has an exceptionally rich, complex flavor profile with deep notes of chocolate, coffee, and tobacco, along with the smoothness of the aged agave."
+              "characteristic": "Rich Flavor",
+              "description": "It has an exceptionally rich, complex flavor profile with deep notes of chocolate, coffee, and tobacco, along with the smoothness of the aged agave."
             }
           ],
-          "Brands": [
+          "brands": [
             {
-              "Brand": "Gran Patrón Burdeos",
-              "Description": "Gran Patrón Burdeos is an ultra-premium Extra Añejo tequila aged in Bordeaux wine barrels, known for its deep, rich flavor and smooth finish."
+              "brand": "Gran Patrón Burdeos",
+              "description": "Gran Patrón Burdeos is an ultra-premium Extra Añejo tequila aged in Bordeaux wine barrels, known for its deep, rich flavor and smooth finish."
             },
             {
-              "Brand": "Jose Cuervo Reserva de la Familia",
-              "Description": "Jose Cuervo Reserva de la Familia is a luxurious Extra Añejo tequila with rich flavors of oak, vanilla, and dark chocolate."
+              "brand": "Jose Cuervo Reserva de la Familia",
+              "description": "Jose Cuervo Reserva de la Familia is a luxurious Extra Añejo tequila with rich flavors of oak, vanilla, and dark chocolate."
             },
             {
-              "Brand": "Don Julio Real",
-              "Description": "Don Julio Real is a top-tier Extra Añejo tequila offering an exceptionally smooth and complex flavor profile with hints of caramel, coffee, and spice."
+              "brand": "Don Julio Real",
+              "description": "Don Julio Real is a top-tier Extra Añejo tequila offering an exceptionally smooth and complex flavor profile with hints of caramel, coffee, and spice."
             }
           ]
         }
       ]
     },
-    "Cultural_Significance": {
-      "Title": "Cultural Significance of Tequila",
-      "Description": "Tequila holds a special place in Mexican culture and has influenced global cocktail culture. It is often associated with traditional Mexican celebrations and customs.",
-      "Subsections": [
+    "cultural_significance": {
+      "title": "Cultural Significance of Tequila",
+      "description": "Tequila holds a special place in Mexican culture and has influenced global cocktail culture. It is often associated with traditional Mexican celebrations and customs.",
+      "subsections": [
         {
-          "Title": "Tequila in Mexican Culture",
-          "Description": "In Mexico, tequila is an integral part of celebrations, festivals, and social gatherings. It is enjoyed in various traditional ways and is a symbol of Mexican heritage.",
-          "Key_Practices": [
+          "title": "Tequila in Mexican Culture",
+          "description": "In Mexico, tequila is an integral part of celebrations, festivals, and social gatherings. It is enjoyed in various traditional ways and is a symbol of Mexican heritage.",
+          "key_practices": [
             {
-              "Practice": "Tequila Rituals",
-              "Description": "Tequila is often consumed in traditional rituals and ceremonies, with specific customs and practices associated with its consumption."
+              "practice": "Tequila Rituals",
+              "description": "Tequila is often consumed in traditional rituals and ceremonies, with specific customs and practices associated with its consumption."
             },
             {
-              "Practice": "Tequila-Based Cocktails",
-              "Description": "Tequila is used in a variety of cocktails, offering a unique twist on classic drinks like the Margarita and Paloma."
+              "practice": "Tequila-Based Cocktails",
+              "description": "Tequila is used in a variety of cocktails, offering a unique twist on classic drinks like the Margarita and Paloma."
             }
           ]
         },
         {
-          "Title": "Tequila in Global Cocktail Culture",
-          "Description": "Tequila has become a popular ingredient in cocktails worldwide, known for its versatility and distinctive flavor. It plays a significant role in both classic and modern mixology.",
-          "Key_Examples": [
+          "title": "Tequila in Global Cocktail Culture",
+          "description": "Tequila has become a popular ingredient in cocktails worldwide, known for its versatility and distinctive flavor. It plays a significant role in both classic and modern mixology.",
+          "key_examples": [
             {
-              "Example": "Margarita",
-              "Description": "The Margarita is one of the most famous tequila cocktails, made with tequila, lime juice, and orange liqueur, served with a salted rim."
+              "example": "Margarita",
+              "description": "The Margarita is one of the most famous tequila cocktails, made with tequila, lime juice, and orange liqueur, served with a salted rim."
             },
             {
-              "Example": "Tequila Sunrise",
-              "Description": "The Tequila Sunrise is a vibrant cocktail made with tequila, orange juice, and grenadine, known for its colorful appearance."
+              "example": "Tequila Sunrise",
+              "description": "The Tequila Sunrise is a vibrant cocktail made with tequila, orange juice, and grenadine, known for its colorful appearance."
             },
             {
-              "Example": "Paloma",
-              "Description": "The Paloma is a refreshing cocktail made with tequila, grapefruit soda, and lime juice, often served over ice."
+              "example": "Paloma",
+              "description": "The Paloma is a refreshing cocktail made with tequila, grapefruit soda, and lime juice, often served over ice."
             }
           ]
         }
       ]
     },
-    "Modern_Tequila_Industry": {
-      "Title": "Modern Tequila Industry",
-      "Description": "The modern tequila industry is diverse, with a wide range of brands and styles available. It is characterized by both traditional practices and innovative approaches to production and marketing.",
-      "Subsections": [
+    "modern_tequila_industry": {
+      "title": "Modern Tequila Industry",
+      "description": "The modern tequila industry is diverse, with a wide range of brands and styles available. It is characterized by both traditional practices and innovative approaches to production and marketing.",
+      "subsections": [
         {
-          "Title": "Market Trends",
-          "Description": "Current trends in the tequila industry include a focus on premium and artisanal production, innovative flavor profiles, and increasing global appreciation for tequila's unique qualities.",
-          "Key_Trends": [
+          "title": "Market Trends",
+          "description": "Current trends in the tequila industry include a focus on premium and artisanal production, innovative flavor profiles, and increasing global appreciation for tequila's unique qualities.",
+          "key_trends": [
             {
-              "Trend": "Premium Tequila",
-              "Description": "There is a growing demand for premium and ultra-premium tequilas, with a focus on quality, craftsmanship, and unique flavor profiles."
+              "trend": "Premium Tequila",
+              "description": "There is a growing demand for premium and ultra-premium tequilas, with a focus on quality, craftsmanship, and unique flavor profiles."
             },
             {
-              "Trend": "Sustainability",
-              "Description": "Sustainability is becoming increasingly important, with many producers adopting eco-friendly practices and focusing on responsible sourcing."
+              "trend": "Sustainability",
+              "description": "Sustainability is becoming increasingly important, with many producers adopting eco-friendly practices and focusing on responsible sourcing."
             },
             {
-              "Trend": "Flavored Tequila",
-              "Description": "Flavored tequilas are gaining popularity, with producers experimenting with various infusions and flavorings to create new and unique products."
+              "trend": "Flavored Tequila",
+              "description": "Flavored tequilas are gaining popularity, with producers experimenting with various infusions and flavorings to create new and unique products."
             }
           ]
         },
         {
-          "Title": "Notable Brands",
-          "Description": "Several tequila brands are recognized for their quality, heritage, and innovation. These brands represent the diverse landscape of the modern tequila market.",
-          "Brands": [
+          "title": "Notable Brands",
+          "description": "Several tequila brands are recognized for their quality, heritage, and innovation. These brands represent the diverse landscape of the modern tequila market.",
+          "brands": [
             {
-              "Brand": "Patrón",
-              "Description": "Patrón is a leading tequila brand known for its premium quality and wide range of products, from Blanco to Extra Añejo."
+              "brand": "Patrón",
+              "description": "Patrón is a leading tequila brand known for its premium quality and wide range of products, from Blanco to Extra Añejo."
             },
             {
-              "Brand": "Don Julio",
-              "Description": "Don Julio is renowned for its high-quality tequilas and commitment to traditional production methods."
+              "brand": "Don Julio",
+              "description": "Don Julio is renowned for its high-quality tequilas and commitment to traditional production methods."
             },
             {
-              "Brand": "Jose Cuervo",
-              "Description": "Jose Cuervo is one of the oldest and most well-known tequila brands, offering a range of tequilas from traditional to premium."
+              "brand": "Jose Cuervo",
+              "description": "Jose Cuervo is one of the oldest and most well-known tequila brands, offering a range of tequilas from traditional to premium."
             },
             {
-              "Brand": "Casamigos",
-              "Description": "Casamigos, co-founded by George Clooney, is known for its smooth, approachable tequilas and modern marketing strategies."
+              "brand": "Casamigos",
+              "description": "Casamigos, co-founded by George Clooney, is known for its smooth, approachable tequilas and modern marketing strategies."
             },
             {
-              "Brand": "Clase Azul",
-              "Description": "Clase Azul is a premium tequila brand known for its luxurious, handcrafted bottles and rich, complex flavors."
+              "brand": "Clase Azul",
+              "description": "Clase Azul is a premium tequila brand known for its luxurious, handcrafted bottles and rich, complex flavors."
             }
           ]
         }

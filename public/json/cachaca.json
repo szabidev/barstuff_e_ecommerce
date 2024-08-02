@@ -1,322 +1,322 @@
 {
-  "Cachaca": {
-    "History": {
-      "Title": "History of Cachaça",
-      "Description": "Cachaça is a traditional Brazilian spirit made from fermented sugarcane juice. It holds a unique place in Brazilian culture and history, often considered the national spirit of Brazil.",
-      "Subsections": [
+  "cachaca": {
+    "history": {
+      "title": "History of Cachaça",
+      "description": "Cachaça is a traditional Brazilian spirit made from fermented sugarcane juice. It holds a unique place in Brazilian culture and history, often considered the national spirit of Brazil.",
+      "subsections": [
         {
-          "Title": "Early Origins",
-          "Description": "The origins of cachaça date back to the early 16th century when Portuguese colonists began cultivating sugarcane in Brazil and experimented with fermenting its juice.",
-          "Key_Facts": [
+          "title": "Early Origins",
+          "description": "The origins of cachaça date back to the early 16th century when Portuguese colonists began cultivating sugarcane in Brazil and experimented with fermenting its juice.",
+          "key_facts": [
             {
-              "Date": "1500s",
-              "Description": "Portuguese colonists in Brazil began producing a distilled spirit from fermented sugarcane juice, which eventually became known as cachaça."
+              "date": "1500s",
+              "description": "Portuguese colonists in Brazil began producing a distilled spirit from fermented sugarcane juice, which eventually became known as cachaça."
             }
           ]
         },
         {
-          "Title": "Development and Spread",
-          "Description": "Over the centuries, cachaça production techniques evolved, and the spirit became an integral part of Brazilian culture and economy.",
-          "Key_Facts": [
+          "title": "Development and Spread",
+          "description": "Over the centuries, cachaça production techniques evolved, and the spirit became an integral part of Brazilian culture and economy.",
+          "key_facts": [
             {
-              "Date": "17th Century",
-              "Description": "Cachaça production spread across Brazil, becoming a staple in both rural and urban communities."
+              "date": "17th Century",
+              "description": "Cachaça production spread across Brazil, becoming a staple in both rural and urban communities."
             },
             {
-              "Date": "18th Century",
-              "Description": "Cachaça played a crucial role in the economy, particularly in the production of 'aguardente,' a strong alcoholic beverage consumed locally and exported to Europe."
+              "date": "18th Century",
+              "description": "Cachaça played a crucial role in the economy, particularly in the production of 'aguardente,' a strong alcoholic beverage consumed locally and exported to Europe."
             }
           ]
         },
         {
-          "Title": "Regulation and Recognition",
-          "Description": "In the 20th century, efforts were made to regulate cachaça production and protect its identity as a uniquely Brazilian product.",
-          "Key_Facts": [
+          "title": "Regulation and Recognition",
+          "description": "In the 20th century, efforts were made to regulate cachaça production and protect its identity as a uniquely Brazilian product.",
+          "key_facts": [
             {
-              "Date": "1940s",
-              "Description": "The Brazilian government began to regulate cachaça production to ensure quality and authenticity."
+              "date": "1940s",
+              "description": "The Brazilian government began to regulate cachaça production to ensure quality and authenticity."
             },
             {
-              "Date": "2001",
-              "Description": "Cachaça was officially recognized as a distinctive Brazilian product, with standards set for its production."
+              "date": "2001",
+              "description": "Cachaça was officially recognized as a distinctive Brazilian product, with standards set for its production."
             }
           ]
         }
       ]
     },
-    "Production": {
-      "Title": "Production of Cachaça",
-      "Description": "Cachaça is made through a process that involves harvesting sugarcane, fermenting the juice, distilling, and aging. The methods used can vary, contributing to the diversity of cachaça styles and flavors.",
-      "Subsections": [
+    "production": {
+      "title": "Production of Cachaça",
+      "description": "Cachaça is made through a process that involves harvesting sugarcane, fermenting the juice, distilling, and aging. The methods used can vary, contributing to the diversity of cachaça styles and flavors.",
+      "subsections": [
         {
-          "Title": "Ingredients",
-          "Description": "The primary ingredient in cachaça is fresh sugarcane juice, which is fermented and distilled to create the spirit.",
-          "Key_Ingredients": [
+          "title": "Ingredients",
+          "description": "The primary ingredient in cachaça is fresh sugarcane juice, which is fermented and distilled to create the spirit.",
+          "key_ingredients": [
             {
-              "Ingredient": "Sugarcane",
-              "Description": "Cachaça is made from the juice of freshly harvested sugarcane, which is pressed to extract the liquid."
+              "ingredient": "Sugarcane",
+              "description": "Cachaça is made from the juice of freshly harvested sugarcane, which is pressed to extract the liquid."
             }
           ]
         },
         {
-          "Title": "Harvesting",
-          "Description": "Sugarcane is harvested and immediately processed to ensure freshness and quality in the resulting cachaça.",
-          "Key_Facts": [
+          "title": "Harvesting",
+          "description": "Sugarcane is harvested and immediately processed to ensure freshness and quality in the resulting cachaça.",
+          "key_facts": [
             {
-              "Fact": "Freshness",
-              "Description": "Sugarcane is typically harvested by hand and quickly transported to the distillery to prevent fermentation from starting prematurely."
+              "fact": "Freshness",
+              "description": "Sugarcane is typically harvested by hand and quickly transported to the distillery to prevent fermentation from starting prematurely."
             },
             {
-              "Fact": "Harvest Season",
-              "Description": "The sugarcane harvest season in Brazil generally runs from April to November."
+              "fact": "Harvest Season",
+              "description": "The sugarcane harvest season in Brazil generally runs from April to November."
             }
           ]
         },
         {
-          "Title": "Fermentation",
-          "Description": "The extracted sugarcane juice is fermented using natural or cultivated yeast, converting the sugars into alcohol.",
-          "Key_Facts": [
+          "title": "Fermentation",
+          "description": "The extracted sugarcane juice is fermented using natural or cultivated yeast, converting the sugars into alcohol.",
+          "key_facts": [
             {
-              "Fact": "Natural Fermentation",
-              "Description": "Traditional cachaça producers often use natural wild yeasts present in the environment for fermentation."
+              "fact": "Natural Fermentation",
+              "description": "Traditional cachaça producers often use natural wild yeasts present in the environment for fermentation."
             },
             {
-              "Fact": "Fermentation Time",
-              "Description": "Fermentation typically lasts between 24 to 72 hours, depending on the yeast and environmental conditions."
+              "fact": "Fermentation Time",
+              "description": "Fermentation typically lasts between 24 to 72 hours, depending on the yeast and environmental conditions."
             }
           ]
         },
         {
-          "Title": "Distillation",
-          "Description": "The fermented juice is distilled, usually in copper pot stills, to separate the alcohol and create cachaça.",
-          "Key_Facts": [
+          "title": "Distillation",
+          "description": "The fermented juice is distilled, usually in copper pot stills, to separate the alcohol and create cachaça.",
+          "key_facts": [
             {
-              "Fact": "Copper Stills",
-              "Description": "Copper pot stills are commonly used for distillation, as they help remove impurities and enhance the flavor of the cachaça."
+              "fact": "Copper Stills",
+              "description": "Copper pot stills are commonly used for distillation, as they help remove impurities and enhance the flavor of the cachaça."
             },
             {
-              "Fact": "Distillation Process",
-              "Description": "Cachaça is typically distilled to a lower proof than other spirits, retaining more of the natural flavors of the sugarcane."
+              "fact": "Distillation Process",
+              "description": "Cachaça is typically distilled to a lower proof than other spirits, retaining more of the natural flavors of the sugarcane."
             }
           ]
         },
         {
-          "Title": "Aging",
-          "Description": "Cachaça can be aged in wooden barrels to develop additional flavors and complexity, although many are also enjoyed unaged to highlight the pure cane flavor.",
-          "Aging_Categories": [
+          "title": "Aging",
+          "description": "Cachaça can be aged in wooden barrels to develop additional flavors and complexity, although many are also enjoyed unaged to highlight the pure cane flavor.",
+          "aging_categories": [
             {
-              "Category": "Unaged (Branca)",
-              "Description": "Unaged cachaça, also known as 'branca' or 'white,' is bottled shortly after distillation, offering a clear color and fresh, vibrant cane flavor."
+              "category": "Unaged (Branca)",
+              "description": "Unaged cachaça, also known as 'branca' or 'white,' is bottled shortly after distillation, offering a clear color and fresh, vibrant cane flavor."
             },
             {
-              "Category": "Aged (Amarela)",
-              "Description": "Aged cachaça, known as 'amarela' or 'golden,' is matured in wooden barrels, which can impart a variety of flavors depending on the type of wood used."
+              "category": "Aged (Amarela)",
+              "description": "Aged cachaça, known as 'amarela' or 'golden,' is matured in wooden barrels, which can impart a variety of flavors depending on the type of wood used."
             }
           ]
         }
       ]
     },
-    "Types_of_Cachaca": {
-      "Title": "Types of Cachaça",
-      "Description": "Cachaça is categorized based on its aging process and the type of production, resulting in distinct types that offer different flavors and characteristics.",
-      "Subsections": [
+    "types_of_cachaca": {
+      "title": "Types of Cachaça",
+      "description": "Cachaça is categorized based on its aging process and the type of production, resulting in distinct types that offer different flavors and characteristics.",
+      "subsections": [
         {
-          "Title": "Unaged Cachaça (Branca)",
-          "Description": "Unaged cachaça is bottled immediately after distillation and is known for its clear appearance and fresh, cane-forward flavor.",
-          "Key_Characteristics": [
+          "title": "Unaged Cachaça (Branca)",
+          "description": "Unaged cachaça is bottled immediately after distillation and is known for its clear appearance and fresh, cane-forward flavor.",
+          "key_characteristics": [
             {
-              "Characteristic": "Clear",
-              "Description": "Unaged cachaça is clear in color and retains the natural flavors of the sugarcane."
+              "characteristic": "Clear",
+              "description": "Unaged cachaça is clear in color and retains the natural flavors of the sugarcane."
             },
             {
-              "Characteristic": "Vibrant Flavor",
-              "Description": "It has a fresh, vibrant flavor with notes of grass, citrus, and tropical fruit."
+              "characteristic": "Vibrant Flavor",
+              "description": "It has a fresh, vibrant flavor with notes of grass, citrus, and tropical fruit."
             }
           ],
-          "Brands": [
+          "brands": [
             {
-              "Brand": "Cachaça 51",
-              "Description": "Cachaça 51 is one of Brazil's most popular unaged cachaças, known for its smooth taste and versatility in cocktails."
+              "brand": "Cachaça 51",
+              "description": "Cachaça 51 is one of Brazil's most popular unaged cachaças, known for its smooth taste and versatility in cocktails."
             },
             {
-              "Brand": "Pitu",
-              "Description": "Pitu is a widely recognized brand offering a crisp and clean unaged cachaça, ideal for mixing in caipirinhas."
+              "brand": "Pitu",
+              "description": "Pitu is a widely recognized brand offering a crisp and clean unaged cachaça, ideal for mixing in caipirinhas."
             },
             {
-              "Brand": "Ypioca Prata",
-              "Description": "Ypioca Prata is a premium unaged cachaça with a refined, cane-forward flavor."
+              "brand": "Ypioca Prata",
+              "description": "Ypioca Prata is a premium unaged cachaça with a refined, cane-forward flavor."
             }
           ]
         },
         {
-          "Title": "Aged Cachaça (Amarela)",
-          "Description": "Aged cachaça is matured in wooden barrels, which impart additional flavors and complexity to the spirit.",
-          "Key_Characteristics": [
+          "title": "Aged Cachaça (Amarela)",
+          "description": "Aged cachaça is matured in wooden barrels, which impart additional flavors and complexity to the spirit.",
+          "key_characteristics": [
             {
-              "Characteristic": "Golden Color",
-              "Description": "Aged cachaça has a golden color due to the interaction with the wood during aging."
+              "characteristic": "Golden Color",
+              "description": "Aged cachaça has a golden color due to the interaction with the wood during aging."
             },
             {
-              "Characteristic": "Complex Flavor",
-              "Description": "It has a complex flavor profile with notes of vanilla, caramel, and spice, along with the underlying cane sweetness."
+              "characteristic": "Complex Flavor",
+              "description": "It has a complex flavor profile with notes of vanilla, caramel, and spice, along with the underlying cane sweetness."
             }
           ],
-          "Brands": [
+          "brands": [
             {
-              "Brand": "Leblon",
-              "Description": "Leblon is a premium aged cachaça aged in French oak barrels, known for its smooth, rich flavor."
+              "brand": "Leblon",
+              "description": "Leblon is a premium aged cachaça aged in French oak barrels, known for its smooth, rich flavor."
             },
             {
-              "Brand": "Avuá Amburana",
-              "Description": "Avuá Amburana is aged in amburana wood barrels, giving it unique spicy and floral notes."
+              "brand": "Avuá Amburana",
+              "description": "Avuá Amburana is aged in amburana wood barrels, giving it unique spicy and floral notes."
             },
             {
-              "Brand": "Novo Fogo Barrel-Aged",
-              "Description": "Novo Fogo Barrel-Aged cachaça is aged in American oak barrels, offering a rich, caramelized flavor profile."
+              "brand": "Novo Fogo Barrel-Aged",
+              "description": "Novo Fogo Barrel-Aged cachaça is aged in American oak barrels, offering a rich, caramelized flavor profile."
             }
           ]
         },
         {
-          "Title": "Artisanal Cachaça",
-          "Description": "Artisanal cachaça is produced using traditional methods, often in small batches, and is highly regarded for its quality and distinctive flavors.",
-          "Key_Characteristics": [
+          "title": "Artisanal Cachaça",
+          "description": "Artisanal cachaça is produced using traditional methods, often in small batches, and is highly regarded for its quality and distinctive flavors.",
+          "key_characteristics": [
             {
-              "Characteristic": "Small Batch",
-              "Description": "Artisanal cachaça is typically produced in small batches, allowing for greater control over quality."
+              "characteristic": "Small Batch",
+              "description": "Artisanal cachaça is typically produced in small batches, allowing for greater control over quality."
             },
             {
-              "Characteristic": "Traditional Methods",
-              "Description": "Traditional production methods are used, including hand-harvesting, natural fermentation, and copper pot distillation."
+              "characteristic": "Traditional Methods",
+              "description": "Traditional production methods are used, including hand-harvesting, natural fermentation, and copper pot distillation."
             }
           ],
-          "Brands": [
+          "brands": [
             {
-              "Brand": "Cachaça do Barão",
-              "Description": "Cachaça do Barão is a well-regarded artisanal brand known for its smooth, complex flavors and traditional production methods."
+              "brand": "Cachaça do Barão",
+              "description": "Cachaça do Barão is a well-regarded artisanal brand known for its smooth, complex flavors and traditional production methods."
             },
             {
-              "Brand": "Magnífica de Faria",
-              "Description": "Magnífica de Faria is an artisanal cachaça brand that emphasizes natural fermentation and small-batch production."
+              "brand": "Magnífica de Faria",
+              "description": "Magnífica de Faria is an artisanal cachaça brand that emphasizes natural fermentation and small-batch production."
             },
             {
-              "Brand": "Vale Verde",
-              "Description": "Vale Verde produces high-quality artisanal cachaça with a focus on sustainability and traditional techniques."
+              "brand": "Vale Verde",
+              "description": "Vale Verde produces high-quality artisanal cachaça with a focus on sustainability and traditional techniques."
             }
           ]
         },
         {
-          "Title": "Industrial Cachaça",
-          "Description": "Industrial cachaça is produced on a larger scale using modern production methods, often resulting in a more consistent but less complex product.",
-          "Key_Characteristics": [
+          "title": "Industrial Cachaça",
+          "description": "Industrial cachaça is produced on a larger scale using modern production methods, often resulting in a more consistent but less complex product.",
+          "key_characteristics": [
             {
-              "Characteristic": "Large Scale",
-              "Description": "Industrial cachaça is produced on a large scale, often using automated processes."
+              "characteristic": "Large Scale",
+              "description": "Industrial cachaça is produced on a large scale, often using automated processes."
             },
             {
-              "Characteristic": "Consistency",
-              "Description": "These methods ensure a consistent product, though it may lack some of the nuanced flavors of artisanal cachaça."
+              "characteristic": "Consistency",
+              "description": "These methods ensure a consistent product, though it may lack some of the nuanced flavors of artisanal cachaça."
             }
           ],
-          "Brands": [
+          "brands": [
             {
-              "Brand": "Ypioca Ouro",
-              "Description": "Ypioca Ouro is a popular industrial cachaça aged in wooden barrels, offering a smooth, consistent flavor."
+              "brand": "Ypioca Ouro",
+              "description": "Ypioca Ouro is a popular industrial cachaça aged in wooden barrels, offering a smooth, consistent flavor."
             },
             {
-              "Brand": "Pitu Gold",
-              "Description": "Pitu Gold is an industrial cachaça aged in oak barrels, known for its balanced, approachable taste."
+              "brand": "Pitu Gold",
+              "description": "Pitu Gold is an industrial cachaça aged in oak barrels, known for its balanced, approachable taste."
             },
             {
-              "Brand": "51 Ouro",
-              "Description": "51 Ouro is an aged version of the popular Cachaça 51, offering a richer, more complex flavor."
+              "brand": "51 Ouro",
+              "description": "51 Ouro is an aged version of the popular Cachaça 51, offering a richer, more complex flavor."
             }
           ]
         }
       ]
     },
-    "Cultural_Significance": {
-      "Title": "Cultural Significance of Cachaça",
-      "Description": "Cachaça is deeply embedded in Brazilian culture and traditions, celebrated in various festivals, and enjoyed in numerous ways across the country.",
-      "Subsections": [
+    "cultural_significance": {
+      "title": "Cultural Significance of Cachaça",
+      "description": "Cachaça is deeply embedded in Brazilian culture and traditions, celebrated in various festivals, and enjoyed in numerous ways across the country.",
+      "subsections": [
         {
-          "Title": "Cachaça in Brazilian Culture",
-          "Description": "Cachaça is more than just a spirit; it is a symbol of Brazilian heritage and hospitality, often shared during celebrations and social gatherings.",
-          "Key_Practices": [
+          "title": "Cachaça in Brazilian Culture",
+          "description": "Cachaça is more than just a spirit; it is a symbol of Brazilian heritage and hospitality, often shared during celebrations and social gatherings.",
+          "key_practices": [
             {
-              "Practice": "Festivals",
-              "Description": "Cachaça is prominently featured in Brazilian festivals, such as the Festa Junina and Carnival, where it is enjoyed in various forms."
+              "practice": "Festivals",
+              "description": "Cachaça is prominently featured in Brazilian festivals, such as the Festa Junina and Carnival, where it is enjoyed in various forms."
             },
             {
-              "Practice": "Social Rituals",
-              "Description": "Sharing cachaça is a common social practice in Brazil, often accompanied by traditional toasts and expressions of goodwill."
+              "practice": "Social Rituals",
+              "description": "Sharing cachaça is a common social practice in Brazil, often accompanied by traditional toasts and expressions of goodwill."
             }
           ]
         },
         {
-          "Title": "Cachaça-Based Cocktails",
-          "Description": "Cachaça is a versatile spirit used in a variety of cocktails, the most famous being the Caipirinha, which has gained international popularity.",
-          "Key_Cocktails": [
+          "title": "Cachaça-Based Cocktails",
+          "description": "Cachaça is a versatile spirit used in a variety of cocktails, the most famous being the Caipirinha, which has gained international popularity.",
+          "key_cocktails": [
             {
-              "Cocktail": "Caipirinha",
-              "Description": "The Caipirinha is Brazil's national cocktail, made with cachaça, sugar, and lime, served over ice."
+              "cocktail": "Caipirinha",
+              "description": "The Caipirinha is Brazil's national cocktail, made with cachaça, sugar, and lime, served over ice."
             },
             {
-              "Cocktail": "Batida",
-              "Description": "The Batida is a popular Brazilian cocktail made with cachaça, fruit juice, and sweetened condensed milk, blended until smooth."
+              "cocktail": "Batida",
+              "description": "The Batida is a popular Brazilian cocktail made with cachaça, fruit juice, and sweetened condensed milk, blended until smooth."
             },
             {
-              "Cocktail": "Rabo-de-Galo",
-              "Description": "The Rabo-de-Galo is a traditional Brazilian cocktail made with cachaça and red vermouth, served over ice."
+              "cocktail": "Rabo-de-Galo",
+              "description": "The Rabo-de-Galo is a traditional Brazilian cocktail made with cachaça and red vermouth, served over ice."
             }
           ]
         }
       ]
     },
-    "Modern_Cachaca_Industry": {
-      "Title": "Modern Cachaça Industry",
-      "Description": "The modern cachaça industry is diverse and dynamic, with a wide range of products available, from traditional artisanal cachaças to modern, mass-produced brands.",
-      "Subsections": [
+    "modern_cachaca_industry": {
+      "title": "Modern Cachaça Industry",
+      "description": "The modern cachaça industry is diverse and dynamic, with a wide range of products available, from traditional artisanal cachaças to modern, mass-produced brands.",
+      "subsections": [
         {
-          "Title": "Market Trends",
-          "Description": "Current trends in the cachaça industry include a growing appreciation for premium and artisanal products, sustainability efforts, and increasing international recognition.",
-          "Key_Trends": [
+          "title": "Market Trends",
+          "description": "Current trends in the cachaça industry include a growing appreciation for premium and artisanal products, sustainability efforts, and increasing international recognition.",
+          "key_trends": [
             {
-              "Trend": "Premium Cachaça",
-              "Description": "There is a growing demand for premium and ultra-premium cachaças, with a focus on quality, craftsmanship, and unique flavor profiles."
+              "trend": "Premium Cachaça",
+              "description": "There is a growing demand for premium and ultra-premium cachaças, with a focus on quality, craftsmanship, and unique flavor profiles."
             },
             {
-              "Trend": "Sustainability",
-              "Description": "Sustainability is becoming increasingly important, with many producers adopting eco-friendly practices and focusing on responsible sourcing."
+              "trend": "Sustainability",
+              "description": "Sustainability is becoming increasingly important, with many producers adopting eco-friendly practices and focusing on responsible sourcing."
             },
             {
-              "Trend": "Global Expansion",
-              "Description": "Cachaça is gaining international recognition, with increasing exports and a growing presence in global cocktail culture."
+              "trend": "Global Expansion",
+              "description": "Cachaça is gaining international recognition, with increasing exports and a growing presence in global cocktail culture."
             }
           ]
         },
         {
-          "Title": "Notable Brands",
-          "Description": "Several cachaça brands are recognized for their quality, heritage, and innovation. These brands represent the diverse landscape of the modern cachaça market.",
-          "Brands": [
+          "title": "Notable Brands",
+          "description": "Several cachaça brands are recognized for their quality, heritage, and innovation. These brands represent the diverse landscape of the modern cachaça market.",
+          "brands": [
             {
-              "Brand": "Leblon",
-              "Description": "Leblon is a leading premium cachaça brand known for its high-quality, smooth cachaças, and strong presence in the global market."
+              "brand": "Leblon",
+              "description": "Leblon is a leading premium cachaça brand known for its high-quality, smooth cachaças, and strong presence in the global market."
             },
             {
-              "Brand": "Novo Fogo",
-              "Description": "Novo Fogo is renowned for its commitment to sustainability and artisanal production methods, offering a range of premium cachaças."
+              "brand": "Novo Fogo",
+              "description": "Novo Fogo is renowned for its commitment to sustainability and artisanal production methods, offering a range of premium cachaças."
             },
             {
-              "Brand": "Avuá",
-              "Description": "Avuá is a boutique cachaça brand known for its unique, single-estate cachaças and innovative flavor profiles."
+              "brand": "Avuá",
+              "description": "Avuá is a boutique cachaça brand known for its unique, single-estate cachaças and innovative flavor profiles."
             },
             {
-              "Brand": "Ypioca",
-              "Description": "Ypioca is one of Brazil's oldest and most respected cachaça brands, offering a wide range of products from unaged to premium aged cachaças."
+              "brand": "Ypioca",
+              "description": "Ypioca is one of Brazil's oldest and most respected cachaça brands, offering a wide range of products from unaged to premium aged cachaças."
             },
             {
-              "Brand": "51",
-              "Description": "Cachaça 51 is one of the most popular cachaça brands in Brazil, known for its smooth, versatile unaged cachaça."
+              "brand": "51",
+              "description": "Cachaça 51 is one of the most popular cachaça brands in Brazil, known for its smooth, versatile unaged cachaça."
             }
           ]
         }
