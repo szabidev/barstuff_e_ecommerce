@@ -91,19 +91,15 @@ const PaginationNumeric: React.FC<PaginationNumericProps> = ({
         </div>
       </nav>
       <div className="ml-10 text-sm text-slate-500 dark:text-slate-400 text-center sm:text-left">
-        Total Pages{" "}
-        <span className="mr-10 font-medium text-slate-600 dark:text-slate-300">
+        {/* <span className="mr-10 font-medium text-slate-600 dark:text-slate-300">
           {totalPages}
-        </span>{" "}
-        {/* to{" "}
-        <span className="font-medium text-slate-600 dark:text-slate-300">
-          {endPage}
         </span>{" "} */}
-        Total Items{" "}
-        <span className="font-medium text-slate-600 dark:text-slate-300">
-          {totalItems}
-        </span>{" "}
-        {/* results */}
+        <p className="text-emerald-500">
+          Total Items:{" "}
+          <span className="font-medium text-slate-600 dark:text-slate-300">
+            {totalItems}
+          </span>
+        </p>
       </div>
     </div>
   );

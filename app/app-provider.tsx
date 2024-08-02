@@ -11,7 +11,7 @@ import {
 import { getAllUsers, me } from "@/api/auth.api";
 import { removeKey } from "@/util/storage";
 import { useRouter } from "next/navigation";
-import { fetchDrinks } from "@/api/drinks";
+import { fetchDrinks } from "@/api/drinks.api";
 // import {fetchProjects} from "@/api/projects.api";
 
 interface ContextProps {
@@ -33,6 +33,9 @@ interface ContextProps {
   // projects: any,
   drinks: Drink[];
   setDrinks: any;
+
+  isLoading: boolean;
+  setIsLoading: Dispatch<SetStateAction<boolean>>;
 }
 
 export interface Drink {
@@ -104,6 +107,9 @@ const AppContext = createContext<ContextProps>({
   // projects: [],
   drinks: [],
   setDrinks: () => null,
+
+  isLoading: true,
+  setIsLoading: () => true,
 });
 
 export default function AppProvider({
@@ -180,10 +186,15 @@ export default function AppProvider({
   //     setProjects(data);
   // };
 
-  // const handleDrinks = async () => {
-  //   const data = await fetchDrinks();
-  //   setDrinks(data);
-  // };
+  const handleDrinks = async () => {
+    const data = await fetchDrinks();
+    setDrinks(data);
+  };
+
+  useEffect(() => {
+    handleDrinks();
+    console.log(drinks, "drinks");
+  }, []);
 
   const clearUser = () => {
     setCurrentUser(null);
@@ -193,7 +204,7 @@ export default function AppProvider({
     fetchUser();
     // handleProjects();
     handleAllUsers();
-    // handleDrinks();
+    handleDrinks();
   }, []);
 
   useEffect(() => {
@@ -222,6 +233,9 @@ export default function AppProvider({
         setAdminUser,
         barStaff,
         setBarStaff,
+
+        isLoading,
+        setIsLoading,
       }}
     >
       {children}

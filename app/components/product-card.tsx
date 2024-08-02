@@ -20,12 +20,12 @@ const ProductCard = ({ drink }: { drink: Drink }) => {
 
   return (
     <div>
-      <div className="relative w-full h-[300px]">
+      <div className="relative w-full h-[250px]">
         <Image
           src={image}
           fill
-          sizes="(max-width: 768px) 100vw, 300px"
-          objectFit="contain"
+          sizes="(max-width: 768px) 100vw, 250px"
+          style={{ objectFit: "contain" }}
           alt={name}
           priority
         />
