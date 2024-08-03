@@ -10,8 +10,18 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    domains: ["wikiliq.org"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**",
+      },
+      {
+        protocol: "http",
+        hostname: "**",
+      },
+    ],
   },
+  productionBrowserSourceMaps: false, // Disable source maps in production
 };
 
 module.exports = nextConfig;

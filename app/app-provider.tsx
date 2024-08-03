@@ -12,6 +12,7 @@ import { getAllUsers, me } from "@/api/auth.api";
 import { removeKey } from "@/util/storage";
 import { useRouter } from "next/navigation";
 import { fetchDrinks } from "@/api/drinks.api";
+import { fetchCourses } from "@/api/courses.api";
 // import {fetchProjects} from "@/api/projects.api";
 
 interface ContextProps {
@@ -33,6 +34,8 @@ interface ContextProps {
   // projects: any,
   drinks: Drink[];
   setDrinks: any;
+  courses: any;
+  setCourses: any;
 
   isLoading: boolean;
   setIsLoading: Dispatch<SetStateAction<boolean>>;
@@ -107,6 +110,8 @@ const AppContext = createContext<ContextProps>({
   // projects: [],
   drinks: [],
   setDrinks: () => null,
+  courses: [],
+  setCourses: () => null,
 
   isLoading: true,
   setIsLoading: () => true,
@@ -124,6 +129,7 @@ export default function AppProvider({
   const [user, setCurrentUser] = useState<any>(null);
   // const [projects, setProjects] = useState<any>([]);
   const [drinks, setDrinks] = useState<Drink[]>([]);
+  const [courses, setCourses] = useState<any>([]);
   const [allUsers, setAllUsers] = useState<User[]>([]);
   const [adminUser, setAdminUser] = useState<User>({
     admin_id: null,
@@ -191,6 +197,11 @@ export default function AppProvider({
     setDrinks(data);
   };
 
+  const handleCourses = async () => {
+    const data = await fetchCourses();
+    setCourses(data);
+  };
+
   useEffect(() => {
     handleDrinks();
     console.log(drinks, "drinks");
@@ -205,7 +216,9 @@ export default function AppProvider({
     // handleProjects();
     handleAllUsers();
     handleDrinks();
+    handleCourses();
   }, []);
+  console.log(courses, "courses");
 
   useEffect(() => {
     // sortUsers();
@@ -227,6 +240,8 @@ export default function AppProvider({
         // projects
         drinks,
         setDrinks,
+        courses,
+        setCourses,
         allUsers,
         setAllUsers,
         adminUser,
