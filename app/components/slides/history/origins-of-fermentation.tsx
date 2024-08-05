@@ -1,8 +1,8 @@
 import React from "react";
 
 const OriginsOfFermentation = () => {
-  const { history_of_alcohol: historyOfAlcohol } = history;
-  const { origins_of_fermentation: originsOfFermentation } = historyOfAlcohol;
+  const { history_of_alcohol } = history;
+  const { origins_of_fermentation: originsOfFermentation } = history;
   return (
     <div className="mb-8">
       <h2>{originsOfFermentation.title} - Chapter title</h2>

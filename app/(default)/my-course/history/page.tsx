@@ -4,6 +4,8 @@ import Carousel from "@/app/components/carousel";
 import history from "../../../../public/json/history.json";
 
 // TODO: Make a caroussel element for the sections
+// TODO: generate dynamic slides for carousel
+
 const History = () => {
   const { history_of_alcohol: historyOfAlcohol } = history;
   const {
@@ -30,7 +32,7 @@ const History = () => {
           </p>
         </div>
         <div className="p-4 bg-gray-200 dark:bg-slate-800 shadow-lg rounded-sm mb-8">
-          <Carousel />
+          {/* <Carousel slides={"slides"} /> */}
           <div className="mb-8">
             <h2>{originsOfFermentation.title} - Chapter title</h2>
             <p className="px-12 italic text-gray-600 dark:text-gray-200">
@@ -52,8 +54,4 @@ const History = () => {
   );
 };
 
-// TODO:
-// All spirits can be dynamically generated from the JSON file
-// Fermentation + Distillation dynamic generation
-// Wine + Beer can be generated dynamically
 export default History;

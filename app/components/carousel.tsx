@@ -9,7 +9,7 @@ const Carousel = ({ slides }: { slides: any }) => {
   return (
     <div className="embla w-full border border-red-500" ref={emblaRef}>
       <div className="embla__container">
-        {slides!.map((slide: any, index: number) => (
+        {slides.map((slide: any, index: number) => (
           <div className="embla_slide">{index}</div>
         ))}
         <div className="embla__slide">Slide 1</div>

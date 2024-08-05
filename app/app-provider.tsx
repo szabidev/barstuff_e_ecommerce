@@ -13,7 +13,9 @@ import { removeKey } from "@/util/storage";
 import { useRouter } from "next/navigation";
 import { fetchDrinks } from "@/api/drinks.api";
 import { fetchCourses } from "@/api/courses.api";
+import { Course } from "@/util/types/course.types";
 // import {fetchProjects} from "@/api/projects.api";
+import { courseInitialState } from "@/util/types/course.types";
 
 interface ContextProps {
   sidebarOpen: boolean;
@@ -129,7 +131,7 @@ export default function AppProvider({
   const [user, setCurrentUser] = useState<any>(null);
   // const [projects, setProjects] = useState<any>([]);
   const [drinks, setDrinks] = useState<Drink[]>([]);
-  const [courses, setCourses] = useState<any>([]);
+  const [courses, setCourses] = useState<Course>(courseInitialState);
   const [allUsers, setAllUsers] = useState<User[]>([]);
   const [adminUser, setAdminUser] = useState<User>({
     admin_id: null,
