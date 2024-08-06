@@ -23,6 +23,10 @@ module.exports = {
       outline: {
         blue: "2px solid rgba(0, 112, 244, 0.5)",
       },
+      colors: {
+        beige: "#e8cda8",
+        "font-dark": "#1e1e1e",
+      },
       fontFamily: {
         inter: ["var(--font-inter)", "sans-serif"],
       },
@@ -46,7 +50,7 @@ module.exports = {
   plugins: [
     require("@tailwindcss/forms"),
     // add custom variant for expanding sidebar
-    plugin(({ addVariant, e }) => {
+    plugin(({ addUtilities, addVariant, e }) => {
       addVariant("sidebar-expanded", ({ modifySelectors, separator }) => {
         modifySelectors(
           ({ className }) =>
@@ -55,6 +59,18 @@ module.exports = {
             )}`
         );
       });
+      const newUtilities = {
+        ".horizontal-tb": {
+          writingMode: "horizontal-tb",
+        },
+        ".vertical-rl": {
+          writingMode: "vertical-rl",
+        },
+        ".vertical-lr": {
+          writingMode: "vertical-lr",
+        },
+      };
+      addUtilities(newUtilities);
     }),
   ],
 };
