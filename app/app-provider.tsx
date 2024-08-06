@@ -36,8 +36,8 @@ interface ContextProps {
   // projects: any,
   drinks: Drink[];
   setDrinks: any;
-  courses: any;
-  setCourses: any;
+  courses: Course;
+  setCourses: Dispatch<SetStateAction<Course>>;
 
   isLoading: boolean;
   setIsLoading: Dispatch<SetStateAction<boolean>>;
@@ -112,7 +112,7 @@ const AppContext = createContext<ContextProps>({
   // projects: [],
   drinks: [],
   setDrinks: () => null,
-  courses: [],
+  courses: courseInitialState,
   setCourses: () => null,
 
   isLoading: true,

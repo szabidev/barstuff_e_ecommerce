@@ -32,8 +32,8 @@ const History = () => {
           </p>
         </div>
         <div className="p-4 bg-gray-200 dark:bg-slate-800 shadow-lg rounded-sm mb-8">
-          {/* <Carousel slides={"slides"} /> */}
-          <div className="mb-8">
+          <Carousel slides={"slides"} />
+          {/* <div className="mb-8">
             <h2>{originsOfFermentation.title} - Chapter title</h2>
             <p className="px-12 italic text-gray-600 dark:text-gray-200">
               {originsOfFermentation.description}
@@ -47,7 +47,7 @@ const History = () => {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

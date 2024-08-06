@@ -18,11 +18,11 @@ import { WhiskeyData } from "./whiskey.types";
 import { WineData } from "./wine.types";
 
 export interface Course {
-  history_of_alcohol: HistoryOfAlcohol;
+  history: HistoryOfAlcohol;
   bartendingtoolsandtechniques: ToolsAndTechniques;
   fermentation: Fermentation;
   alcohol_distillation: Distillation;
-  // ! Genereate data
+  // ! Generate data
   maturation?: any;
   vodka: VodkaData;
   gin: GinData;
@@ -42,7 +42,7 @@ export interface Course {
 }
 
 export const courseInitialState: Course = {
-  history_of_alcohol: {
+  history: {
     introduction: {
       title: "",
       description: "",
