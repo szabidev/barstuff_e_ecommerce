@@ -1,10 +1,5 @@
-import React from "react";
-
 import Carousel from "@/app/components/carousel";
 import history from "../../../../public/json/history.json";
-
-// TODO: Make a caroussel element for the sections
-// TODO: generate dynamic slides for carousel
 
 const History = () => {
   const { history_of_alcohol: historyOfAlcohol } = history;
@@ -28,8 +23,9 @@ const History = () => {
             {introduction.title}
           </h1>
         </div>
-        <div className="relative bg-beige dark:bg-slate-800 shadow-lgrounded-lg mb-8">
-          {/* <div className="h-full w-10 absolute">test</div> */}
+        <div className="relative bg-beige dark:bg-slate-800 shadow-lg rounded-lg mb-8">
+          {/*  TODO: Add some sort of logic that tracks progress.  */}
+          {/* TODO: Add quiz section to the end of the chapters, with question from current chapter */}
           <Carousel />
         </div>
       </div>

@@ -177,7 +177,7 @@ export default function Sidebar() {
                     <svg className="shrink-0 h-6 w-6" viewBox="0 0 24 24">
                       <path
                         className={`fill-current ${
-                          segments.includes("dasbaord")
+                          segments.includes("dashboard")
                             ? "text-indigo-500"
                             : "text-slate-600"
                         }`}
@@ -194,6 +194,37 @@ export default function Sidebar() {
                     </svg>
                     <span className="text-sm font-medium ml-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
                       Dashboard
+                    </span>
+                  </div>
+                </SidebarLink>
+              </li>
+              <li
+                className={`px-3 py-2 rounded-sm mb-0.5 last:mb-0 ${
+                  segments.includes("inventory") && "bg-slate-900"
+                }`}
+              >
+                <SidebarLink href="/inventory">
+                  <div className="flex items-center">
+                    <svg className="shrink-0 h-6 w-6" viewBox="0 0 24 24">
+                      <path
+                        className={`fill-current ${
+                          segments.includes("inventory")
+                            ? "text-indigo-500"
+                            : "text-slate-600"
+                        }`}
+                        d="M1 3h22v20H1z"
+                      />
+                      <path
+                        className={`fill-current ${
+                          segments.includes("inventory")
+                            ? "text-indigo-300"
+                            : "text-slate-400"
+                        }`}
+                        d="M21 3h2v4H1V3h2V1h4v2h10V1h4v2Z"
+                      />
+                    </svg>
+                    <span className="text-sm font-medium ml-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                      Inventory
                     </span>
                   </div>
                 </SidebarLink>
@@ -231,15 +262,15 @@ export default function Sidebar() {
               </li>
               <li
                 className={`px-3 py-2 rounded-sm mb-0.5 last:mb-0 ${
-                  segments.includes("settings") && "bg-slate-900"
+                  segments.includes("spirits-map") && "bg-slate-900"
                 }`}
               >
-                <SidebarLink href="/spirits-guide">
+                <SidebarLink href="/spirits-map">
                   <div className="flex items-center">
                     <svg className="shrink-0 h-6 w-6" viewBox="0 0 24 24">
                       <path
                         className={`fill-current ${
-                          segments.includes("spirits-guide")
+                          segments.includes("spirits-map")
                             ? "text-indigo-500"
                             : "text-slate-600"
                         }`}
@@ -247,7 +278,7 @@ export default function Sidebar() {
                       />
                       <path
                         className={`fill-current ${
-                          segments.includes("spirits-guide")
+                          segments.includes("spirits-map")
                             ? "text-indigo-300"
                             : "text-slate-400"
                         }`}
@@ -255,7 +286,7 @@ export default function Sidebar() {
                       />
                     </svg>
                     <span className="text-sm font-medium ml-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                      Spirits Guide
+                      Spirits Map
                     </span>
                   </div>
                 </SidebarLink>
@@ -315,7 +346,6 @@ export default function Sidebar() {
                                 d="M19.707 9.292a3.012 3.012 0 00-1.415 1.415L13.286 5.7c-.4.195-.84.298-1.286.3a3 3 0 113-3 2.969 2.969 0 01-.3 1.286l5.007 5.006z"
                               />
                             </svg>
-                            {/* TODO   Add my course page? Overall stats? */}
                             <span className="text-sm font-medium ml-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
                               My Course
                             </span>

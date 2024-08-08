@@ -6,20 +6,17 @@ import OriginsOfFermentation from "./slides/history/origins-of-fermentation";
 import { FaChevronCircleLeft } from "react-icons/fa";
 import { FaChevronCircleRight } from "react-icons/fa";
 import { useAppProvider } from "../app-provider";
-import Image from "next/image";
 import HistoryDescriptionSlide from "./slides/history/history-description-slide";
-import HistoryTitleSlide from "./slides/history/history-title-slide";
 import HistorySlides from "./slides/history/history-slides";
 
 const Carousel = () => {
   const { courses } = useAppProvider();
   const { history } = courses;
-  const { introduction, origins_of_fermentation } = history;
+  const { introduction } = history;
   const [emblaRef, emblaApi] = useEmblaCarousel();
 
   const entries = Object.entries(history);
   const dynamicSlides = entries.slice(2).map(([key, value]) => value);
-  console.log(dynamicSlides, "dynamicSlides");
   const scrollPrev = useCallback(() => {
     if (emblaApi) emblaApi.scrollPrev();
   }, [emblaApi]);
@@ -29,11 +26,11 @@ const Carousel = () => {
 
   return (
     <div className="embla w-full">
-      <div className="h-full w-20 bg-font-dark flex flex-col justify-between items-end py-8 absolute top-0 rounded-tl-lg rounded-b-lg z-20">
-        <p className="vertical-rl font-mono transform origin-center  -rotate-180 text-beige uppercase text-lg tracking-widest">
-          test text
+      <div className="h-full w-20 bg-font-dark flex flex-col justify-between items-end py-8 absolute top-0 rounded-tl-lg rounded-bl-lg z-20">
+        <p className="vertical-rl font-mono transform origin-center  -rotate-180 text-beige  text-lg tracking-widest">
+          history of alcohol
         </p>
-        <p className="vertical-rl font-mono transform origin-center  -rotate-180 text-beige uppercase text-lg tracking-widest">
+        <p className="vertical-rl font-mono transform origin-center  -rotate-180 text-beige text-lg tracking-widest">
           Chapter 1
         </p>
       </div>
@@ -41,7 +38,7 @@ const Carousel = () => {
         className="embla__viewport p-4 w-full overflow-hidden"
         ref={emblaRef}
       >
-        <div className="embla__container h-full flex ">
+        <div className="embla__container h-[600px] flex ">
           {/* // ! Main chapter slide */}
           <div className="embla__slide flex-none w-full min-w-0">
             <div className="h-full flex w-full justify-center items-center">
@@ -63,21 +60,18 @@ const Carousel = () => {
             />
           </div>
           {/* // ! Origins of fermentation */}
-          <div className="embla__slide flex-none w-full min-w-0 m-auto ">
-            <HistoryTitleSlide title={origins_of_fermentation.title} />
-          </div>
           <div className="embla__slide flex-none w-full min-w-0">
             <OriginsOfFermentation />
           </div>
           {/* // ! Dynamic slides */}
           {dynamicSlides.map((slide: any, index: number) => (
             <div key={index} className="embla__slide flex-none w-full min-w-0">
-              <HistorySlides slide={slide} hasTerms={false} />
+              <HistorySlides slide={slide} />
             </div>
           ))}
         </div>
       </div>
-      <div className="flex justify-end pb-8 pr-8">
+      <div className="flex justify-end pb-8 pr-12">
         <button className="embla__prev" onClick={scrollPrev}>
           <FaChevronCircleLeft
             size={50}
