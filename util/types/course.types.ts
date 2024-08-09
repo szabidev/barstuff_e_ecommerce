@@ -19,7 +19,7 @@ import { WineData } from "./wine.types";
 
 export interface Course {
   history: HistoryOfAlcohol;
-  bartendingtoolsandtechniques: ToolsAndTechniques;
+  tools_and_techniques: ToolsAndTechniques;
   fermentation: Fermentation;
   alcohol_distillation: Distillation;
   // ! Generate data
@@ -93,7 +93,7 @@ export const courseInitialState: Course = {
       terms: [],
     },
   },
-  bartendingtoolsandtechniques: {
+  tools_and_techniques: {
     title: "",
     description: "",
     subsections: [],

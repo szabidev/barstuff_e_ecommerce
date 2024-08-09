@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const HistoryDescriptionSlide = ({
+const DescriptionSlide = ({
   description,
   image_url,
   width = 400,
@@ -27,4 +27,4 @@ const HistoryDescriptionSlide = ({
   );
 };
 
-export default HistoryDescriptionSlide;
+export default DescriptionSlide;
