@@ -26,12 +26,18 @@ export interface BartendingTeqchnique {
 export interface ToolsAndTechniquesSubsection {
   title: string;
   description: string;
-  tools: Tool[] | BartendingTeqchnique[];
+  tools: Tool[];
+}
+
+export interface ToolsAndTechniquesSubsection {
+  title: string;
+  description: string;
+  techniques: BartendingTeqchnique[];
 }
 
 // ! Main interface
 export interface ToolsAndTechniques {
   title: string;
   description: string;
-  subsections: ToolsAndTechniquesSubsection[];
+  subsections: [ToolsAndTechniquesSubsection, ToolsAndTechniquesSubsection];
 }
