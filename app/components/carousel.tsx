@@ -1,11 +1,9 @@
 "use client";
 
-import React, { ReactNode, useCallback } from "react";
+import React, { useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { FaChevronCircleLeft } from "react-icons/fa";
 import { FaChevronCircleRight } from "react-icons/fa";
-import { useAppProvider } from "../app-provider";
-import HistorySlides from "./slides/history/history-slides";
 import DescriptionSlide from "./slides/description-slide";
 import TitleSlide from "./slides/title-slide";
 
@@ -24,13 +22,8 @@ const Carousel = ({
   SlideComponent,
   dynamicSlides,
 }: CarouselProps) => {
-  // const { courses } = useAppProvider();
-  // const { history } = courses;
-  // const { introduction } = history;
   const [emblaRef, emblaApi] = useEmblaCarousel();
 
-  // const entries = Object.entries(content);
-  // const dynamicSlides = entries.slice(1).map(([key, value]) => value);
   const scrollPrev = useCallback(() => {
     if (emblaApi) emblaApi.scrollPrev();
   }, [emblaApi]);
@@ -50,10 +43,7 @@ const Carousel = ({
           {chapter}
         </p>
       </div>
-      <div
-        className="embla__viewport p-4 w-full overflow-hidden"
-        ref={emblaRef}
-      >
+      <div className="embla__viewport w-full overflow-hidden" ref={emblaRef}>
         <div className="embla__container h-[600px] flex ">
           {/* // ! Main chapter slide */}
           <div className="embla__slide flex-none w-full min-w-0">

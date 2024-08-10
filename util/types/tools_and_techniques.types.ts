@@ -3,6 +3,7 @@ export interface ToolType {
   description: string;
   uses: string[];
   best_practices: string[];
+  image_url?: string;
 }
 
 export interface Tool {

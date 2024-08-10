@@ -1,5 +1,3 @@
-import { LiaEqualsSolid } from "react-icons/lia";
-
 export interface HistorySlideProps {
   slide: HistorySlideSubsection;
 }
@@ -69,7 +67,6 @@ const HistorySlides = ({ slide }: HistorySlideProps) => {
                   </h1>
                 </div>
                 <div className="">
-                  {/* <p className="mr-2 text-font-dark">=</p> */}
                   <p className="text-font-dark text-lg tracking-wide">
                     {` = ${term.definition}`}
                   </p>
