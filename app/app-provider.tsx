@@ -194,20 +194,16 @@ export default function AppProvider({
   //     setProjects(data);
   // };
 
-  const handleDrinks = async () => {
-    const data = await fetchDrinks();
-    setDrinks(data);
-  };
+  // const handleDrinks = async () => {
+  //   const data = await fetchDrinks();
+  //   setDrinks(data);
+  // };
 
   const handleCourses = async () => {
     const data = await fetchCourses();
     setCourses(data);
   };
 
-  useEffect(() => {
-    handleDrinks();
-    console.log(drinks, "drinks");
-  }, []);
 
   const clearUser = () => {
     setCurrentUser(null);
@@ -217,7 +213,7 @@ export default function AppProvider({
     fetchUser();
     // handleProjects();
     handleAllUsers();
-    handleDrinks();
+    // handleDrinks();
     handleCourses();
   }, []);
   console.log(courses, "courses");

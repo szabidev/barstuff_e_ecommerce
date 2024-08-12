@@ -16,6 +16,8 @@ const PaginationNumeric: React.FC<PaginationNumericProps> = ({
   const totalPages = Math.ceil(totalItems / itemsPerPage);
   const pageNumbersToShow = 10;
   let startPage: number, endPage: number;
+  console.log(totalItems, "totalItems");
+  console.log(totalPages, "totalPages");
 
   if (totalPages <= pageNumbersToShow) {
     // Total pages less than page numbers to show

@@ -4,29 +4,41 @@ import { useState, useEffect, useMemo } from "react";
 import { Drink, useAppProvider } from "@/app/app-provider";
 import ProductCard from "@/app/components/product-card";
 import PaginationNumeric from "@/app/components/pagination";
+import { fetchDrinks } from "@/api/drinks.api";
 
 function Home() {
-  const { drinks, isLoading } = useAppProvider();
+  // const { drinks, isLoading } = useAppProvider();
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredDrinks, setFilteredDrinks] = useState<Drink[]>([]);
+  const [totalItems, setTotalItems] = useState(0);
   const itemsPerPage = 40;
   const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
-    if (searchTerm === "") {
-      setFilteredDrinks(drinks);
-    } else {
-      const filteredResults = drinks.filter((drink) =>
-        drink.name.toLowerCase().includes(searchTerm.toLowerCase())
-      );
-      setFilteredDrinks(filteredResults);
-    }
-  }, [drinks, searchTerm]);
+    const loadDrinks = async () => {
+      const data = await fetchDrinks(currentPage, searchTerm);
+      console.log(data, "data");
+      setFilteredDrinks(data.drinks);
+      setTotalItems(data.totalItems); // Store total items count
+    };
+    loadDrinks();
+  }, [currentPage, searchTerm]);
 
-  const paginatedDrinks = useMemo(() => {
-    const startIndex = (currentPage - 1) * itemsPerPage;
-    return filteredDrinks.slice(startIndex, startIndex + itemsPerPage);
-  }, [filteredDrinks, currentPage, itemsPerPage]);
+  // useEffect(() => {
+  //   if (searchTerm === "") {
+  //     setFilteredDrinks(drinks);
+  //   } else {
+  //     const filteredResults = drinks.filter((drink) =>
+  //       drink.name.toLowerCase().includes(searchTerm.toLowerCase())
+  //     );
+  //     setFilteredDrinks(filteredResults);
+  //   }
+  // }, [drinks, searchTerm]);
+
+  // const paginatedDrinks = useMemo(() => {
+  //   const startIndex = (currentPage - 1) * itemsPerPage;
+  //   return filteredDrinks.slice(startIndex, startIndex + itemsPerPage);
+  // }, [filteredDrinks, currentPage, itemsPerPage]);
 
   const handleSearch = (search: string) => {
     setSearchTerm(search);
@@ -54,14 +66,12 @@ function Home() {
           <PaginationNumeric
             setCurrentPage={setCurrentPage}
             currentPage={currentPage}
-            totalItems={filteredDrinks.length}
+            totalItems={totalItems}
             itemsPerPage={itemsPerPage}
           />
-          {isLoading ? (
-            <p>Loading...</p>
-          ) : paginatedDrinks.length > 0 ? (
+          {filteredDrinks.length > 0 && (
             <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
-              {paginatedDrinks.map((drink, index) => (
+              {filteredDrinks.map((drink, index) => (
                 <div
                   key={drink.description.slice(0, 50) + index}
                   className="py-2.5"
@@ -70,8 +80,6 @@ function Home() {
                 </div>
               ))}
             </div>
-          ) : (
-            <p>No drinks available</p>
           )}
         </div>
       </div>
