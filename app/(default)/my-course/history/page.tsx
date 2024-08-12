@@ -29,6 +29,7 @@ const History = () => {
             SlideComponent={HistorySlides}
             dynamicSlides={dynamicSlides}
             chapter={"chapter 1"}
+            mainImage="/images/course/history_main.jpg"
           />
         </div>
       </div>

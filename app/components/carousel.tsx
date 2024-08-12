@@ -13,6 +13,7 @@ export interface CarouselProps {
   SlideComponent: any;
   dynamicSlides: any;
   chapter: string;
+  mainImage?: string;
 }
 
 const Carousel = ({
@@ -21,6 +22,7 @@ const Carousel = ({
   description,
   SlideComponent,
   dynamicSlides,
+  mainImage,
 }: CarouselProps) => {
   const [emblaRef, emblaApi] = useEmblaCarousel();
 
@@ -54,10 +56,7 @@ const Carousel = ({
             </div>
           </div>
           <div className="embla__slide flex-none w-full min-w-0">
-            <DescriptionSlide
-              description={description}
-              image_url={"/images/course/alcohol_history_main.jpg" || ""}
-            />
+            <DescriptionSlide description={description} image_url={mainImage} />
           </div>
           {/* // ! Dynamic slides */}
           {dynamicSlides.map((slide: any, index: number) => (
